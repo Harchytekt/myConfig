@@ -1,0 +1,4 @@
+#export PATH="/usr/local/sbin:$PATH"
+
+export PATH=$PATH:/Applications/MAMP/Library/bin #MAMP
+export PATH=$PATH:/usr/local/opt/go/libexec/bin

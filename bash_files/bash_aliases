@@ -1,0 +1,34 @@
+alias about='./.MyScripts/about'
+alias cdbrew='cd /usr/local/Cellar'
+alias ls='ls -G'
+alias mkdir='mkdir -p'
+alias mysql='mysql -u root -p'
+
+####################################
+#Alias for Java (we need a function for the parameters)
+
+javaParam() {
+	#use the given param to compile and run Java code
+	if [ "$1" = "$" ]; then
+		javac *.java
+		java Main
+	else
+		javac $1.java
+		java $1
+	fi
+}
+
+alias jv=javaParam
+
+javacParam() {
+        #use the given param to compile Java code
+        if [ "$1" = "$" ]; then
+                javac *.java
+        fi
+}
+
+alias jvc=javacParam
+###################################
+
+#Example
+#alias idea="open -a 'IntelliJ IDEA'"
