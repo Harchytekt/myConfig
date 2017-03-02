@@ -55,6 +55,7 @@ brew cask install dropbox megasync spectacle
 install "Paste – smart clipboard history & snippets manager"
 install "Amphetamine"
 install "Wunderlist"
+install "EyeDrop"
 install "CleanMyDrive 2"
 install "Memory Clean - Monitor and Free Up Memory"
 install "StuffIt 16"
