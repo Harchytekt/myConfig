@@ -52,14 +52,14 @@ echo 'Installing utility apps'
 brew cask install 1password appcleaner bartender beardedspice cryptomator duet
 brew cask install dropbox megasync spectacle
 #TODO:  brew cask install --appdir=/Applications megasync ?
-install "Paste – smart clipboard history & snippets manager"
 install "Amphetamine"
-install "Wunderlist"
-install "EyeDrop"
 install "CleanMyDrive 2"
+install "EyeDrop"
 install "Memory Clean - Monitor and Free Up Memory"
-install "StuffIt 16"
+install "Paste – smart clipboard history & snippets manager"
 install "Snipposé"
+install "StuffIt 16"
+install "Wunderlist"
 
 
 echo "Installing security apps"
@@ -68,10 +68,12 @@ install "1Blocker - Block ads, tracking scripts, anything"
 
 
 echo 'Installing desktop tools'
-install "Pages"
-install "Keynote"
-install "Numbers"
 install "eBookBinder"
+install "GoodNotes"
+install "Keynote"
+install "Notability"
+install "Numbers"
+install "Pages"
 brew cask install calibre mactex
 
 
@@ -82,10 +84,10 @@ brew cask install skype
 
 echo 'Installing photos, videos'
 brew cask install imageoptim
-install "Pixelmator"
 install "Affinity Designer"
-install "Image2icon - Make your own icons"
 install "Drop - Color Picker"
+install "Image2icon - Make your own icons"
+install "Pixelmator"
 install "RulerSwift"
 install "Svgsus"
 
