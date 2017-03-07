@@ -42,7 +42,7 @@ sudo xcodebuild -license accept
 install "Textastic"
 brew cask install atom cyberduck intellij-idea mamp macdown
 brew cask install java qlcolorcode qlstephen qlmarkdown provisionql
-brew install ant clisp exiftool go libbpg
+brew install ant clisp exiftool go libbpg python3
 #TODO: ERROR for license
 go get -u github.com/nishanths/license
 license -update

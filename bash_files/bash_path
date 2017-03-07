@@ -1,4 +1,11 @@
 #export PATH="/usr/local/sbin:$PATH"
 
 export PATH=$PATH:/Applications/MAMP/Library/bin #MAMP
-export PATH=$PATH:/usr/local/opt/go/libexec/bin
+
+# go path
+export GOPATH=/Users/alexandre/go/
+export PATH=$GOPATH/bin:$PATH
+
+# Python3 - sqlite3
+
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
