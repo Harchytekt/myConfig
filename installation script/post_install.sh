@@ -50,11 +50,13 @@ license -update
 
 echo 'Installing utility apps'
 brew cask install 1password appcleaner bartender beardedspice cryptomator duet
-brew cask install dropbox megasync spectacle
+brew cask install dropbox megasync
 #TODO:  brew cask install --appdir=/Applications megasync ?
 install "Amphetamine"
+install "Better Rename 10"
 install "CleanMyDrive 2"
 install "EyeDrop"
+install "Magnet"
 install "Memory Clean - Monitor and Free Up Memory"
 install "Paste – smart clipboard history & snippets manager"
 install "Snipposé"
