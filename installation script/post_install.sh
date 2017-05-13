@@ -76,6 +76,7 @@ install "Keynote"
 install "Notability"
 install "Numbers"
 install "Pages"
+install "Quiver: The Programmer's Notebook"
 brew cask install calibre mactex
 
 
