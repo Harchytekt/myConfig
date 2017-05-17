@@ -52,9 +52,9 @@ echo 'Installing utility apps'
 brew cask install 1password appcleaner bartender beardedspice cryptomator duet
 brew cask install dropbox megasync
 #TODO:  brew cask install --appdir=/Applications megasync ?
-install "Amphetamine"
+#install "Amphetamine"
 install "Better Rename 10"
-install "CleanMyDrive 2"
+#install "CleanMyDrive 2"
 install "EyeDrop"
 install "Magnet"
 install "Memory Clean - Monitor and Free Up Memory"
