@@ -2,7 +2,10 @@ alias about='./.MyScripts/about'
 alias cdbrew='cd /usr/local/Cellar'
 alias ls='ls -G'
 alias mkdir='mkdir -p'
-alias mysql='mysql -u root -p'
+alias mysql='mysql -u root -proot'
+alias julia='/Applications/Julia-0.6.app/Contents/Resources/julia/bin/julia'
+alias capture=' webkit2png --ignore-ssl-check -F -D ~/Desktop'
+
 
 ####################################
 #Alias for Java (we need a function for the parameters)
