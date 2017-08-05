@@ -1,10 +1,10 @@
-#Configuration and installation script for macOS
+# Configuration and installation script for macOS
 
 This script automatically installs softwares and configures some parameters right after the macOS installation.
 
 ⚠️ This script is based on my needs. You'll have to change it before any use! ⚠️
 
-##Explanation
+## Explanation
 
 This script only works through the CLI through the use of [Homebrew](http://brew.sh/), [Cask](https://caskroom.github.io/) and [mas](https://github.com/lra/mackup).  
 
