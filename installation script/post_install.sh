@@ -40,8 +40,9 @@ echo 'Installing Dev tools'
 install "Xcode"
 sudo xcodebuild -license accept
 install "Textastic"
-brew cask install atom cyberduck intellij-idea mamp macdown
-brew cask install java qlcolorcode qlstephen qlmarkdown provisionql
+install "Expressions"
+brew cask install atom cyberduck github-desktop intellij-idea mamp macdown
+brew cask install java julia qlcolorcode qlstephen qlmarkdown provisionql
 brew install ant clisp exiftool go libbpg python3
 #TODO: ERROR for license
 go get -u github.com/nishanths/license
@@ -54,10 +55,7 @@ brew cask install dropbox megasync webkit2png
 #TODO:  brew cask install --appdir=/Applications megasync ?
 #install "Amphetamine"
 install "Better Rename 10"
-#install "CleanMyDrive 2"
-install "EyeDrop"
-install "Magnet"
-install "Memory Clean - Monitor and Free Up Memory"
+#install "EyeDrop"
 install "Paste – smart clipboard history & snippets manager"
 install "Snipposé"
 install "StuffIt 16"
@@ -86,7 +84,7 @@ brew cask install skype
 
 
 echo 'Installing photos, videos'
-brew cask install imageoptim
+brew cask install iina imageoptim
 install "Affinity Designer"
 install "Drop - Color Picker"
 install "Image2icon - Make your own icons"
@@ -96,7 +94,7 @@ install "Svgsus"
 
 
 echo 'Installing other apps'
-brew cask install 4k-video-downloader spotify touchbarserver
+brew cask install 4k-video-downloader spotify #touchbarserver
 
 
 ## ************************* CONFIGURATION ********************************

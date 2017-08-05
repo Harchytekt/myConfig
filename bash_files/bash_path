@@ -1,6 +1,7 @@
 #export PATH="/usr/local/sbin:$PATH"
 
-export PATH=$PATH:/Applications/MAMP/Library/bin #MAMP
+export PATH="/Applications/MAMP/Library/bin:$PATH" #MySQL
+export PATH="/Applications/MAMP/bin/php/php7.0.8/bin:$PATH" #PHP
 
 # go path
 export GOPATH=/Users/alexandre/go/
