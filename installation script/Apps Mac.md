@@ -1,6 +1,6 @@
 These are the app installed by the script.
 
-[TOC]
+<!-- [TOC] -->
 
 ## Mac App Store
 
