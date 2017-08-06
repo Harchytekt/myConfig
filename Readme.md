@@ -1,4 +1,4 @@
-#My macOS configuration
+# My macOS configuration
 
 You can find here all my configurations files.  
 
