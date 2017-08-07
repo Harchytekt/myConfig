@@ -11,7 +11,7 @@ This script only works through the CLI through the use of [Homebrew](http://brew
 You'll have to be administrator to use it.  
 Of course you need to have an Apple account to have acces to the Mac App Store (_through **mas**_) and the apps have to be link to this account before you install them.  
 
-Only tested on a macOS Sierra virtual machine by now. ⁉️
+✋🏻Only tested on a macOS Sierra virtual machine by now. ⁉️
 
 ---
 This script is heavily based on [this one](https://github.com/nicolinuxfr/macOS-post-installation/).
