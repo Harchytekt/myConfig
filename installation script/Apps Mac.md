@@ -32,14 +32,17 @@ These are the app installed by the script.
 
 ## Homebrew
 
-- Cask - _brew tap caskroom/cask_
-- mas - _brew install mas_
-- ant - _brew install ant_
-- clisp - _brew install clisp_
-- exiftool - _brew install exiftool_
-- go - _brew install go_
-- libbpg - _brew install libbpg_
-- python3 - _brew install python3_
+- [Cask](https://caskroom.github.io) - _brew tap caskroom/cask_
+- [mas](https://github.com/mas-cli/mas) - _brew install mas_
+- [ant](https://ant.apache.org) - _brew install ant_
+- [clisp](http://clisp.org) - _brew install clisp_
+- [exiftool](http://owl.phy.queensu.ca/~phil/exiftool/) - _brew install exiftool_
+- [go](https://golang.org/) - _brew install go_
+- [libbpg](https://bellard.org/bpg/) - _brew install libbpg_
+- [lua](http://www.lua.org) - _brew install lua_
+- [mailhog](https://github.com/mailhog/MailHog) - _brew install mailhog_
+- [python3](https://www.python.org) - _brew install python3_
+- [webkit2png](http://www.paulhammond.org/webkit2png/) - _brew install webkit2png_
 
 ### Cask (Internet)
 
@@ -47,26 +50,26 @@ These are the app installed by the script.
 - 4k-video-downloader
 - angry-ip-scanner
 - appcleaner
-- atom
+- [atom](https://atom.io)
 - avast
-- bartender
-- beardedspice
+- [bartender](https://www.macbartender.com)
+- [beardedspice](https://beardedspice.github.io)
 - betterzipql
 - calibre
-- cryptomator
+- [cryptomator](https://cryptomator.org)
 - cyberduck
 - dropbox
 - duet
 - github-desktop
-- iina
+- [iina](https://lhc70000.github.io/iina/)
 - intellij-idea
-- imageoptim
+- [imageoptim](https://imageoptim.com/fr)
 - java
 - julia
-- mactex
+- [mactex](https://www.tug.org/mactex/)
 - malwarebytes-anti-malware
 - mamp
-- macdown
+- [macdown](http://macdown.uranusjr.com)
 - megasync
 - [Objective-See](http://objective-see.com)
     - blockblock
@@ -79,17 +82,16 @@ These are the app installed by the script.
 - qlmarkdown
 - qlstephen
 - skype
-- spectacle
+- [spectacle](https://www.spectacleapp.com)
 - spotify
-- the-unarchiver
+- [the-unarchiver](https://theunarchiver.com) - _(MacPaw just bought the Unarchiver, Jul 27th, 2017)_
 - touchbarserver
-- webkit2png
 
 ## Internet
 
 - [Rocket—the fastest emoji app for your Mac](http://matthewpalmer.net/rocket/)
 
-## Safari
+## Extensions Safari
 
 - 1Blocker - Block ads, tracking scripts, anything
 - 1Password

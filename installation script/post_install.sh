@@ -43,7 +43,7 @@ install "Textastic"
 install "Expressions"
 brew cask install atom cyberduck github-desktop intellij-idea mamp macdown
 brew cask install java julia qlcolorcode qlstephen qlmarkdown provisionql
-brew install ant clisp exiftool go libbpg python3
+brew install ant clisp exiftool go libbpg lua mailhog python3
 #TODO: ERROR for license
 go get -u github.com/nishanths/license
 license -update
@@ -51,7 +51,8 @@ license -update
 
 echo 'Installing utility apps'
 brew cask install 1password appcleaner bartender beardedspice cryptomator duet
-brew cask install dropbox megasync webkit2png
+brew cask install dropbox megasync
+brew install webkit2png
 #TODO:  brew cask install --appdir=/Applications megasync ?
 #install "Amphetamine"
 install "Better Rename 10"
