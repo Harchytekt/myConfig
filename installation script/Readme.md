@@ -1,6 +1,6 @@
 # Configuration and installation script for macOS
 
-This script automatically installs softwares and configures some parameters right after the macOS installation.
+This script automatically installs [softwares](MacApps.md) and configures some parameters right after the macOS installation.
 
 ⚠️ This script is based on my needs. You'll have to change it before any use! ⚠️
 
