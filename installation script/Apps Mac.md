@@ -68,7 +68,7 @@ These are the app installed by the script.
 - mamp
 - macdown
 - megasync
-- Objective-See
+- [Objective-See](http://objective-see.com)
     - blockblock
     - knockknock
     - ransomwhere
