@@ -50,10 +50,9 @@ license -update
 
 
 echo 'Installing utility apps'
-brew cask install 1password appcleaner bartender beardedspice cryptomator duet
-brew cask install dropbox megasync
+brew cask install 1password appcleaner bartender cryptomator duet #beardedspice
+brew cask install dropbox
 brew install webkit2png
-#TODO:  brew cask install --appdir=/Applications megasync ?
 #install "Amphetamine"
 install "Better Rename 10"
 #install "EyeDrop"

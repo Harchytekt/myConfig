@@ -53,7 +53,7 @@ These are the app installed by the script.
 - [atom](https://atom.io)
 - avast
 - [bartender](https://www.macbartender.com)
-- [beardedspice](https://beardedspice.github.io)
+<!-- - [beardedspice](https://beardedspice.github.io) -->
 - betterzipql
 - calibre
 - [cryptomator](https://cryptomator.org)
@@ -70,7 +70,7 @@ These are the app installed by the script.
 - malwarebytes-anti-malware
 - mamp
 - [macdown](http://macdown.uranusjr.com)
-- megasync
+<!-- - megasync-->
 - [Objective-See](http://objective-see.com)
     - blockblock
     - knockknock
