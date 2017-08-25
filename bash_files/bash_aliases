@@ -1,4 +1,4 @@
-alias about='./.MyScripts/about'
+alias about='/Users/alexandre/.MyScripts/about'
 alias cdbrew='cd /usr/local/Cellar'
 alias ls='ls -G'
 alias mkdir='mkdir -p'
