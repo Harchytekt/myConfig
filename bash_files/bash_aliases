@@ -4,7 +4,8 @@ alias ls='ls -G'
 alias mkdir='mkdir -p'
 alias mysql='mysql -u root -proot'
 alias julia='/Applications/Julia-0.6.app/Contents/Resources/julia/bin/julia'
-alias capture=' webkit2png --ignore-ssl-check -F -D ~/Desktop'
+alias capture='webkit2png --ignore-ssl-check -F -D ~/Desktop'
+alias pip3='python3 -m pip'
 
 
 ####################################
