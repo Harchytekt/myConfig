@@ -37,6 +37,7 @@ These are the app installed by the script.
 - [ant](https://ant.apache.org) - _brew install ant_
 - [clisp](http://clisp.org) - _brew install clisp_
 - [exiftool](http://owl.phy.queensu.ca/~phil/exiftool/) - _brew install exiftool_
+- [Git LFS](https://git-lfs.github.com) - brew install git-lfs
 - [go](https://golang.org/) - _brew install go_
 - [libbpg](https://bellard.org/bpg/) - _brew install libbpg_
 - [lua](http://www.lua.org) - _brew install lua_
