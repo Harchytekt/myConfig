@@ -41,4 +41,4 @@
 ## Theme
 
 - UI Theme: One Dark
-- Syntax Thema: One Dark
+- Syntax Theme: One Dark
