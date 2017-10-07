@@ -53,8 +53,7 @@
 - appcleaner
 - [atom](https://atom.io)
 - avast
-- [bartender](https://www.macbartender.com)
-<!-- - [beardedspice](https://beardedspice.github.io) -->
+- [bartender](https://www.macbartender.com)<!-- - [beardedspice](https://beardedspice.github.io) -->
 - betterzipql
 - calibre
 - [cryptomator](https://cryptomator.org)
@@ -70,8 +69,7 @@
 - [mactex](https://www.tug.org/mactex/)
 - malwarebytes-anti-malware
 - mamp
-- [macdown](http://macdown.uranusjr.com)
-<!-- - megasync-->
+- [macdown](http://macdown.uranusjr.com)<!-- - megasync-->
 - [Objective-See](http://objective-see.com)
     - blockblock
     - knockknock
@@ -85,7 +83,7 @@
 - skype
 - [spectacle](https://www.spectacleapp.com)
 - spotify
-- [the-unarchiver](https://theunarchiver.com) - _(MacPaw just bought the Unarchiver, Jul 27th, 2017)_
+- [the-unarchiver](https://theunarchiver.com) - _(MacPaw just bought the Unarchiver Jul 27th, 2017)_
 - touchbarserver
 
 ## Internet
