@@ -1,5 +1,11 @@
 #export PATH="/usr/local/sbin:$PATH"
 
+# PHP72
+export PATH="/usr/local/opt/gettext/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+
 export PATH="/Applications/MAMP/Library/bin:$PATH" #MySQL
 export PATH="/Applications/MAMP/bin/php/php7.0.8/bin:$PATH" #PHP
 
@@ -10,3 +16,5 @@ export PATH=$GOPATH/bin:$PATH
 # Python3 - sqlite3
 
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
+
+export PATH="$HOME/.composer/vendor/bin:$PATH"
