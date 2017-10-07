@@ -1,4 +1,4 @@
-These are the app installed by the script.
+⚠️ These are the app installed by [the script](installation%20script/post_install.sh).
 
 <!-- [TOC] -->
 
