@@ -4,6 +4,10 @@
 
 ## Packages
 
+- [advanced-open-file by _Osmose_](https://atom.io/packages/advanced-open-file)
+	- Create directories
+	- Create files instantly
+	- Default input value: Project root
 - [atom-alignment by _Freyskeyd_](https://atom.io/packages/atom-alignment)
 - [atom-beautify by _Glavin001_](https://atom.io/packages/atom-beautify)
 - [atom-clock by _b3by_](https://atom.io/packages/atom-clock)
