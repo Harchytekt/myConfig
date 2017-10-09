@@ -38,7 +38,7 @@ To the file [⇒ Here](keymap.cson)
 	- Preferred Color Format: RGB
 - [emmet by _emmetio_](https://atom.io/packages/emmet)
     > Emmet – the essential tool for web developers
-- [file-icons by _DanBrooker_](https://atom.io/packages/file-icons)
+- [file-icons by _file-icons_](https://atom.io/packages/file-icons)
     > Assign file extension icons and colours for improved visual grepping
 - [highlight-selected by _richrace_](https://atom.io/packages/highlight-selected)
     > Highlights the current word selected when double clicking
@@ -57,7 +57,7 @@ To the file [⇒ Here](keymap.cson)
 - [latex by _thomasjo_](https://atom.io/packages/latex)
     > Compile LaTeX documents from within Atom.
 	- Engine: XeLaTeX
-- [latex-autocomplete by _evoke_](https://atom.io/packages/latex-autocomplete)
+- [latex-autocomplete by _evpok_](https://atom.io/packages/latex-autocomplete)
     > Autocompletion for LaTeX.
 - **Markdown**
     - [markdown-preview by _atom_](https://atom.io/packages/markdown-preview) - **Core Package**
@@ -82,7 +82,7 @@ To the file [⇒ Here](keymap.cson)
 	   > An Atom plugin to display pigments colors in the Minimap.
 - [pigments by _abe33_](https://atom.io/packages/pigments)
     > A package to display colors in project and files.
-- [plantuml-viewer by _markbaas_](https://atom.io/packages/plantuml-viewer)
+- [plantuml-viewer by _markushedvall_](https://atom.io/packages/plantuml-viewer)
     > Open a rendered diagram of the PlantUML source in an editor with `ctrl-alt-p`.
 - [python-autopep8 by _markbaas_](https://atom.io/packages/python-autopep8)
     > Format python code using autopep8
