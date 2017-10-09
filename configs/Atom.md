@@ -56,9 +56,9 @@
 - [latex-autocomplete by _evoke_](https://atom.io/packages/latex-autocomplete)
     > Autocompletion for LaTeX.
 - Markdown
-    - [markdown-preview by _atom_](https://atom.io/packages/markdown-preview) - **Core Package**   _atom_](https://atom.io/packages/markdown-preview) - **Core Package**
+    - [markdown-preview by _atom_](https://atom.io/packages/markdown-preview) - **Core Package**
         > Open a rendered version of the Markdown in the current editor with `ctrl-shift-m`.
-    - [markdown-themeable-pdf by _cakebake_](https://atom.io/packages/markdown-themeable-pdf)   _cakebake_](https://atom.io/packages/markdown-themeable-pdf)
+    - [markdown-themeable-pdf by _cakebake_](https://atom.io/packages/markdown-themeable-pdf)  
         > Themeable markdown converter (Print to PDF, HTML, JPEG or PNG)
     - [markdown-writer by _zhuochun_](https://atom.io/packages/markdown-writer)
         > Make Atom a better Markdown editor and an easier static blogging tool.
