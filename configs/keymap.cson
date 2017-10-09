@@ -45,7 +45,7 @@
 'atom-workspace, atom-workspace atom-text-editor':
     'ctrl-shift-m': 'markdown-preview:toggle'
     'ctrl-shift-e': 'markdown-themeable-pdf:export'
-    'ctrl-shift-c': 'markdown-toc-auto:insert-toc'
+    'ctrl-shift-t': 'markdown-toc-auto:insert-toc'
 
 # Default Keymaps for Markdown Writer
 # https://atom.io/packages/markdown-writer
@@ -53,7 +53,7 @@
 # Wiki: https://github.com/zhuochun/md-writer/wiki/Settings-for-Keymaps
 #
 ".platform-darwin atom-text-editor:not([mini])":
-    "ctrl-shift-l": "markdown-writer:insert-link"
+    "ctrl-shift-k": "markdown-writer:insert-link"
     "ctrl-shift-i": "markdown-writer:insert-image"
     "cmd-i":       "markdown-writer:toggle-italic-text"
     "cmd-b":       "markdown-writer:toggle-bold-text"
@@ -67,9 +67,9 @@
     "ctrl-alt-3":  "markdown-writer:toggle-h3"
     "ctrl-alt-4":  "markdown-writer:toggle-h4"
     "ctrl-alt-5":  "markdown-writer:toggle-h5"
-    "ctrl-shift-o": "markdown-writer:toggle-ol"
-    "ctrl-shift-u": "markdown-writer:toggle-ul"
-    "ctrl-shift-t": "markdown-writer:toggle-task"
+    "shift-cmd-o": "markdown-writer:toggle-ol"
+    "shift-cmd-u": "markdown-writer:toggle-ul"
+    "shift-cmd-b": "markdown-writer:toggle-task"
     "cmd-j cmd-p": "markdown-writer:jump-to-previous-heading"
     "cmd-j cmd-n": "markdown-writer:jump-to-next-heading"
     "cmd-j cmd-d": "markdown-writer:jump-to-reference-definition"
