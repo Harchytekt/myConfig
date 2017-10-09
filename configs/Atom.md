@@ -10,7 +10,8 @@
 
 ## Keymap
 
-To the file ⇒ [Here](keymap.cson)
+To the file [⇒ Here](keymap.cson)
+
 ## Packages
 
 - [advanced-open-file by _Osmose_](https://atom.io/packages/advanced-open-file)
