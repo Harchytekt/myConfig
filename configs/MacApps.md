@@ -1,6 +1,16 @@
-⚠️ These are the app installed by [the script](../installation%20script/post_install.sh).
+💡 These are the app installed by [the script](../installation%20script/post_install.sh).
 
-<!-- [TOC] -->
+# Test
+
+<!-- TOC START min:1 max:3 link:true update:true -->
+- [Test](#test)
+  - [Mac App Store](#mac-app-store)
+  - [Homebrew](#homebrew)
+    - [Cask (Internet)](#cask-internet)
+  - [Internet](#internet)
+  - [Extensions Safari](#extensions-safari)
+
+<!-- TOC END -->
 
 ## Mac App Store
 
@@ -14,7 +24,7 @@
 - [GoodNotes](http://www.goodnotesapp.com)
 - [Image2icon - Make your own icons](http://www.img2icnsapp.com)
 - [iWork](https://www.apple.com/iwork/)
-    - Keynote 
+    - Keynote
     - Numbers
     - Pages
 - [Notability](http://gingerlabs.com)
