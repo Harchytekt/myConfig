@@ -2,11 +2,15 @@
 
 <!-- TOC START min:1 max:3 link:true update:true -->
 - [My Atom configuration](#my-atom-configuration)
+  - [Keymap](#keymap)
   - [Packages](#packages)
   - [Theme](#theme)
 
 <!-- TOC END -->
 
+## Keymap
+
+To the file ⇒ [Here](keymap.cson)
 ## Packages
 
 - [advanced-open-file by _Osmose_](https://atom.io/packages/advanced-open-file)
@@ -54,10 +58,10 @@
 	- Engine: XeLaTeX
 - [latex-autocomplete by _evoke_](https://atom.io/packages/latex-autocomplete)
     > Autocompletion for LaTeX.
-- Markdown
+- **Markdown**
     - [markdown-preview by _atom_](https://atom.io/packages/markdown-preview) - **Core Package**
         > Open a rendered version of the Markdown in the current editor with `ctrl-shift-m`.
-    - [markdown-themeable-pdf by _cakebake_](https://atom.io/packages/markdown-themeable-pdf)  
+    - [markdown-themeable-pdf by _cakebake_](https://atom.io/packages/markdown-themeable-pdf)
         > Themeable markdown converter (Print to PDF, HTML, JPEG or PNG)
     - [markdown-toc-auto by _t9md_](https://atom.io/packages/markdown-toc-auto)
         > Insert and auto-update table of contents on save
@@ -66,7 +70,7 @@
         - Create Default Keymaps
     - [pdf-view by _izuzak_](https://atom.io/packages/pdf-view)
         > Atom PDF viewer based on PDF.js
-- Minimap
+- **Minimap**
 	- [minimap by _atom-minimap_](https://atom.io/packages/minimap)
 	   > A preview of the full source code.
 	- [minimap-find-and-replace package by _atom-minimap_](https://atom.io/packages/minimap-find-and-replace)

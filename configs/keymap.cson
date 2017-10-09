@@ -1,0 +1,76 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
+# * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on OS X and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * https://atom.io/docs/latest/hacking-atom-debugging#check-the-keybindings
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+'atom-text-editor[data-grammar="text html php"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-text-editor[data-grammar="text html php blade"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-text-editor':
+    'cmd-shift-x': 'autoprefixer'
+
+'.editor':
+    'ctrl-alt-b': 'atom-beautify:beautify-editor'
+
+'atom-workspace, atom-workspace atom-text-editor':
+    'ctrl-shift-m': 'markdown-preview:toggle'
+    'ctrl-shift-e': 'markdown-themeable-pdf:export'
+    'ctrl-shift-c': 'markdown-toc-auto:insert-toc'
+
+# Default Keymaps for Markdown Writer
+# https://atom.io/packages/markdown-writer
+#
+# Wiki: https://github.com/zhuochun/md-writer/wiki/Settings-for-Keymaps
+#
+".platform-darwin atom-text-editor:not([mini])":
+    "ctrl-shift-l": "markdown-writer:insert-link"
+    "ctrl-shift-i": "markdown-writer:insert-image"
+    "cmd-i":       "markdown-writer:toggle-italic-text"
+    "cmd-b":       "markdown-writer:toggle-bold-text"
+    "cmd-'":       "markdown-writer:toggle-code-text"
+    "cmd-k":       "markdown-writer:toggle-keystroke-text"
+    "cmd-h":       "markdown-writer:toggle-strikethrough-text"
+    'cmd->':       "markdown-writer:toggle-blockquote"
+    'cmd-"':       "markdown-writer:toggle-codeblock-text"
+    "ctrl-alt-1":  "markdown-writer:toggle-h1"
+    "ctrl-alt-2":  "markdown-writer:toggle-h2"
+    "ctrl-alt-3":  "markdown-writer:toggle-h3"
+    "ctrl-alt-4":  "markdown-writer:toggle-h4"
+    "ctrl-alt-5":  "markdown-writer:toggle-h5"
+    "ctrl-shift-o": "markdown-writer:toggle-ol"
+    "ctrl-shift-u": "markdown-writer:toggle-ul"
+    "cmd-j cmd-p": "markdown-writer:jump-to-previous-heading"
+    "cmd-j cmd-n": "markdown-writer:jump-to-next-heading"
+    "cmd-j cmd-d": "markdown-writer:jump-to-reference-definition"
+    "cmd-j cmd-t": "markdown-writer:jump-to-next-table-cell"
+
