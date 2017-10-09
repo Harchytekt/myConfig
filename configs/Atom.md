@@ -68,7 +68,7 @@ To the file [⇒ Here](keymap.cson)
         > Insert and auto-update table of contents on save
     - [markdown-writer by _zhuochun_](https://atom.io/packages/markdown-writer)
         > Make Atom a better Markdown editor and an easier static blogging tool.
-        - Create Default Keymaps
+        - Create Default Keymaps and modify it ([see](keymap.cson)).
     - [pdf-view by _izuzak_](https://atom.io/packages/pdf-view)
         > Atom PDF viewer based on PDF.js
 - **Minimap**
@@ -80,8 +80,6 @@ To the file [⇒ Here](keymap.cson)
 	   > A minimap binding for the highlight-selected package
 	- [minimap-pigments by _abe33_](https://atom.io/packages/minimap-pigments)
 	   > An Atom plugin to display pigments colors in the Minimap.
-- [php-cs-fixer by _pfefferie_](https://atom.io/packages/php-cs-fixer)
-    > Run the 'PHP Coding Standards Fixer' within Atom
 - [pigments by _abe33_](https://atom.io/packages/pigments)
     > A package to display colors in project and files.
 - [plantuml-viewer by _markbaas_](https://atom.io/packages/plantuml-viewer)
