@@ -69,8 +69,9 @@
     "ctrl-alt-5":  "markdown-writer:toggle-h5"
     "ctrl-shift-o": "markdown-writer:toggle-ol"
     "ctrl-shift-u": "markdown-writer:toggle-ul"
+    "ctrl-shift-t": "markdown-writer:toggle-task"
     "cmd-j cmd-p": "markdown-writer:jump-to-previous-heading"
     "cmd-j cmd-n": "markdown-writer:jump-to-next-heading"
     "cmd-j cmd-d": "markdown-writer:jump-to-reference-definition"
     "cmd-j cmd-t": "markdown-writer:jump-to-next-table-cell"
-
+	
