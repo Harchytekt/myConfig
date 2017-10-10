@@ -41,9 +41,11 @@ install "Xcode"
 sudo xcodebuild -license accept
 install "Textastic"
 install "Expressions"
-brew cask install atom cyberduck github-desktop intellij-idea mamp macdown
-brew cask install java julia qlcolorcode qlstephen qlmarkdown provisionql
-brew install ant clisp exiftool go libbpg lua mailhog python3
+brew cask install atom cyberduck github-desktop gitkraken intellij-idea
+brew cask install java julia mamp macdown qlcolorcode qlstephen qlmarkdown
+brew cask install provisionql sequel-pro
+brew install ant bash-completion clisp dnsmasq git-lfs go gradle lua mailhog
+brew install mysql nginx openssl php72 python3
 #TODO: ERROR for license
 go get -u github.com/nishanths/license
 license -update
@@ -85,6 +87,7 @@ brew cask install skype
 
 echo 'Installing photos, videos'
 brew cask install iina imageoptim
+brew install exiftool libbpg webp
 install "Affinity Designer"
 install "Drop - Color Picker"
 install "Image2icon - Make your own icons"
