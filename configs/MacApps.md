@@ -31,6 +31,7 @@
 - [Pixelmator](http://www.pixelmator.com/mac/)
 - [Quiver: The Programmer's Notebook](http://happenapps.com)
 - RulerSwift
+- [Slack](https://slack.com)
 - [Snipposé](http://www.samuelwford.com/snippose)
 - StuffIt 16
 - [Svgsus](http://www.svgs.us)
@@ -101,7 +102,8 @@
 - cyberduck
 - dropbox
 - duet
-- github-desktop
+- [github-desktop](http://desktop.github.com)
+- [gitkraken](https://www.gitkraken.com)
 - [iina](https://lhc70000.github.io/iina/)
 - intellij-idea
 - [imageoptim](https://imageoptim.com/fr)
@@ -112,15 +114,16 @@
 - mamp
 - [macdown](http://macdown.uranusjr.com)<!-- - megasync-->
 - [Objective-See](http://objective-see.com)
-    - blockblock
+    <!-- - blockblock -->
     - knockknock
-    - ransomwhere
+    <!-- - ransomwhere -->
     - oversight
 - onyx
 - provisionql
 - qlcolorcode
 - qlmarkdown
 - qlstephen
+- [sequel-pro](https://sequelpro.com)
 - skype
 - [spectacle](https://www.spectacleapp.com)
 - spotify
@@ -130,6 +133,7 @@
 ## Internet
 [Back to the beginning](#my-applications-for-macos)
 
+- [Docker for Mac](https://www.docker.com/docker-mac)
 - [Rocket—the fastest emoji app for your Mac](http://matthewpalmer.net/rocket/)
 
 ## Extensions Safari
