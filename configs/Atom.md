@@ -90,6 +90,7 @@ To the file [⇒ Here](keymap.cson)
     > Finds all the TODOs, FIXMEs, CHANGEDs, etc. in your project.
 
 ## Theme
+[Back to the beginning](#my-atom-configuration)
 
 - UI Theme: One Dark
 - Syntax Theme: One Dark

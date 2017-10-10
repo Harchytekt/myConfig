@@ -1,9 +1,8 @@
-💡 These are the app installed by [the script](../installation%20script/post_install.sh).
-
-# Test
+# My applications for macOS
+> 💡 These are the app installed by [the script](../installation%20script/post_install.sh).
 
 <!-- TOC START min:1 max:3 link:true update:true -->
-- [Test](#test)
+- [My applications for macOS](#my-applications-for-macos)
   - [Mac App Store](#mac-app-store)
   - [Homebrew](#homebrew)
     - [Cask (Internet)](#cask-internet)
@@ -13,6 +12,7 @@
 <!-- TOC END -->
 
 ## Mac App Store
+[Back to the beginning](#my-applications-for-macos)
 
 - [1Blocker - Block ads, tracking scripts, anything](https://1blocker.com)
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
@@ -41,6 +41,7 @@
 - [Xcode](https://developer.apple.com/xcode/)
 
 ## Homebrew
+[Back to the beginning](#my-applications-for-macos)
 
 - [Cask](https://caskroom.github.io) - _brew tap caskroom/cask_
 - [mas](https://github.com/mas-cli/mas) - _brew install mas_
@@ -56,6 +57,7 @@
 - [webkit2png](http://www.paulhammond.org/webkit2png/) - _brew install webkit2png_
 
 ### Cask (Internet)
+[Back to the beginning](#my-applications-for-macos)
 
 - 1password
 - 4k-video-downloader
@@ -97,10 +99,12 @@
 - touchbarserver
 
 ## Internet
+[Back to the beginning](#my-applications-for-macos)
 
 - [Rocket—the fastest emoji app for your Mac](http://matthewpalmer.net/rocket/)
 
 ## Extensions Safari
+[Back to the beginning](#my-applications-for-macos)
 
 - 1Blocker - Block ads, tracking scripts, anything
 - 1Password
