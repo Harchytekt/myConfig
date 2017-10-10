@@ -42,18 +42,48 @@
 ## Homebrew
 [Back to the beginning](#my-applications-for-macos)
 
+- [Ant](https://ant.apache.org) - _brew install ant_
+    <!-- > Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. -->
+- [Bash-Completion](https://github.com/scop/bash-completion) - _brew install bash-completion_
+    <!-- > Programmable completion functions for bash -->
 - [Cask](https://caskroom.github.io) - _brew tap caskroom/cask_
+    <!-- > Homebrew-Cask extends Homebrew and brings its elegance, simplicity, and speed to macOS applications and large binaries alike. -->
+- [CLISP](http://clisp.org) - _brew install clisp_
+    <!-- > This is GNU CLISP - an ANSI Common Lisp Implementation -->
+- [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) - _brew install dnsmasq_
+    <!-- > Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot. It is designed to be lightweight and have a small footprint, suitable for resource constrained routers and firewalls. -->
+- [ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/) - _brew install exiftool_
+    <!-- > Read, Write and Edit Meta Information! -->
+- [Git LFS](https://git-lfs.github.com) - _brew install git-lfs_
+    <!-- > An open source Git extension for versioning large files -->
+- [Go](https://golang.org/) - _brew install go_
+    <!-- > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. -->
+- [Gradle](https://www.gradle.org/) - _brew install gradle_
+    <!-- > Gradle is an open source build automation system that builds upon the concepts of Apache Ant and Apache Maven and introduces a Groovy-based domain-specific language (DSL) instead of the XML form used by Apache Maven for declaring the project configuration. -->
+- [LibBPG](https://bellard.org/bpg/) - _brew install libbpg_
+    <!-- > BPG (Better Portable Graphics) is a new image format. -->
+- [Lua](http://www.lua.org) - _brew install lua_
+    <!-- > Lua is a powerful, efficient, lightweight, embeddable scripting language. -->
+- [MailHog](https://github.com/mailhog/MailHog) - _brew install mailhog_
+    <!-- > Web and API based SMTP testing -->
 - [mas](https://github.com/mas-cli/mas) - _brew install mas_
-- [ant](https://ant.apache.org) - _brew install ant_
-- [clisp](http://clisp.org) - _brew install clisp_
-- [exiftool](http://owl.phy.queensu.ca/~phil/exiftool/) - _brew install exiftool_
-- [Git LFS](https://git-lfs.github.com) - brew install git-lfs
-- [go](https://golang.org/) - _brew install go_
-- [libbpg](https://bellard.org/bpg/) - _brew install libbpg_
-- [lua](http://www.lua.org) - _brew install lua_
-- [mailhog](https://github.com/mailhog/MailHog) - _brew install mailhog_
-- [python3](https://www.python.org) - _brew install python3_
+    <!-- > Mac App Store command line interface -->
+- [MySQL](https://www.mysql.com) - _brew install mysql_
+    <!-- > MySQL is an open-source relational database management system (RDBMS). -->
+- [NGINX](https://nginx.org/) - _brew install nginx_
+    <!-- > NGINX is a web server which can also be used as a reverse proxy, load balancer and HTTP cache. -->
+- [OpenSSL](https://openssl.org/) - _brew install openssl_
+    <!-- > OpenSSL is a software library for applications that secure communications over computer networks against eavesdropping or need to identify the party at the other end. -->
+- [OpenSSL 1.1](https://openssl.org/) - _brew install openssl@1.1_
+    <!-- > Last version of OpenSSL. -->
+- [PHP 7.2](https://secure.php.net) - _brew install php72_
+    <!-- > Last version of PHP, a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. -->
+- [Python3](https://www.python.org) - _brew install python3_
+    <!-- > Python is a programming language that lets you work quickly and integrate systems more effectively. -->
 - [webkit2png](http://www.paulhammond.org/webkit2png/) - _brew install webkit2png_
+    <!-- > webkit2png is a command line tool that creates screenshots of webpages -->
+- [WebP](https://developers.google.com/speed/webp/) - _brew install webp_
+    <!-- > WebP is an image format employing both lossy and lossless compression. It is currently developed by Google, based on technology acquired with the purchase of On2 Technologies. -->
 
 ### Cask (Internet)
 [Back to the beginning](#my-applications-for-macos)
