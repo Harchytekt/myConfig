@@ -12,7 +12,6 @@
 <!-- TOC END -->
 
 ## Mac App Store
-[Back to the beginning](#my-applications-for-macos)
 
 - [1Blocker - Block ads, tracking scripts, anything](https://1blocker.com)
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
