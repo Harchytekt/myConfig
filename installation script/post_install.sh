@@ -97,7 +97,7 @@ install "Svgsus"
 
 
 echo 'Installing other apps'
-brew cask install 4k-video-downloader spotify #touchbarserver
+brew cask install 4k-video-downloader emojipedia spotify #touchbarserver
 
 
 ## ************************* CONFIGURATION ********************************
