@@ -1,5 +1,5 @@
 # My applications for macOS
-> 💡 These are the app installed by [the script](../installation%20script/post_install.sh).
+> 💡 All these apps won't be installed by [the script](../installation%20script/post_install.sh).
 
 <!-- TOC START min:1 max:3 link:true update:true -->
 - [My applications for macOS](#my-applications-for-macos)
@@ -127,7 +127,7 @@
 - skype
 - [spectacle](https://www.spectacleapp.com)
 - spotify
-- [the-unarchiver](https://theunarchiver.com) - _(MacPaw just bought the Unarchiver Jul 27th, 2017)_
+- [the-unarchiver](https://theunarchiver.com) - _(MacPaw bought the Unarchiver Jul 27th, 2017)_
 - touchbarserver
 
 ## Internet
@@ -144,5 +144,7 @@
 - [Fontface Ninja](https://safari-extensions.apple.com/details/?id=com.creaktif.fontfaceninja-6AFG6428MF)
 - [Instapaper](https://safari-extensions.apple.com/details/?id=com.instapaper.extension-CAM49M58WK)
 - [JS Blocker](https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4)
+- [JSONAce](https://safari-extensions.apple.com/details/?id=com.jjlharrison.jsonace-635LU5M475)
+- [Lookmark](https://safari-extensions.apple.com/details/?id=io.lookmark.safari.extension-A2MQ7WE8F2)
 - [octotree](https://github.com/buunguyen/octotree)
 - [Stylish](https://safari-extensions.apple.com/details/?id=com.sobolev.stylish-5555L95H45)
