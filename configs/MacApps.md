@@ -102,6 +102,7 @@
 - cyberduck
 - dropbox
 - duet
+- [Emojipedia](https://github.com/gingerbeardman/Emojipedia)
 - [github-desktop](http://desktop.github.com)
 - [gitkraken](https://www.gitkraken.com)
 - [iina](https://lhc70000.github.io/iina/)
