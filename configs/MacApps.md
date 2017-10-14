@@ -73,6 +73,8 @@
     <!-- > MySQL is an open-source relational database management system (RDBMS). -->
 - [NGINX](https://nginx.org/) - _brew install nginx_
     <!-- > NGINX is a web server which can also be used as a reverse proxy, load balancer and HTTP cache. -->
+- [Node.js](https://nodejs.org) - _brew install node_
+    <!-- > Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. -->
 - [OpenSSL](https://openssl.org/) - _brew install openssl_
     <!-- > OpenSSL is a software library for applications that secure communications over computer networks against eavesdropping or need to identify the party at the other end. -->
 - [OpenSSL 1.1](https://openssl.org/) - _brew install openssl@1.1_
