@@ -53,6 +53,21 @@
     <!-- > This is GNU CLISP - an ANSI Common Lisp Implementation -->
 - [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) - _brew install dnsmasq_
     <!-- > Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot. It is designed to be lightweight and have a small footprint, suitable for resource constrained routers and firewalls. -->
+- [Exercism](http://exercism.io) - _brew install exercism_
+    <!-- > Level up your programming skills -->
+    - Configuration: _exercism configure --key=YOUR_API_KEY_
+    - Setting up Exercism CLI completion:
+        - Install:
+            ```bash
+            mkdir -p ~/.config/exercism/
+            curl http://cli.exercism.io/exercism_completion.bash > ~/.config/exercism/exercism_completion.bash
+            ```
+        - Add to ```.bash_profile```:
+            ```
+            if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+                - ~/.config/exercism/exercism_completion.bash
+            fi
+            ```
 - [ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/) - _brew install exiftool_
     <!-- > Read, Write and Edit Meta Information! -->
 - [Git LFS](https://git-lfs.github.com) - _brew install git-lfs_
