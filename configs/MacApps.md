@@ -98,6 +98,13 @@
     <!-- > Last version of PHP, a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. -->
 - [Python3](https://www.python.org) - _brew install python3_
     <!-- > Python is a programming language that lets you work quickly and integrate systems more effectively. -->
+    - **pip3:**
+        - PEP8 - _pip install pytest-pep8_
+            <!-- > PEP8 is the Style Guide for Python Code. -->
+        - Pygments - _pip3 install Pygments_
+            <!-- > Pygments is a syntax highlighting package written in Python. -->
+        - pytest - _pip install pytest pytest-cache_
+            <!-- > A testing tool that will give you more flexibility over running your unit tests. -->
 - [webkit2png](http://www.paulhammond.org/webkit2png/) - _brew install webkit2png_
     <!-- > webkit2png is a command line tool that creates screenshots of webpages -->
 - [WebP](https://developers.google.com/speed/webp/) - _brew install webp_
