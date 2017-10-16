@@ -70,6 +70,8 @@
             ```
 - [ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/) - _brew install exiftool_
     <!-- > Read, Write and Edit Meta Information! -->
+- [git-flow](https://github.com/nvie/gitflow) - _brew install git-flow_
+    <!-- > A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model. -->
 - [Git LFS](https://git-lfs.github.com) - _brew install git-lfs_
     <!-- > An open source Git extension for versioning large files -->
 - [Go](https://golang.org/) - _brew install go_
