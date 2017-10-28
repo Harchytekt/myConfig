@@ -87,7 +87,7 @@ brew cask install skype
 
 echo 'Installing photos, videos'
 brew cask install iina imageoptim
-brew install exiftool libbpg webp
+brew install exiftool ffmpeg libbpg webp
 install "Affinity Designer"
 install "Drop - Color Picker"
 install "Image2icon - Make your own icons"
