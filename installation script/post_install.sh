@@ -45,7 +45,7 @@ brew cask install atom cyberduck github-desktop gitkraken intellij-idea
 brew cask install java julia mamp macdown qlcolorcode qlstephen qlmarkdown
 brew cask install provisionql sequel-pro
 brew install ant bash-completion clisp dnsmasq git-lfs go gradle lua mailhog
-brew install mysql nginx openssl php72 python3
+brew install mysql nginx openssl pandoc php72 python3
 #TODO: ERROR for license
 go get -u github.com/nishanths/license
 license -update

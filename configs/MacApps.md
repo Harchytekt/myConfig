@@ -98,6 +98,8 @@
     <!-- > OpenSSL is a software library for applications that secure communications over computer networks against eavesdropping or need to identify the party at the other end. -->
 - [OpenSSL 1.1](https://openssl.org/) - _brew install openssl@1.1_
     <!-- > Last version of OpenSSL. -->
+- [Pandoc](http://pandoc.org) - _brew install pandoc_
+    <!-- > If you need to convert files from one markup format into another, pandoc is your swiss-army knife. -->
 - [PHP 7.2](https://secure.php.net) - _brew install php72_
     <!-- > Last version of PHP, a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. -->
 - [Python3](https://www.python.org) - _brew install python3_
