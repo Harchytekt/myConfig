@@ -80,6 +80,8 @@ To the file [⇒ Here](keymap.cson)
 	   > A minimap binding for the highlight-selected package
 	- [minimap-pigments by _abe33_](https://atom.io/packages/minimap-pigments)
 	   > An Atom plugin to display pigments colors in the Minimap.
+- [Organized by _MattFlower_](https://atom.io/packages/organized)
+	   > Outlining and todo lists in Atom (similar to org-mode)
 - [pigments by _abe33_](https://atom.io/packages/pigments)
     > A package to display colors in project and files.
 - [plantuml-viewer by _markushedvall_](https://atom.io/packages/plantuml-viewer)
