@@ -94,5 +94,5 @@ To the file [⇒ Here](keymap.cson)
 ## Theme
 [Back to the beginning](#my-atom-configuration)
 
-- UI Theme: [Nord Atom UI](https://atom.io/themes/nord-atom-ui)
+- UI Theme: One Dark
 - Syntax Theme: [Nord Atom Syntax](https://atom.io/themes/nord-atom-syntax)
