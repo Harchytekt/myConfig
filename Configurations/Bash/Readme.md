@@ -1,4 +1,6 @@
-# Personnalized bash files
+# My Bash configuration
+
+## Personnalized bash files
 
 These four bash files personnalizes my Terminal use on macOS.  
 These files are:  
