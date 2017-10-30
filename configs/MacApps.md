@@ -45,17 +45,17 @@
 ## Homebrew
 [Back to the beginning](#my-applications-for-macos)
 
-- [Ant](https://ant.apache.org) - _brew install ant_
+- [Ant](https://ant.apache.org) - ```brew install ant```
     <!-- > Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. -->
-- [Bash-Completion](https://github.com/scop/bash-completion) - _brew install bash-completion_
+- [Bash-Completion](https://github.com/scop/bash-completion) - ```brew install bash-completion```
     <!-- > Programmable completion functions for bash -->
-- [Cask](https://caskroom.github.io) - _brew tap caskroom/cask_
+- [Cask](https://caskroom.github.io) - ```brew tap caskroom/cask```
     <!-- > Homebrew-Cask extends Homebrew and brings its elegance, simplicity, and speed to macOS applications and large binaries alike. -->
-- [CLISP](http://clisp.org) - _brew install clisp_
+- [CLISP](http://clisp.org) - ```brew install clisp```
     <!-- > This is GNU CLISP - an ANSI Common Lisp Implementation -->
-- [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) - _brew install dnsmasq_
+- [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) - ```brew install dnsmasq```
     <!-- > Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot. It is designed to be lightweight and have a small footprint, suitable for resource constrained routers and firewalls. -->
-- [Exercism](http://exercism.io) - _brew install exercism_
+- [Exercism](http://exercism.io) - ```brew install exercism```
     <!-- > Level up your programming skills -->
     - **Configuration:** _exercism configure --key=YOUR_API_KEY_
     - **Setting up Exercism CLI completion:**
@@ -70,52 +70,52 @@
                 - ~/.config/exercism/exercism_completion.bash
             fi
             ```
-- [ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/) - _brew install exiftool_
+- [ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/) - ```brew install exiftool```
     <!-- > Read, Write and Edit Meta Information! -->
-- [FFmpeg](https://www.ffmpeg.org) - _brew install ffmpeg_
+- [FFmpeg](https://www.ffmpeg.org) - ```brew install ffmpeg```
     <!-- > FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. -->
-- [git-flow](https://github.com/nvie/gitflow) - _brew install git-flow_
+- [git-flow](https://github.com/nvie/gitflow) - ```brew install git-flow```
     <!-- > A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model. -->
-- [Git LFS](https://git-lfs.github.com) - _brew install git-lfs_
+- [Git LFS](https://git-lfs.github.com) - ```brew install git-lfs```
     <!-- > An open source Git extension for versioning large files -->
-- [Go](https://golang.org/) - _brew install go_
+- [Go](https://golang.org/) - ```brew install go```
     <!-- > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. -->
-- [Gradle](https://www.gradle.org/) - _brew install gradle_
+- [Gradle](https://www.gradle.org/) - ```brew install gradle```
     <!-- > Gradle is an open source build automation system that builds upon the concepts of Apache Ant and Apache Maven and introduces a Groovy-based domain-specific language (DSL) instead of the XML form used by Apache Maven for declaring the project configuration. -->
-- [LibBPG](https://bellard.org/bpg/) - _brew install libbpg_
+- [LibBPG](https://bellard.org/bpg/) - ```brew install libbpg```
     <!-- > BPG (Better Portable Graphics) is a new image format. -->
-- [Lua](http://www.lua.org) - _brew install lua_
+- [Lua](http://www.lua.org) - ```brew install lua```
     <!-- > Lua is a powerful, efficient, lightweight, embeddable scripting language. -->
-- [MailHog](https://github.com/mailhog/MailHog) - _brew install mailhog_
+- [MailHog](https://github.com/mailhog/MailHog) - ```brew install mailhog```
     <!-- > Web and API based SMTP testing -->
-- [mas](https://github.com/mas-cli/mas) - _brew install mas_
+- [mas](https://github.com/mas-cli/mas) - ```brew install mas```
     <!-- > Mac App Store command line interface -->
-- [MySQL](https://www.mysql.com) - _brew install mysql_
+- [MySQL](https://www.mysql.com) - ```brew install mysql```
     <!-- > MySQL is an open-source relational database management system (RDBMS). -->
-- [NGINX](https://nginx.org/) - _brew install nginx_
+- [NGINX](https://nginx.org/) - ```brew install nginx```
     <!-- > NGINX is a web server which can also be used as a reverse proxy, load balancer and HTTP cache. -->
-- [Node.js](https://nodejs.org) - _brew install node_
+- [Node.js](https://nodejs.org) - ```brew install node```
     <!-- > Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. -->
-- [OpenSSL](https://openssl.org/) - _brew install openssl_
+- [OpenSSL](https://openssl.org/) - ```brew install openssl```
     <!-- > OpenSSL is a software library for applications that secure communications over computer networks against eavesdropping or need to identify the party at the other end. -->
-- [OpenSSL 1.1](https://openssl.org/) - _brew install openssl@1.1_
+- [OpenSSL 1.1](https://openssl.org/) - ```brew install openssl@1.1```
     <!-- > Last version of OpenSSL. -->
-- [Pandoc](http://pandoc.org) - _brew install pandoc_
+- [Pandoc](http://pandoc.org) - ```brew install pandoc```
     <!-- > If you need to convert files from one markup format into another, pandoc is your swiss-army knife. -->
-- [PHP 7.2](https://secure.php.net) - _brew install php72_
+- [PHP 7.2](https://secure.php.net) - ```brew install php72```
     <!-- > Last version of PHP, a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. -->
-- [Python3](https://www.python.org) - _brew install python3_
+- [Python3](https://www.python.org) - ```brew install python3```
     <!-- > Python is a programming language that lets you work quickly and integrate systems more effectively. -->
     - **pip3:**
-        - PEP8 - _pip install pytest-pep8_
+        - PEP8 - ```pip install pytest-pep8```
             <!-- > PEP8 is the Style Guide for Python Code. -->
-        - Pygments - _pip3 install Pygments_
+        - Pygments - ```pip3 install Pygments```
             <!-- > Pygments is a syntax highlighting package written in Python. -->
-        - pytest - _pip install pytest pytest-cache_
+        - pytest - ```pip install pytest pytest-cache```
             <!-- > A testing tool that will give you more flexibility over running your unit tests. -->
-- [webkit2png](http://www.paulhammond.org/webkit2png/) - _brew install webkit2png_
+- [webkit2png](http://www.paulhammond.org/webkit2png/) - ```brew install webkit2png```
     <!-- > webkit2png is a command line tool that creates screenshots of webpages -->
-- [WebP](https://developers.google.com/speed/webp/) - _brew install webp_
+- [WebP](https://developers.google.com/speed/webp/) - ```brew install webp```
     <!-- > WebP is an image format employing both lossy and lossless compression. It is currently developed by Google, based on technology acquired with the purchase of On2 Technologies. -->
 
 ### Cask (Internet)
@@ -168,9 +168,8 @@
 #### Fonts
 [Back to the beginning](#my-applications-for-macos)
 
-```
-brew tap caskroom/fonts
-```
+[Caskroom-fonts](https://github.com/caskroom/homebrew-fonts):  ```brew tap caskroom/fonts```
+    <!-- > Caskroom-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Mac. -->
 
 - [Fira Code](https://github.com/tonsky/FiraCode) - ```brew cask install font-fira-code```
     <!-- > A monospaced font with programming ligatures -->
