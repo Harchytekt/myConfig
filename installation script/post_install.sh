@@ -34,8 +34,12 @@ function install () {
 echo 'Installing Cask, to install other apps.'
 brew tap caskroom/cask
 
+echo 'Installing Caskroom-fonts, to install free fonts.'
+brew tap caskroom/fonts
 
-## Installing the softwares
+
+## Installation of the softwares
+
 echo 'Installing Dev tools'
 install "Xcode"
 sudo xcodebuild -license accept
@@ -98,6 +102,9 @@ install "Svgsus"
 
 echo 'Installing other apps'
 brew cask install 4k-video-downloader emojipedia spotify #touchbarserver
+
+echo 'Installing fonts'
+brew cask install font-fira-code
 
 
 ## ************************* CONFIGURATION ********************************
