@@ -74,6 +74,8 @@
     <!-- > Read, Write and Edit Meta Information! -->
 - [FFmpeg](https://www.ffmpeg.org) - ```brew install ffmpeg```
     <!-- > FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. -->
+- [Caskroom-fonts](https://github.com/caskroom/homebrew-fonts) -  ```brew tap caskroom/fonts```
+    <!-- > Caskroom-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Mac. -->
 - [git-flow](https://github.com/nvie/gitflow) - ```brew install git-flow```
     <!-- > A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model. -->
 - [Git LFS](https://git-lfs.github.com) - ```brew install git-lfs```
@@ -167,9 +169,6 @@
 
 #### Fonts
 [Back to the beginning](#my-applications-for-macos)
-
-[Caskroom-fonts](https://github.com/caskroom/homebrew-fonts):  ```brew tap caskroom/fonts```
-    <!-- > Caskroom-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Mac. -->
 
 - [Fira Code](https://github.com/tonsky/FiraCode) - ```brew cask install font-fira-code```
     <!-- > A monospaced font with programming ligatures -->
