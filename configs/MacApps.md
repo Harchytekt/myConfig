@@ -1,11 +1,13 @@
 # My applications for macOS
 > 💡 All these apps won't be installed by [the script](../installation%20script/post_install.sh).
 
-<!-- TOC START min:1 max:3 link:true update:true -->
+<!-- TOC START min:1 max:4 link:true update:true -->
 - [My applications for macOS](#my-applications-for-macos)
   - [Mac App Store](#mac-app-store)
   - [Homebrew](#homebrew)
     - [Cask (Internet)](#cask-internet)
+      - [Apps](#apps)
+      - [Fonts](#fonts)
   - [Internet](#internet)
   - [Extensions Safari](#extensions-safari)
 
@@ -119,6 +121,8 @@
 ### Cask (Internet)
 [Back to the beginning](#my-applications-for-macos)
 
+#### Apps
+
 - 1password
 - 4k-video-downloader
 - angry-ip-scanner
@@ -160,6 +164,17 @@
 - spotify
 - [the-unarchiver](https://theunarchiver.com) - _(MacPaw bought the Unarchiver Jul 27th, 2017)_
 - touchbarserver
+
+#### Fonts
+[Back to the beginning](#my-applications-for-macos)
+
+```
+brew tap caskroom/fonts
+```
+
+- [Fira Code](https://github.com/tonsky/FiraCode) - ```brew cask install font-fira-code```
+    <!-- > A monospaced font with programming ligatures -->
+
 
 ## Internet
 [Back to the beginning](#my-applications-for-macos)

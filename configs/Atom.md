@@ -96,3 +96,4 @@ To the file [⇒ Here](keymap.cson)
 
 - UI Theme: One Dark
 - Syntax Theme: [Nord Atom Syntax](https://atom.io/themes/nord-atom-syntax)
+- Font Family: [Fira Code](https://github.com/tonsky/FiraCode)
