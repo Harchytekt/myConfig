@@ -1,0 +1,78 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+    defaultInputValue: "Project root"
+  "atom-beautify":
+    css:
+      beautify_on_save: true
+      end_with_newline: true
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+    java: {}
+  "atom-clock":
+    dateFormat: "H:mm, dddd D MMM"
+    locale: "fr"
+  autoprefixer:
+    runOnSave: true
+  "battery-status":
+    pollingInterval: 15
+    showRemainingTime: false
+  "color-picker":
+    uppercaseColorValues: true
+  core:
+    disabledPackages: [
+      "spell-check"
+      "atom-terminal-tab"
+    ]
+    packagesWithKeymapsDisabled: [
+      "tool-bar"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "nord-atom-syntax"
+    ]
+  editor:
+    fontFamily: "Fira Code"
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "b515fdac-fcab-4687-9bd9-7582f2abac6f"
+  latex:
+    engine: "xelatex"
+  "markdown-preview":
+    useGitHubStyle: true
+  "markdown-toc-auto":
+    max: 5
+  "markdown-writer": {}
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "nord-atom-syntax":
+    accessibility: {}
+  "nord-atom-ui": {}
+  "northem-dark-atom-ui": {}
+  "one-dark-ui": {}
+  organized:
+    enableToolbarSupport: false
+  "pdf-view":
+    fitToWidthOnOpen: true
+  "tool-bar":
+    fullWidth: false
+    visible: false
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
