@@ -40,6 +40,22 @@ brew tap caskroom/fonts
 
 ## Installation of the softwares
 
+echo 'Installing communication apps'
+install "Wire — Private Messenger"
+brew cask install skype
+
+
+echo 'Installing desktop tools'
+install "eBookBinder"
+install "GoodNotes"
+install "Keynote"
+install "Notability"
+install "Numbers"
+install "Pages"
+install "Quiver: The Programmer's Notebook"
+brew cask install calibre mactex
+
+
 echo 'Installing Dev tools'
 install "Xcode"
 sudo xcodebuild -license accept
@@ -55,38 +71,8 @@ go get -u github.com/nishanths/license
 license -update
 
 
-echo 'Installing utility apps'
-brew cask install 1password appcleaner bartender cryptomator duet #beardedspice
-brew cask install dropbox
-brew install webkit2png
-#install "Amphetamine"
-install "Better Rename 10"
-#install "EyeDrop"
-install "Paste – smart clipboard history & snippets manager"
-install "Snipposé"
-install "StuffIt 16"
-install "Wunderlist"
-
-
-echo "Installing security apps"
-brew cask install avast malwarebytes-anti-malware onyx windscribe
-install "1Blocker - Block ads, tracking scripts, anything"
-
-
-echo 'Installing desktop tools'
-install "eBookBinder"
-install "GoodNotes"
-install "Keynote"
-install "Notability"
-install "Numbers"
-install "Pages"
-install "Quiver: The Programmer's Notebook"
-brew cask install calibre mactex
-
-
-echo 'Installing communication apps'
-install "Wire — Private Messenger"
-brew cask install skype
+echo 'Installing fonts'
+brew cask install font-fira-code
 
 
 echo 'Installing photos, videos'
@@ -100,11 +86,26 @@ install "RulerSwift"
 install "Svgsus"
 
 
+echo "Installing security apps"
+brew cask install avast malwarebytes-anti-malware onyx windscribe
+install "1Blocker - Block ads, tracking scripts, anything"
+
+
+echo 'Installing utility apps'
+brew cask install 1password appcleaner bartender cryptomator duet #beardedspice
+brew cask install dropbox
+brew install webkit2png
+#install "Amphetamine"
+install "Better Rename 10"
+#install "EyeDrop"
+install "Paste – smart clipboard history & snippets manager"
+install "Snipposé"
+install "StuffIt 16"
+install "Wunderlist"
+
+
 echo 'Installing other apps'
 brew cask install 4k-video-downloader emojipedia spotify #touchbarserver
-
-echo 'Installing fonts'
-brew cask install font-fira-code
 
 
 ## ************************* CONFIGURATION ********************************
