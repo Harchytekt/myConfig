@@ -8,6 +8,7 @@
     - [Cask (Internet)](#cask-internet)
       - [Apps](#apps)
       - [Fonts](#fonts)
+      - [QuickLook Plugins](#quicklook-plugins)
   - [Internet](#internet)
   - [Extensions Safari](#extensions-safari)
 
@@ -179,11 +180,25 @@
 - [Fira Code](https://github.com/tonsky/FiraCode) - ```brew cask install font-fira-code```
     <!-- > A monospaced font with programming ligatures -->
 
+#### QuickLook Plugins
+[Back to the beginning](#my-applications-for-macos)
+
+- [ProvisionQL](https://github.com/ealeksandrov/ProvisionQL) - ```brew cask install provisionql```
+    <!-- > Preview iOS / macOS app and provision information -->
+- [QLColorCode](https://github.com/n8gray/QLColorCode) - ```brew cask install qlcolorcode```
+    <!-- > Preview source code files with syntax highlighting -->
+- [QLImageSize](https://github.com/Nyx0uf/qlImageSize) - ```brew cask install qlimagesize```
+    <!-- > Display the dimensions of an image and its file size in the title bar. It can also preview and generate Finder thumbnails for bpg and WebP. -->
+- [QLMarkdown](https://github.com/toland/qlmarkdown) - ```brew cask install qlmarkdown```
+    <!-- > Preview Markdown files -->
+- [QLStephen](https://github.com/whomwah/qlstephen) - ```brew cask install qlstephen```
+    <!-- > Preview plain text files without or with unknown file extension. Example: README, CHANGELOG, index.styl, etc. -->
 
 ## Internet
 [Back to the beginning](#my-applications-for-macos)
 
 - [Docker for Mac](https://www.docker.com/docker-mac)
+- [QuickLook plugin for BPG](https://github.com/Nyx0uf/qlImageSize)
 - [Rocket—the fastest emoji app for your Mac](http://matthewpalmer.net/rocket/)
 
 ## Extensions Safari
