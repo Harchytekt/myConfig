@@ -45,6 +45,9 @@
 ## Homebrew
 [Back to the beginning](#my-applications-for-macos)
 
+> To have some infos on the package (version,…), you can use this line before intalling:
+> ```brew info packageName```
+
 - [Ant](https://ant.apache.org) - ```brew install ant```
     <!-- > Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. -->
 - [Bash-Completion](https://github.com/scop/bash-completion) - ```brew install bash-completion```
@@ -123,6 +126,9 @@
 ### Cask (Internet)
 [Back to the beginning](#my-applications-for-macos)
 
+> To have some infos on the package (version,…), you can use this line before intalling:
+> ```brew cask info packageName```
+
 #### Apps
 
 - 1password
@@ -145,7 +151,7 @@
 - intellij-idea
 - [imageoptim](https://imageoptim.com/fr)
 - java
-- julia
+- julia - ```brew cask install julia```
 - [mactex](https://www.tug.org/mactex/)
 - malwarebytes-anti-malware
 - mamp
