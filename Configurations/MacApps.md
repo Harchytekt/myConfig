@@ -98,6 +98,8 @@
     <!-- > Mac App Store command line interface -->
 - [MySQL](https://www.mysql.com) - ```brew install mysql```
     <!-- > MySQL is an open-source relational database management system (RDBMS). -->
+- [Neovim](https://neovim.io) - ```brew install neovim```
+    <!-- > Literally the future of vim. -->
 - [NGINX](https://nginx.org/) - ```brew install nginx```
     <!-- > NGINX is a web server which can also be used as a reverse proxy, load balancer and HTTP cache. -->
 - [Node.js](https://nodejs.org) - ```brew install node```
