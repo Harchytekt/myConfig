@@ -27,7 +27,7 @@ To the file [⇒ Here](keymap.cson)
     > Display a customizable clock in the status bar.
 	- Time format: H:mm, dddd D MMM
 	- Locale: fr
-- [atom-fontawesome](https://atom.io/packages/atom-fontawesome)
+- [atom-fontawesome by _gorriecoe_](https://atom.io/packages/atom-fontawesome)
     > Provides Fontawesome autocompletes.
 - [autocomplete-php by _Azakur4_](https://atom.io/packages/autocomplete-php)
     > Autocomplete-php is a PHP provider for autocomplete+
@@ -56,6 +56,8 @@ To the file [⇒ Here](keymap.cson)
     > PlantUML language support for atom
 - [language-powershell by _jugglingnutcase_](https://atom.io/packages/language-powershell)
     > PowerShell language support for Atom
+- [language-viml by _Alhadis_](https://atom.io/packages/language-viml)
+    > Vim Script language support for Atom
 - [latex by _thomasjo_](https://atom.io/packages/latex)
     > Compile LaTeX documents from within Atom.
 	- Engine: XeLaTeX
