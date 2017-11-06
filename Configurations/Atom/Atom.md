@@ -27,6 +27,8 @@ To the file [⇒ Here](keymap.cson)
     > Display a customizable clock in the status bar.
 	- Time format: H:mm, dddd D MMM
 	- Locale: fr
+- [atom-fontawesome](https://atom.io/packages/atom-fontawesome)
+    > Provides Fontawesome autocompletes.
 - [autocomplete-php by _Azakur4_](https://atom.io/packages/autocomplete-php)
     > Autocomplete-php is a PHP provider for autocomplete+
 - [autocomplete-python by _autocomplete-python_](https://atom.io/packages/autocomplete-python)
