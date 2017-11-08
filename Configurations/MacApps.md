@@ -64,16 +64,16 @@
     - **Configuration:** _exercism configure --key=YOUR_API_KEY_
     - **Setting up Exercism CLI completion:**
         - **Install:**
-            ```bash
-            mkdir -p ~/.config/exercism/
-            curl http://cli.exercism.io/exercism_completion.bash > ~/.config/exercism/exercism_completion.bash
-            ```
+        ```bash
+        mkdir -p ~/.config/exercism/
+        curl http://cli.exercism.io/exercism_completion.bash > ~/.config/exercism/exercism_completion.bash
+        ```
         - **Add to ```.bash_profile```:**
-            ```
-            if [ -f ~/.config/exercism/exercism_completion.bash ]; then
-                - ~/.config/exercism/exercism_completion.bash
-            fi
-            ```
+        ```
+        if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+            - ~/.config/exercism/exercism_completion.bash
+        fi
+        ```
 - [ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/) - ```brew install exiftool```
     <!-- > Read, Write and Edit Meta Information! -->
 - [FFmpeg](https://www.ffmpeg.org) - ```brew install ffmpeg```
@@ -88,6 +88,13 @@
     <!-- > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. -->
 - [Gradle](https://www.gradle.org/) - ```brew install gradle```
     <!-- > Gradle is an open source build automation system that builds upon the concepts of Apache Ant and Apache Maven and introduces a Groovy-based domain-specific language (DSL) instead of the XML form used by Apache Maven for declaring the project configuration. -->
+- GraphViz, needed for [PlantUML](http://plantuml.com)
+```
+brew install libtool
+brew link libtool
+brew install graphviz
+brew link --overwrite graphviz
+```
 - [LibBPG](https://bellard.org/bpg/) - ```brew install libbpg```
     <!-- > BPG (Better Portable Graphics) is a new image format. -->
 - [Lua](http://www.lua.org) - ```brew install lua```
