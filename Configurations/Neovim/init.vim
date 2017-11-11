@@ -3,9 +3,7 @@
 "      Date Monday, November 6, 2017
 " == == == == == == == == == == == == ==
 
-" Installing Plug
-" curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-"    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" Call Plug
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Add Vim-Airline
@@ -52,7 +50,7 @@ Plug 'vim-scripts/javacomplete'
 
 " Jedi vim : Python completition
 " Don't forget to install this : sudo pip install jedi
-"Plug 'davidhalter/jedi-vim'
+Plug 'davidhalter/jedi-vim'
 
 " VIM-LaTeX : VIM as a LaTeX IDE
 Plug 'vim-latex/vim-latex'
@@ -137,7 +135,7 @@ set linespace=0                       " No extra spaces between rows
 set list
 set listchars=tab:»»,trail:•,nbsp:~   " Display invisible characters
 set nojoinspaces                      " Prevents inserting two spaces after punctuation on a join (J)
-set path+=**                          " fuzzy matching
+set path+=**                          " Fuzzy matching
 set relativenumber                    " Set the number in vim
 set scrolljump=5                      " Lines to scroll when cursor leaves screen
 set scrolloff=3                       " Minimum lines to keep above and below cursor
