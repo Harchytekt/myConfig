@@ -107,9 +107,9 @@ Plug 'mbbill/undotree'
 Plug 'vim-scripts/ZoomWin'
 
 " All of your Plugins must be added before the following line
-call plug#end()            " required
-filetype plugin indent on    " required
-syntax enable               " required
+call plug#end()                       " Required
+filetype plugin indent on             " Required
+syntax enable                         " Required
 
 
 
