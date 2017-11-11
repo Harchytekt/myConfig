@@ -26,7 +26,7 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 If you want to use Python and/or Ruby, you'll have to set them up.
 
 - Python
-> On macOS, install pip for Python 2.7.x: ```sudo easy_install-2.7 pip```
+> _On macOS_, install pip for Python 2.7.x: ```sudo easy_install-2.7 pip```
 
 ```pip install --user neovim``` and ```pip3 install --user neovim```
 
