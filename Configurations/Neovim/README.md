@@ -40,3 +40,11 @@ The configuration file for Neovim has to be located at ```~/.config/nvim/init.vi
 You can see mine [here](init.vim).
 
 As it is my first attempt to configure Neovim, I've been very inspired by [Guillaume Quittet _(gquittet)_](https://github.com/gquittet)'s [one](https://github.com/gquittet/myworld/blob/master/Configurations/neovim/init.vim).
+
+## Cheat Sheets
+
+Neovim _(or Vim in general)_ uses particular commands.  
+Here are some help:
+- [DuckDuckGo Cheat Sheet](https://duckduckgo.com/?q=vim+cheat+sheet&iax=cheatsheet&ia=cheatsheet#)
+- [Vim Wikia- Moving around](http://vim.wikia.com/wiki/Moving_around)
+- [Vim Cheat Sheet](Vim.png)
