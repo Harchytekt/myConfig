@@ -51,6 +51,8 @@
 
 - [Ant](https://ant.apache.org) - ```brew install ant```
     <!-- > Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. -->
+- [aria2]() - ```brew install aria2```
+    <!-- > aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces. -->
 - [Bash-Completion](https://github.com/scop/bash-completion) - ```brew install bash-completion```
     <!-- > Programmable completion functions for bash -->
 - [Cask](https://caskroom.github.io) - ```brew tap caskroom/cask```
