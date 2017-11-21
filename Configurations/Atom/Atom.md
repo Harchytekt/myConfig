@@ -101,5 +101,5 @@ To the file [⇒ Here](keymap.cson)
 [Back to the beginning](#my-atom-configuration)
 
 - UI Theme: One Dark
-- Syntax Theme: [Nord Atom Syntax](https://atom.io/themes/nord-atom-syntax)
+- Syntax Theme: One Dark
 - Font Family: [Fira Code](https://github.com/tonsky/FiraCode)
