@@ -103,3 +103,4 @@ To the file [⇒ Here](keymap.cson)
 - UI Theme: One Dark
 - Syntax Theme: One Dark
 - Font Family: [Fira Code](https://github.com/tonsky/FiraCode)
+- Bracket Matcher --> Highlight Matching Line Number
