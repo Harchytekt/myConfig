@@ -21,8 +21,8 @@ To the file [⇒ Here](keymap.cson)
 	- Default input value: Project root
 - [atom-alignment by _Freyskeyd_](https://atom.io/packages/atom-alignment)
     > A simple key-binding for aligning multi-line and multiple selections in Atom (Based on the sublime text plugin)
-- [atom-beautify by _Glavin001_](https://atom.io/packages/atom-beautify)
-    > Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
+- [atom-bootstrap4 by _mdegoo_](https://atom.io/packages/atom-bootstrap4)
+    > Bootstrap4 Support with snippets and autocompletion.
 - [atom-clock by _b3by_](https://atom.io/packages/atom-clock)
     > Display a customizable clock in the status bar.
 	- Time format: H:mm, dddd D MMM
