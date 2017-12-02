@@ -1,7 +1,7 @@
-" == == == == == == == == == == == == ==
+" == == == == == == == == == == == == == ==
 "        Coded by Alexandre DUCOBU
-"      Date Wednesday, November 22, 2017
-" == == == == == == == == == == == == ==
+"      Date SATURDAY, DECEMBER 2, 2017
+" == == == == == == == == == == == == == ==
 
 " Call Plug
 call plug#begin('~/.local/share/nvim/plugged')
@@ -46,14 +46,23 @@ Plug 'dpelle/vim-Grammalecte'
 Plug 'nathanaelkane/vim-indent-guides'
 
 " JavaComplete2
-" Plug 'artur-shaik/vim-javacomplete2'
+Plug 'artur-shaik/vim-javacomplete2'
 
 " Jedi vim : Python completition
 " Don't forget to install this : sudo pip install jedi
 Plug 'davidhalter/jedi-vim'
 
-" Markdown Preview
-Plug 'suan/vim-instant-markdown'
+" Markdown
+function! BuildComposer(info)
+    if a:info.status != 'unchanged' || a:info.force
+        if has('nvim')
+            !cargo build --release
+        else
+            !cargo build --release --no-default-features --features json-rpc
+        endif
+    endif
+endfunction
+Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
 
 " Matchit : useful to switch between the start and the end of a function
 Plug 'tmhedberg/matchit'
@@ -70,8 +79,20 @@ Plug 'myusuf3/numbers.vim'
 " PHP Autocomplete
 " Plug 'shawncplus/phpcomplete.vim'
 
+" Plantuml-previewer
+Plug 'weirongxu/plantuml-previewer.vim'
+
+" Plantuml-syntax
+Plug 'aklt/plantuml-syntax'
+
+" Dependency
+Plug 'tyru/open-browser.vim'
+
 " Surround
 Plug 'tpope/vim-surround'
+
+" Table mode
+Plug 'dhruvasagar/vim-table-mode'
 
 " Tabular : useful for great alignement
 Plug 'godlygeek/tabular'
@@ -86,6 +107,7 @@ Plug 'ternjs/tern_for_vim'
 
 " VimTex
 " Plug 'lervag/vimtex'
+
 " NVIM-TypeScript
 Plug 'mhartington/nvim-typescript'
 
@@ -101,7 +123,6 @@ Plug 'vim-scripts/ZoomWin'
 
 " All of your Plugins must be added before the following line
 call plug#end()                       " Required
-filetype plugin indent on             " Required
 syntax enable                         " Required
 
 
@@ -109,7 +130,7 @@ syntax enable                         " Required
 " == == == == == == == == == == == == ==
 " Global configuration
 " == == == == == == == == == == == == ==
-"
+
 set autowrite                         " Save automatically all the buffers in vim
 set backup
 set colorcolumn=81                    " Set the 80 character column
@@ -129,6 +150,7 @@ set splitright                        " Puts new vsplit windows to the right of 
 set wildmenu                          " Show list instead of just completing
 set wildmode=list:longest,full        " Command <Tab> completion, list matches, then longest common part, then all.
 set winminheight=0                    " Windows can be 0 line high
+
 " Folding
 set foldenable                        " Auto fold code
 set foldmethod=syntax                 " Fold are defined by syntax highlighting
@@ -141,11 +163,6 @@ set autoindent                        " Does not interfere with other indentatio
 " Invisible characters
 set list
 set listchars=tab:»»,trail:•,nbsp:~   " Display invisible characters
-
-" Vim directories
-set backupdir=~/.local/share/nvim/backup//
-set directory=~/.local/share/nvim/swap//
-set viewdir=~/.local/share/nvim/views//
 
 " Enable Omni Completiton
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
@@ -184,6 +201,7 @@ set wrap linebreak                    " Set wrapping with soft wrap (set wm=2 =>
 " == == == == == == == == == == == == ==
 " Keymap configuration
 " == == == == == == == == == == == == ==
+
 let mapleader = ","
 let g:mapleader = ","
 
@@ -301,8 +319,14 @@ let g:numbers_exclude = ['unite', 'startify', 'w3m', 'vimshell', 'tagbar', 'gund
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 
+" vim-table-mode
+" Compatibility with markdown
+let g:table_mode_corner='|'
+
 " Undo tree
 let g:undotree_SetFocusWhenToggle=1
+
+
 
 " == == == == == == == == == == == == ==
 " Spellchecking
@@ -312,10 +336,13 @@ map <F9> <Esc>:silent setlocal spell! spelllang=en<CR>
 map <F10> <Esc>:silent setlocal spell! spelllang=fr<CR>
 set spellsuggest=best
 
+
+
 " == == == == == == == == == == == == ==
 " Theme
 " == == == == == == == == == == == == ==
 " Set the full color compatibility for vim and terminal
+
 syntax on
 color dracula
 
