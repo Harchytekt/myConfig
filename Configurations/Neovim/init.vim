@@ -29,7 +29,7 @@ Plug 'tpope/vim-dispatch'
 Plug 'dracula/vim'
 
 " Easy Motion : faster move in vim
-" Press <Leader> <Leader> and the letter that you want to go
+" Press <Leader> <Leader> and the letter you want to reach
 Plug 'easymotion/vim-easymotion'
 
 " Emmet : new ZenCoding
@@ -48,8 +48,8 @@ Plug 'nathanaelkane/vim-indent-guides'
 " JavaComplete2
 Plug 'artur-shaik/vim-javacomplete2'
 
-" Jedi vim : Python completition
-" Don't forget to install this : sudo pip install jedi
+" Jedi vim : Python completion
+" Don't forget to install jedi: sudo pip install jedi
 Plug 'davidhalter/jedi-vim'
 
 " Markdown
@@ -98,7 +98,7 @@ Plug 'dhruvasagar/vim-table-mode'
 Plug 'godlygeek/tabular'
 
 " TagBar
-" Install ctags before use it
+" Install ctags before using it
 Plug 'majutsushi/tagbar'
 
 " Tern
@@ -117,11 +117,11 @@ Plug 'leafgarland/typescript-vim'
 " UndoTree : See all undos
 Plug 'mbbill/undotree'
 
-" ZoomWin : Show a buffer only without kill the others
+" ZoomWin : Show a buffer without killing the others
 " Use <C-w>o to show and hide buffer
 Plug 'vim-scripts/ZoomWin'
 
-" All of your Plugins must be added before the following line
+" All of your Plugins must be added before this line
 call plug#end()                       " Required
 syntax enable                         " Required
 
@@ -139,14 +139,14 @@ set encoding=utf-8
 set hidden                            " Any buffer can be hidden
 set history=1000                      " Set a huge history
 set linespace=0                       " No extra spaces between rows
-set nojoinspaces                      " Prevents inserting two spaces after punctuation on a join (J)
+set nojoinspaces                      " Prevent inserting two spaces after punctuation on a join (J)
 set path+=**                          " Fuzzy matching
 set relativenumber                    " Set the number in vim
 set scrolljump=5                      " Lines to scroll when cursor leaves screen
 set scrolloff=3                       " Minimum lines to keep above and below cursor
 set showmatch                         " Show current brackets
-set splitbelow                        " Puts new split windows to the bottom of the current
-set splitright                        " Puts new vsplit windows to the right of the current
+set splitbelow                        " Put new split windows to the bottom of the current
+set splitright                        " Put new vsplit windows to the right of the current
 set wildmenu                          " Show list instead of just completing
 set wildmode=list:longest,full        " Command <Tab> completion, list matches, then longest common part, then all.
 set winminheight=0                    " Windows can be 0 line high
@@ -158,7 +158,7 @@ set foldmethod=syntax                 " Fold are defined by syntax highlighting
 " Indentation
 " Don't enable smarindent or cindent withfiletype plugin indent on
 filetype plugin indent on             " Indentation based on filetype
-set autoindent                        " Does not interfere with other indentation settings
+set autoindent                        " Do not interfere with other indentation settings
 
 " Invisible characters
 set list
@@ -275,9 +275,6 @@ vmap <Leader>t" :Tabularize /"<CR>
 " Tagbar
 map <leader>tt :TagbarToggle<CR>
 
-" Undo tree
-map <Leader>u :UndotreeToggle<CR>
-
 
 
 " == == == == == == == == == == == == ==
@@ -288,7 +285,7 @@ map <Leader>u :UndotreeToggle<CR>
 let g:airline#extensions#tabline#enabled = 1
 
 " ALE
-" Lint only When I save the file
+" Lint only when saving the file
 " let g:ale_lint_on_text_changed = 'never'
 " Linters
 let g:ale_linters = {
