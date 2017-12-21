@@ -5,6 +5,7 @@ alias mkdir='mkdir -p'
 alias mysql='mysql -u root -proot'
 alias capture='webkit2png --ignore-ssl-check -F -D ~/Desktop'
 alias pip3='python3 -m pip'
+alias battery='pmset -g batt'
 
 
 ####################################
