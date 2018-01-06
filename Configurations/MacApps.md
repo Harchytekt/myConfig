@@ -55,6 +55,8 @@
     <!-- > aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces. -->
 - [Bash-Completion](https://github.com/scop/bash-completion) - ```brew install bash-completion```
     <!-- > Programmable completion functions for bash -->
+    - [mycli](https://www.mycli.net) - ```brew install mycli```
+    	<!-- > MyCLI is a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. -->
 - [Cask](https://caskroom.github.io) - ```brew tap caskroom/cask```
     <!-- > Homebrew-Cask extends Homebrew and brings its elegance, simplicity, and speed to macOS applications and large binaries alike. -->
 - [CLISP](http://clisp.org) - ```brew install clisp```
