@@ -84,6 +84,7 @@
     <!-- > FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. -->
 - [Caskroom-fonts](https://github.com/caskroom/homebrew-fonts) -  ```brew tap caskroom/fonts```
     <!-- > Caskroom-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Mac. -->
+- [git](https://git-scm.com) - ```brew install git```
 - [git-flow](https://github.com/nvie/gitflow) - ```brew install git-flow```
     <!-- > A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model. -->
 - [Git LFS](https://git-lfs.github.com) - ```brew install git-lfs```

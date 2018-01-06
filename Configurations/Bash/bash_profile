@@ -5,10 +5,15 @@ if [ -f ~/.bash_path ]; then
 fi
 
 #Link to Bash completion
-#if [ -f $(brew --prefix)/etc/bash_completion ]; then
-#	. $(brew --prefix)/etc/bash_completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+#if [ -f $(brew --prefix)/etc/bash_completion.d/git-completion.bash ]; then
+#    . $(brew --prefix)/etc/bash_completion.d/git-completion.bash
 #fi
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+#if [ -f `brew --prefix`/etc/bash_completion.d/git-flow-completion.bash ]; then
+#    . `brew --prefix`/etc/bash_completion.d/git-flow-completion.bash
+#fi
 
 #File containing all the aliases
 if [ -f ~/.bash_aliases ]; then
