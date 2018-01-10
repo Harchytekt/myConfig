@@ -56,7 +56,7 @@
 - [Bash-Completion](https://github.com/scop/bash-completion) - ```brew install bash-completion```
     <!-- > Programmable completion functions for bash -->
     - [mycli](https://www.mycli.net) - ```brew install mycli```
-    	<!-- > MyCLI is a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. -->
+        <!-- > MyCLI is a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. -->
 - [Cask](https://caskroom.github.io) - ```brew tap caskroom/cask```
     <!-- > Homebrew-Cask extends Homebrew and brings its elegance, simplicity, and speed to macOS applications and large binaries alike. -->
 - [CLISP](http://clisp.org) - ```brew install clisp```
@@ -133,6 +133,8 @@ brew link --overwrite graphviz
             <!-- > Pygments is a syntax highlighting package written in Python. -->
         - pytest - ```pip install pytest pytest-cache```
             <!-- > A testing tool that will give you more flexibility over running your unit tests. -->
+- [rust](https://www.rust-lang.org/) - ```brew install rust```
+    <!-- > Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. -->
 - [webkit2png](http://www.paulhammond.org/webkit2png/) - ```brew install webkit2png```
     <!-- > webkit2png is a command line tool that creates screenshots of webpages -->
 - [WebP](https://developers.google.com/speed/webp/) - ```brew install webp```
