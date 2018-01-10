@@ -1,37 +1,49 @@
 alias about='/Users/alexandre/.MyScripts/about'
 alias cdbrew='cd /usr/local/Cellar'
+alias cp='cp -v'
+alias mv='mv -v'
+alias rm='rm -v'
 alias ls='ls -G'
 alias la='ls -al'
 alias lat='ls -lat'
 alias ll='ls -l'
 alias lt='ls -lt'
 alias mkdir='mkdir -p'
-#alias mysql='mysql -u root -proot'
 alias mysql='mycli -u root -proot'
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 alias capture='webkit2png --ignore-ssl-check -F -D ~/Desktop'
 alias pip3='python3 -m pip'
 alias battery='pmset -g batt'
 
+# Generate password
+
+genPwd() {
+    pwd=`env LC_CTYPE=C tr -dc "a-zA-Z0-9-_\$\?\!\*\#\=\.\&\@\"\%\'\(\)\+\,\-\/\:\;\<\=\>\~\^\_" < /dev/urandom | head -c "$@"`
+    echo $pwd
+    echo $pwd | pbcopy | echo '=> Password copied to pasteboard.'
+}
+
+alias newPwd=genPwd
 
 ####################################
 #Alias for Java (we need a function for the parameters)
 
 javaParam() {
-	#use the given param to compile and run Java code
-	if [ "$1" = "$" ]; then
-		javac *.java
-		java Main
-	else
-		javac $1.java
-		java $1
-	fi
+    #use the given param to compile and run Java code
+    if [ "$@" = "$" ]; then
+        javac *.java
+        java Main
+    else
+        javac "$@".java
+        java "$@"
+    fi
 }
 
 alias jv=javaParam
 
 javacParam() {
         #use the given param to compile Java code
-        if [ "$1" = "$" ]; then
+        if [ "$@" = "$" ]; then
                 javac *.java
         fi
 }
@@ -41,3 +53,5 @@ alias jvc=javacParam
 
 #Example
 #alias idea="open -a 'IntelliJ IDEA'"
+
+alias at="open -a 'Atom'"
