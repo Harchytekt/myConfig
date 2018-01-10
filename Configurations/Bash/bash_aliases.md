@@ -112,7 +112,34 @@ Now drawing from 'AC Power'
 
 ## Git
 
+### addremote
+> Alias for ```git remote add origin $1```, which adds a remote to the repo.
+
+### add
+> Alias for ```git add```
+
+### commit
+> Alias for ```git commit -t $1```
+
 ### git lg (no in bash_aliases)
 ```bash
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ```
+
+### init
+> Alias for ```git init```
+
+### merge
+> Alias for ```git merge --no-ff $1```
+
+### newbranch
+> Alias for ```git checkout -b $1```
+
+### newgithub
+> Alias to add readme and gitignore, initialize the repo, link it to a GitHub repo and then commit it all.
+
+### pull
+> Alias for ```git pull origin $1```
+
+### push
+> Alias for ```git push origin $1```
