@@ -167,6 +167,7 @@ brew link --overwrite graphviz
 - [iina](https://lhc70000.github.io/iina/)
 - intellij-idea
 - [imageoptim](https://imageoptim.com/fr)
+- [Itsycal](https://www.mowglii.com/itsycal/)
 - java
 - julia - ```brew cask install julia```
 - [mactex](https://www.tug.org/mactex/)
