@@ -20,13 +20,16 @@ alias rm='rm -v'
 # Git
 alias addremote=gitAddRemote
 alias add='git add'
+alias branch='git branch'
 alias commit=gitCommit
 alias init='git init'
 alias merge=gitMerge
+alias mvbranch=gitChangeBranch
 alias newbranch=gitNewBranch
 alias newgithub=githubNewFiles
 alias pull=gitPull
 alias push=gitPush
+alias rmbranch=gitDeleteBranch
 
 # Programming
 #alias idea="open -a 'IntelliJ IDEA'"
@@ -50,8 +53,14 @@ alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pa
 gitAddRemote() {
     git remote add origin $1
 }
+gitChangeBranch() {
+    git checkout "$1"
+}
 gitCommit() {
     git commit -m "$1"
+}
+gitDeleteBranch() {
+    git branch -d "$1"
 }
 gitMerge() {
     git merge --no-ff $1

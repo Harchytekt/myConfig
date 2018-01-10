@@ -71,6 +71,9 @@ These are the different aliases that I use:
 ### add
 > Alias for ```git add```
 
+### branch
+> Alias for ```git branch```
+
 ### commit
 > Alias for ```git commit -t $1```
 
@@ -85,17 +88,26 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ### merge
 > Alias for ```git merge --no-ff $1```
 
+### mvbranch
+> Alias for ```git checkout $1```
+
 ### newbranch
 > Alias for ```git checkout -b $1```
 
 ### newgithub
 > Alias to add readme and gitignore, initialize the repo, link it to a GitHub repo and then commit it all.
 
+### mvbranch
+> Alias for ```git checkout $1```
+
 ### pull
 > Alias for ```git pull origin $1```
 
 ### push
 > Alias for ```git push origin $1```
+
+### rmbranch
+> Alias for ```git branch -d $1```
 
 <a name="prog"></a>
 ## Programming
