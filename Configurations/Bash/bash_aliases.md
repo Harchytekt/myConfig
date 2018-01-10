@@ -2,36 +2,10 @@
 
 These are the different aliases that I use:
 
-- **[Tools](#tools)**
 - **[Finder and folders](#ff)**
+- **[Git](#git)**
 - **[Programming](#prog)**
-
-<a name="tools"></a>
-## Tools
-
-### about
-> This alias calls the [about script](https://github.com/Harchytekt/about).
-
-### battery
-> This alias calls ```pmset -g batt```, a native command that returns battery status.
-
-Example:
-
-```bash
-$ battery
-Now drawing from 'AC Power'
- -InternalBattery-0 (id=4522083)    100%; discharging; 8:30 remaining present: true
-```
-
-### capture
-> It's used to capture webpages with [webkit2png](http://www.paulhammond.org/webkit2png/).
-
-### newPWD
-> Generate a complex password. Its length has to be given as parameter.
-> It will be saved to the clipboard.
-
-### pubkey
-> Gets the RSA public key and saved it to the clipboard.
+- **[Tools](#tools)**
 
 <a name="ff"></a>
 ## Finder and folders
@@ -88,28 +62,7 @@ Now drawing from 'AC Power'
 ### rm
 > Alias for ```rm -v```, which will be verbose when deleting files, showing them as they are removed.
 
-<a name="prog"></a>
-## Programming
-
-### at
-> Alias to open Atom from the Terminal.
-
-> When using ```at .```, Atom will be opened in the current folder.
-
-### jv
-> Simply compile and run Java programmes.
-
-> Example: ```jv $``` is used to compile all java files from the directory, and runs Main.
-
-### jvc
-> Simply compile the given java file.
-
-### mysql
-> Uses [mycli](https://www.mycli.net) and login as **root**.
-
-### pip3
-> Alias for ```python3 -m pip```
-
+<a name="git"></a>
 ## Git
 
 ### addremote
@@ -143,3 +96,52 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 ### push
 > Alias for ```git push origin $1```
+
+<a name="prog"></a>
+## Programming
+
+### at
+> Alias to open Atom from the Terminal.
+
+> When using ```at .```, Atom will be opened in the current folder.
+
+### jv
+> Simply compile and run Java programmes.
+
+> Example: ```jv $``` is used to compile all java files from the directory, and runs Main.
+
+### jvc
+> Simply compile the given java file.
+
+### mysql
+> Uses [mycli](https://www.mycli.net) and login as **root**.
+
+### pip3
+> Alias for ```python3 -m pip```
+
+<a name="tools"></a>
+## Tools
+
+### about
+> This alias calls the [about script](https://github.com/Harchytekt/about).
+
+### battery
+> This alias calls ```pmset -g batt```, a native command that returns battery status.
+
+Example:
+
+```bash
+$ battery
+Now drawing from 'AC Power'
+ -InternalBattery-0 (id=4522083)    100%; discharging; 8:30 remaining present: true
+```
+
+### capture
+> It's used to capture webpages with [webkit2png](http://www.paulhammond.org/webkit2png/).
+
+### newPWD
+> Generate a complex password. Its length has to be given as parameter.
+> It will be saved to the clipboard.
+
+### pubkey
+> Gets the RSA public key and saved it to the clipboard.
