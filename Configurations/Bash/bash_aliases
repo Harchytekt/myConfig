@@ -60,12 +60,6 @@ githubNewFiles() {
     git commit -m 'First commit'
     git push -u origin master
 }
-gitPull() {
-    git pull origin $1
-}
-gitPush() {
-    git push origin $1
-}
 
 # Programming
 javaParam() {
