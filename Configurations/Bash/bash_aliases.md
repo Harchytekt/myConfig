@@ -36,11 +36,27 @@ Now drawing from 'AC Power'
 <a name="ff"></a>
 ## Finder and folders
 
+## ..
+> Alias for ```cd ..```
+
+## ...
+> Alias for ```cd ../..```
+
 ### cdbrew
 > This command is only used to quickly go to the brew folder.
 
 ### cp
 > Alias for ```cp -v```, which will cause cp to be verbose, showing files as they are copied.
+
+### desk
+> Alias for ```cd ~/Desktop```
+
+### doc
+> Alias for ```cd ~/Documents```
+
+### finder
+> Alias for ```open -a Finder```, which will open the Finder in the current
+> folder or in the given folder.
 
 ### la
 > Alias for ```ls -la```
@@ -62,6 +78,12 @@ Now drawing from 'AC Power'
 
 ### mv
 > Alias for ```mv -v```, which will cause mv to be verbose, showing files after they are moved.
+
+### o
+> Alias for ```open```
+
+### oo
+> Alias for ```open .```
 
 ### rm
 > Alias for ```rm -v```, which will be verbose when deleting files, showing them as they are removed.
@@ -87,3 +109,10 @@ Now drawing from 'AC Power'
 
 ### pip3
 > Alias for ```python3 -m pip```
+
+## Git
+
+### git lg (no in bash_aliases)
+```bash
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+```

@@ -14,6 +14,13 @@ alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pa
 alias capture='webkit2png --ignore-ssl-check -F -D ~/Desktop'
 alias pip3='python3 -m pip'
 alias battery='pmset -g batt'
+alias o="open"
+alias oo="open ."
+alias ..="cd .."
+alias ...="cd ../.."
+alias desk='cd ~/Desktop'
+alias doc='cd ~/Documents'
+alias finder='open -a Finder'
 
 # Generate password
 
@@ -26,10 +33,10 @@ genPwd() {
 alias newPwd=genPwd
 
 ####################################
-#Alias for Java (we need a function for the parameters)
+# Alias for Java (we need a function for the parameters)
 
 javaParam() {
-    #use the given param to compile and run Java code
+    # Use the given param to compile and run Java code
     if [ "$@" = "$" ]; then
         javac *.java
         java Main
@@ -42,10 +49,10 @@ javaParam() {
 alias jv=javaParam
 
 javacParam() {
-        #use the given param to compile Java code
-        if [ "$@" = "$" ]; then
-                javac *.java
-        fi
+    # Use the given param to compile Java code
+    if [ "$@" = "$" ]; then
+        javac *.java
+    fi
 }
 
 alias jvc=javacParam
