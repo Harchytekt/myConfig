@@ -11,7 +11,7 @@ These files are:
 - **[bash_prompt](#prompt)**    
 
 <a name="aliases"></a>
-### bash_aliases
+### bash_aliases- [(more explanations)](bash_aliases.md)
 > This file contains all the aliases I currently use.  
 > 
 > You can find the [about script on my GitHub](https://github.com/Harchytekt/about).  
