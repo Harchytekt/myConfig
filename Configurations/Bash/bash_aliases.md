@@ -1,4 +1,4 @@
-# Bash aliases
+# Bash aliases 👥
 
 These are the different aliases that I use:
 
@@ -66,7 +66,7 @@ These are the different aliases that I use:
 ## Git
 
 ### addremote
-> Alias for ```git remote add origin $1```, which adds a remote to the repo.
+> Alias for ```git remote add origin```, which adds a remote to the repo.
 
 ### add
 > Alias for ```git add```
@@ -75,7 +75,10 @@ These are the different aliases that I use:
 > Alias for ```git branch```
 
 ### commit
-> Alias for ```git commit -t $1```
+> Alias for ```git commit -t```
+
+### gdiff
+> Alias for ```git diff```
 
 ### git lg (no in bash_aliases)
 ```bash
@@ -86,28 +89,28 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 > Alias for ```git init```
 
 ### merge
-> Alias for ```git merge --no-ff $1```
+> Alias for ```git merge --no-ff```
 
 ### mvbranch
-> Alias for ```git checkout $1```
+> Alias for ```git checkout```
 
 ### newbranch
-> Alias for ```git checkout -b $1```
+> Alias for ```git checkout -b```
 
 ### newgithub
 > Alias to add readme and gitignore, initialize the repo, link it to a GitHub repo and then commit it all.
 
 ### mvbranch
-> Alias for ```git checkout $1```
+> Alias for ```git checkout```
 
 ### pull
-> Alias for ```git pull origin $1```
+> Alias for ```git pull```
 
 ### push
-> Alias for ```git push origin $1```
+> Alias for ```git push```
 
 ### rmbranch
-> Alias for ```git branch -d $1```
+> Alias for ```git branch -d```
 
 <a name="prog"></a>
 ## Programming
