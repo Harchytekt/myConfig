@@ -33,6 +33,13 @@ If you want to use Python and/or Ruby, you'll have to set them up.
 -  Ruby  
 ```sudo gem install neovim```
 
+### markdown-composer
+
+To use _markdown-composer_, you'll have to got to the ```~/.local/share/nvim/plugged/vim-markdown-composer``` folder,
+and execute this line: ```cargo build --release```.
+
+> Rust has to be installed on your computer !
+
 ## Configuration
 
 The configuration file for Neovim has to be located at ```~/.config/nvim/init.vim```
