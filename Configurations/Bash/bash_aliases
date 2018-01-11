@@ -30,6 +30,7 @@ alias newgithub=githubNewFiles
 alias pull='git pull'
 alias push='git push'
 alias rmbranch='git branch -d'
+alias status='git status'
 
 # Programming
 #alias idea="open -a 'IntelliJ IDEA'"

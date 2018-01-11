@@ -112,6 +112,9 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ### rmbranch
 > Alias for ```git branch -d```
 
+### status
+> Alias for ```git status```
+
 <a name="prog"></a>
 ## Programming
 
