@@ -44,7 +44,7 @@ alias pip3='python3 -m pip'
 alias about='/Users/alexandre/.MyScripts/about'
 alias battery='pmset -g batt'
 alias capture='webkit2png --ignore-ssl-check -F -D ~/Desktop'
-alias newPwd=genPwd
+alias newpwd=genPwd
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
 
