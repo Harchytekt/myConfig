@@ -3,7 +3,7 @@ Author: Alexandre Ducobu
 Date: Ven 12 jan 2018 19:14:14 CET
 -->
 
-# Cheat Sheet for _(Neo)_vim
+# Cheat Sheet for _(Neo)_ vim
 
 > To update your plugins _(if you're using the_ Plug _manager)_, the command is ```:PlugUpdate```
 
