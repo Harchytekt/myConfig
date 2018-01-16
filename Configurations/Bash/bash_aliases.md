@@ -75,7 +75,10 @@ These are the different aliases that I use:
 > Alias for ```git branch```
 
 ### commit
-> Alias for ```git commit -t```
+> Alias for ```git commit -m```
+
+> Remark: To add a summary and a description from the CLI,  use:  
+```commit "My summary" -m "First description line" -m "Second description line"```
 
 ### gdiff
 > Alias for ```git diff```
