@@ -83,7 +83,7 @@ These are the different aliases that I use:
 ### gdiff
 > Alias for ```git diff```
 
-### git lg (no in bash_aliases)
+### git lg (not in bash_aliases)
 ```bash
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ```
