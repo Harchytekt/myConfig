@@ -143,7 +143,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ### about
 > This alias calls the [about script](https://github.com/Harchytekt/about).
 
-### battery
+### batt
 > This alias calls ```pmset -g batt```, a native command that returns battery status.
 
 Example:
