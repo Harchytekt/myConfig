@@ -79,16 +79,18 @@ These are the different aliases that I use:
 > Alias for ```git branch -d```
 
 ### gc
-> Alias for ```git commit```
+> Alias for ```git commit```  
+
+> Remark: It's used to add a summary and a descritpion from the CLI _(e.g. from Neovim)_
 
 ### gcb
 > Alias for ```git checkout -b```
 
 ### gcm
-> Alias for ```git commit -m```
+> Alias for ```git commit -m```  
 
-> Remark: To add a summary and a description from the CLI,  use:  
-```commit "My summary" -m "First description line" -m "Second description line"```
+> Remark: To add a summary and a description from the CLI, use:  
+```gcm "My summary" -m "First description line" -m "Second description line"```
 
 ### gco
 > Alias for ```git checkout```
