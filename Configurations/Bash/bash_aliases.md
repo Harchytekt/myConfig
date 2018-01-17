@@ -103,9 +103,6 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ### newgithub
 > Alias to add readme and gitignore, initialize the repo, link it to a GitHub repo and then commit it all.
 
-### mvbranch
-> Alias for ```git checkout```
-
 ### pull
 > Alias for ```git pull```
 
