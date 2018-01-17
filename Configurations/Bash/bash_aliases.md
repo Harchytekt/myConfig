@@ -64,6 +64,7 @@ These are the different aliases that I use:
 
 <a name="git"></a>
 ## Git
+> Source of inspiration: [Oh My ZSH!](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
 
 ### ga
 > Alias for ```git add```
