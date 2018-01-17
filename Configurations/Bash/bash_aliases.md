@@ -96,7 +96,10 @@ These are the different aliases that I use:
 > Alias for ```git checkout```
 
 ### gd
-> Alias for ```git diff```
+> Alias for ```git diff```, used if the file isn't staged yet
+
+### gdc
+> Alias for ```git diff --cached```, used if the file is already staged
 
 ### gi
 > Alias for ```git init```
