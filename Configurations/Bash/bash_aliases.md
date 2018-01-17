@@ -65,55 +65,64 @@ These are the different aliases that I use:
 <a name="git"></a>
 ## Git
 
-### addremote
-> Alias for ```git remote add origin```, which adds a remote to the repo.
-
-### add
+### ga
 > Alias for ```git add```
 
-### branch
+### gaa
+> Alias for ```git add -A```
+
+### gb
 > Alias for ```git branch```
 
-### commit
+### gbd
+> Alias for ```git branch -d```
+
+### gc
+> Alias for ```git commit```
+
+### gcb
+> Alias for ```git checkout -b```
+
+### gcm
 > Alias for ```git commit -m```
 
 > Remark: To add a summary and a description from the CLI,  use:  
 ```commit "My summary" -m "First description line" -m "Second description line"```
 
+### gco
+> Alias for ```git checkout```
+
 ### gd
 > Alias for ```git diff```
 
-### git lg (not in bash_aliases)
+### gi
+> Alias for ```git init```
+
+### gl
+> Alias for ```git pull```
+
+### glg
+> Alias for ```git lg```  
+
+> Not in bash_aliases:  
 ```bash
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 ```
 
-### init
-> Alias for ```git init```
-
-### merge
+### gm
 > Alias for ```git merge --no-ff```
 
-### mvbranch
-> Alias for ```git checkout```
+### gp
+> Alias for ```git push```
 
-### newbranch
-> Alias for ```git checkout -b```
+### grao
+> Alias for ```git remote add origin```, which adds a remote to the repo.
+
+### gs
+> Alias for ```git status```
 
 ### newgithub
 > Alias to add readme and gitignore, initialize the repo, link it to a GitHub repo and then commit it all.
-
-### pull
-> Alias for ```git pull```
-
-### push
-> Alias for ```git push```
-
-### rmbranch
-> Alias for ```git branch -d```
-
-### status
-> Alias for ```git status```
 
 <a name="prog"></a>
 ## Programming
