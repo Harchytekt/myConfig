@@ -101,13 +101,13 @@ Date: Ven 12 jan 2018 19:14:14 CET
 
 ## Other
 
-| Command                   | Description                                                         |
-|---------------------------|---------------------------------------------------------------------|
-| ```,tm```                 | Toggle the _table_mode_ _(has to be deactivated to save the file)_  |
-| ```!!date```              | Write the current date and time at the next line from the cursor    |
-| ```!!date v+3d```         | Write the date and time in 3 days at the newt line from the cursor  |
-| ```!!date v-3d```         | Write the date and time 3 days ago at the newt line from the cursor |
-| ```nvim -d file1 file2``` | Open two files in vim to compare them                               |
+| Command                   | Description                                                        |
+|---------------------------|--------------------------------------------------------------------|
+| ```,tm```                 | Toggle the _table_mode_ _(has to be deactivated to save the file)_ |
+| ```!!date```              | Write the current date and time at the cursor                      |
+| ```!!date -v+3d```        | Write the date and time in 3 days at the cursor                    |
+| ```!!date -v-3d```        | Write the date and time 3 days ago at the cursor                   |
+| ```nvim -d file1 file2``` | Open two files in vim to compare them                              |
 
 ## Sources
 - [DuckDuckGo's cheat sheet](https://duckduckgo.com/?q=vim+cheat+sheet&t=osx&iax=cheatsheet&ia=cheatsheet#)
