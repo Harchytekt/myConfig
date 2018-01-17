@@ -80,7 +80,7 @@ These are the different aliases that I use:
 > Remark: To add a summary and a description from the CLI,  use:  
 ```commit "My summary" -m "First description line" -m "Second description line"```
 
-### gdiff
+### gd
 > Alias for ```git diff```
 
 ### git lg (not in bash_aliases)
