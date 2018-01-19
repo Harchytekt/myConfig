@@ -19,6 +19,7 @@
 - [1Blocker - Block ads, tracking scripts, anything](https://1blocker.com)
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 - Better Rename 10
+- [Calendarique](https://www.imagetasks.com/calendar-widget-for-osx/)
 - [CloudMounter: encrypt cloud files, save disk space](https://mac.eltima.com/mount-cloud-drive.html)
 - [Drop - Color Picker](http://dropcolorpicker.com)
 - eBookBinder

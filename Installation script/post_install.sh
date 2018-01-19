@@ -97,6 +97,7 @@ brew cask install dropbox
 brew install webkit2png
 #install "Amphetamine"
 install "Better Rename 10"
+install "Calendarique"
 #install "EyeDrop"
 install "Paste – smart clipboard history & snippets manager"
 install "Snipposé"
