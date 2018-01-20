@@ -136,6 +136,9 @@ brew link --overwrite graphviz
             <!-- > A testing tool that will give you more flexibility over running your unit tests. -->
 - [rust](https://www.rust-lang.org/) - ```brew install rust```
     <!-- > Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. -->
+- [tnftpd- FTP for macOS 10.13+](https://github.com/Homebrew/homebrew-core/blob/305fd893941f86bb9ec0b3d35c24eca1aa661707/Formula/tnftpd.rb) - ```brew install tnftpd```  
+	> NetBSD's FTP server (built from macOS Sierra sources).  
+	> ⚠️ To install because Apple removed it in High Sierra _(macOS 10.13)_ for security. ⚠️
 - [webkit2png](http://www.paulhammond.org/webkit2png/) - ```brew install webkit2png```
     <!-- > webkit2png is a command line tool that creates screenshots of webpages -->
 - [WebP](https://developers.google.com/speed/webp/) - ```brew install webp```
