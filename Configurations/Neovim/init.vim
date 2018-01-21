@@ -50,7 +50,7 @@ Plug 'artur-shaik/vim-javacomplete2'
 
 " Jedi vim : Python completion
 " Don't forget to install jedi: sudo pip install jedi
-Plug 'davidhalter/jedi-vim'
+" Plug 'davidhalter/jedi-vim'
 
 " Markdown
 function! BuildComposer(info)
