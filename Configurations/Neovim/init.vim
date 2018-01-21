@@ -25,8 +25,8 @@ Plug 'Rip-Rip/clang_complete'
 " VIM-Dispatch : Useful for starting Omnisharp
 Plug 'tpope/vim-dispatch'
 
-" Dracula theme
-Plug 'dracula/vim'
+" Material Monokai theme
+Plug 'skielbasa/vim-material-monokai'
 
 " Easy Motion : faster move in vim
 " Press <Leader> <Leader> and the letter you want to reach
@@ -341,6 +341,7 @@ set spellsuggest=best
 " Set the full color compatibility for vim and terminal
 
 syntax on
-color dracula
+color material-monokai
+let g:airline_theme='materialmonokai'
 
 hi Normal ctermbg=NONE
