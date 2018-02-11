@@ -13,8 +13,10 @@ export PATH="/Applications/MAMP/bin/php/php7.0.8/bin:$PATH" #PHP
 export GOPATH=/Users/alexandre/go/
 export PATH=$GOPATH/bin:$PATH
 
-# Python3 - sqlite3
+# Python 2 (brew)
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
+# Python3 - sqlite3
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
