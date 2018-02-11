@@ -40,6 +40,9 @@ and execute this line: ```cargo build --release```.
 
 > Rust has to be installed on your computer !
 
+> ⚠️ It can happen to have a merge error with Cargo when using ```:PlugUpdate```.  
+> To avoid that, I used: ```git reset --hard``` and ```git pull``` in the ```~/.local/share/nvim/plugged/vim-markdown-composer``` folder.
+
 ## Configuration
 
 The configuration file for Neovim has to be located at ```~/.config/nvim/init.vim```
