@@ -87,18 +87,15 @@ install "Svgsus"
 
 
 echo "Installing security apps"
-brew cask install avast malwarebytes-anti-malware onyx windscribe
+brew cask install malwarebytes-anti-malware
 install "1Blocker - Block ads, tracking scripts, anything"
 
 
 echo 'Installing utility apps'
-brew cask install 1password appcleaner bartender cryptomator duet #beardedspice
-brew cask install dropbox
+brew cask install 1password appcleaner bartender cryptomator dropbox duet
 brew install webkit2png
-#install "Amphetamine"
 install "Better Rename 10"
 install "Calendarique"
-#install "EyeDrop"
 install "Paste – smart clipboard history & snippets manager"
 install "Snipposé"
 install "StuffIt 16"

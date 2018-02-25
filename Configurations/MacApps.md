@@ -20,7 +20,9 @@
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 - Better Rename 10
 - [Calendarique](https://www.imagetasks.com/calendar-widget-for-osx/)
-- [CloudMounter: encrypt cloud files, save disk space](https://mac.eltima.com/mount-cloud-drive.html)
+<!--
+>- [CloudMounter: encrypt cloud files, save disk space](https://mac.eltima.com/mount-cloud-drive.html)
+>-->
 - [Drop - Color Picker](http://dropcolorpicker.com)
 - eBookBinder
 - [Expressions](http://www.apptorium.com/products/expressions)
@@ -35,7 +37,6 @@
 - [Pixelmator](http://www.pixelmator.com/mac/)
 - [Quiver: The Programmer's Notebook](http://happenapps.com)
 - RulerSwift
-- [Slack](https://slack.com)
 - [Snipposé](http://www.samuelwford.com/snippose)
 - StuffIt 16
 - [Svgsus](http://www.svgs.us)
@@ -109,6 +110,8 @@ brew link --overwrite graphviz
     <!-- > Web and API based SMTP testing -->
 - [mas](https://github.com/mas-cli/mas) - ```brew install mas```
     <!-- > Mac App Store command line interface -->
+- [mycli](https://www.mycli.net) - ```brew install mycli```
+	<!-- > MyCLI is a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. -->
 - [MySQL](https://www.mysql.com) - ```brew install mysql```
     <!-- > MySQL is an open-source relational database management system (RDBMS). -->
 - [Neovim](https://neovim.io) - ```brew install neovim```
@@ -150,14 +153,17 @@ brew link --overwrite graphviz
 > To have some infos on the package (version,…), you can use this line before intalling:
 > ```brew cask info packageName```
 
+<details><summary>Screenshot of ```brew list``` on 02/25/2018</summary>
+![brew list](../brewList.png "brew list")
+</details>
+
 #### Apps
 
 - 1password
 - 4k-video-downloader
-- angry-ip-scanner
+<!-- >- angry-ip-scanner -->
 - appcleaner
 - [atom](https://atom.io)
-- avast
 - [bartender](https://www.macbartender.com)<!-- - [beardedspice](https://beardedspice.github.io) -->
 - betterzipql
 - calibre
@@ -171,7 +177,7 @@ brew link --overwrite graphviz
 - [iina](https://lhc70000.github.io/iina/)
 - intellij-idea
 - [imageoptim](https://imageoptim.com/fr)
-- [Itsycal](https://www.mowglii.com/itsycal/)
+<!-- >- [Itsycal](https://www.mowglii.com/itsycal/) -->
 - java
 - julia - ```brew cask install julia```
 - [mactex](https://www.tug.org/mactex/)
@@ -183,7 +189,7 @@ brew link --overwrite graphviz
     - knockknock
     <!-- - ransomwhere -->
     - oversight
-- onyx
+<!-- >- onyx -->
 - provisionql
 - qlcolorcode
 - qlmarkdown
