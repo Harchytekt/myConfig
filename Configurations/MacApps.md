@@ -153,9 +153,8 @@ brew link --overwrite graphviz
 > To have some infos on the package (version,…), you can use this line before intalling:
 > ```brew cask info packageName```
 
-<details><summary>Screenshot of ```brew list``` on 02/25/2018</summary>
+> Screenshot of ```brew list``` on 02/25/2018
 ![brew list](../brewList.png "brew list")
-</details>
 
 #### Apps
 
