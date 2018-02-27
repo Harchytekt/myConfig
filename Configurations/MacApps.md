@@ -203,8 +203,9 @@ brew link --overwrite graphviz
 #### Fonts
 [Back to the beginning](#my-applications-for-macos)
 
-- [Fira Code](https://github.com/tonsky/FiraCode) - ```brew cask install font-fira-code```
-    <!-- > A monospaced font with programming ligatures -->
+~~- [Fira Code](https://github.com/tonsky/FiraCode) - ```brew cask install font-fira-code```~~
+    <!-- > A monospaced font with programming ligatures -->
+> Since v1.205, zeros are slashed by default. 😕
 
 #### QuickLook Plugins
 [Back to the beginning](#my-applications-for-macos)
