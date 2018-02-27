@@ -71,8 +71,8 @@ go get -u github.com/nishanths/license
 license -update
 
 
-echo 'Installing fonts'
-brew cask install font-fira-code
+#echo 'Installing fonts'
+#brew cask install font-fira-code
 
 
 echo 'Installing photos, videos'
