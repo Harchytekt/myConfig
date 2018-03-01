@@ -124,6 +124,9 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ### grao
 > Alias for ```git remote add origin```, which adds a remote to the repo.
 
+### grm
+> Alias for ```git rm```, which deletes the given files. If they're already deleted, then they're stagged.
+
 ### gs
 > Alias for ```git status```
 

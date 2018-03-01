@@ -1,0 +1,94 @@
+# Finder and folders
+alias ..="cd .."
+alias ...="cd ../.."
+alias cdbrew='cd /usr/local/Cellar'
+alias cp='cp -v'
+alias desk='cd ~/Desktop'
+alias doc='cd ~/Documents'
+alias finder='open -a Finder'
+alias la='ls -al'
+alias lat='ls -lat'
+alias ll='ls -l'
+alias ls='ls -G'
+alias lt='ls -lt'
+alias mkdir='mkdir -p'
+alias mv='mv -v'
+alias o="open"
+alias oo="open ."
+alias rm='rm -v'
+
+# Git
+alias ga='git add'
+alias gaa='git add -A'
+alias gb='git branch'
+alias gbd='git branch -d'
+alias gc='git commit'
+alias gcb='git checkout -b'
+alias gcm='git commit -m'
+alias gco='git checkout'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gi='git init'
+alias gl='git pull'
+alias glg='git lg'
+alias gm='git merge --no-ff'
+alias gp='git push'
+alias grao='git remote add origin'
+alias grm='git rm'
+alias gs='git status'
+alias newgithub=githubNewFiles
+
+# Programming
+#alias idea="open -a 'IntelliJ IDEA'"
+alias at="open -a 'Atom'"
+alias jv=javaParam
+alias jvc=javacParam
+alias mysql='mycli -u root -proot'
+alias pip3='python3 -m pip'
+
+# Tools
+alias about='/Users/alexandre/.MyScripts/about'
+alias batt='pmset -g batt'
+alias capture='webkit2png --ignore-ssl-check -F -D ~/Desktop'
+alias newpwd=genPwd
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+
+
+############### Functions ###############
+
+# Git
+githubNewFiles() {
+    echo '# Introduction' >> README.md
+    touch .gitignore
+    git init
+    git remote add origin $1
+    git pull origin master
+    git add .
+    git commit -m 'First commit'
+    git push -u origin master
+}
+
+# Programming
+javaParam() {
+    # Use the given param to compile and run Java code
+    if [ "$@" = "$" ]; then
+        javac *.java
+        java Main
+    else
+        javac "$@".java
+        java "$@"
+    fi
+}
+javacParam() {
+    # Use the given param to compile Java code
+    if [ "$@" = "$" ]; then
+        javac *.java
+    fi
+}
+
+# Tools
+genPwd() {
+    pwd=`env LC_CTYPE=C tr -dc "a-zA-Z0-9-_\$\?\!\*\#\=\.\&\@\"\%\'\(\)\+\,\-\/\:\;\<\=\>\~\^\_" < /dev/urandom | head -c "$@"`
+    echo $pwd
+    echo $pwd | pbcopy | echo '=> Password copied to pasteboard.'
+}
