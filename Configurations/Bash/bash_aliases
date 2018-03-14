@@ -34,6 +34,7 @@ alias glg='git lg'
 alias gm='git merge --no-ff'
 alias gp='git push'
 alias grao='git remote add origin'
+alias grm='git rm'
 alias gs='git status'
 alias newgithub=githubNewFiles
 
@@ -44,6 +45,7 @@ alias jv=javaParam
 alias jvc=javacParam
 alias mysql='mycli -u root -proot'
 alias pip3='python3 -m pip'
+alias python='python2.7'
 
 # Tools
 alias about='/Users/alexandre/.MyScripts/about'
