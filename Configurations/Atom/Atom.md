@@ -65,6 +65,10 @@ To the file [⇒ Here](keymap.cson)
 	- Engine: XeLaTeX
 - [latex-autocomplete by _evpok_](https://atom.io/packages/latex-autocomplete)
     > Autocompletion for LaTeX.
+- [linter by _ steelbrain_](https://atom.io/packages/linter)
+	> A Base Linter with Cow Powers
+- [linter-jshint by _AtomLinter_](https://atom.io/packages/linter-jshint)
+	> Linter plugin for JavaScript, using jshint
 - **Markdown**
     - [markdown-preview by _atom_](https://atom.io/packages/markdown-preview) - **Core Package**
         > Open a rendered version of the Markdown in the current editor with `ctrl-shift-m`.
