@@ -33,6 +33,7 @@
 
 '.platform-darwin':
     'cmd-:': 'tree-view:toggle'
+    'cmd-=': 'github:toggle-git-tab'
 
 'atom-text-editor[data-grammar="text html php"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
@@ -42,9 +43,6 @@
 
 'atom-text-editor':
     'cmd-shift-x': 'autoprefixer'
-
-'.editor':
-    'ctrl-alt-b': 'atom-beautify:beautify-editor'
 
 'atom-workspace, atom-workspace atom-text-editor':
     'ctrl-shift-m': 'markdown-preview:toggle'
@@ -59,23 +57,22 @@
 ".platform-darwin atom-text-editor:not([mini])":
     "ctrl-shift-k": "markdown-writer:insert-link"
     "ctrl-shift-i": "markdown-writer:insert-image"
-    "cmd-i":       "markdown-writer:toggle-italic-text"
-    "cmd-b":       "markdown-writer:toggle-bold-text"
-    "cmd-'":       "markdown-writer:toggle-code-text"
-    "cmd-k":       "markdown-writer:toggle-keystroke-text"
-    "cmd-h":       "markdown-writer:toggle-strikethrough-text"
-    'cmd->':       "markdown-writer:toggle-blockquote"
-    'cmd-"':       "markdown-writer:toggle-codeblock-text"
-    "ctrl-alt-1":  "markdown-writer:toggle-h1"
-    "ctrl-alt-2":  "markdown-writer:toggle-h2"
-    "ctrl-alt-3":  "markdown-writer:toggle-h3"
-    "ctrl-alt-4":  "markdown-writer:toggle-h4"
-    "ctrl-alt-5":  "markdown-writer:toggle-h5"
-    "cmd-alt-o": "markdown-writer:toggle-ol"
-    "cmd-alt-u": "markdown-writer:toggle-ul"
-    "cmd-alt-b": "markdown-writer:toggle-task"
-    "cmd-j cmd-p": "markdown-writer:jump-to-previous-heading"
-    "cmd-j cmd-n": "markdown-writer:jump-to-next-heading"
-    "cmd-j cmd-d": "markdown-writer:jump-to-reference-definition"
-    "cmd-j cmd-t": "markdown-writer:jump-to-next-table-cell"
-	
+    "cmd-i":        "markdown-writer:toggle-italic-text"
+    "cmd-b":        "markdown-writer:toggle-bold-text"
+    "cmd-'":        "markdown-writer:toggle-code-text"
+    "cmd-k":        "markdown-writer:toggle-keystroke-text"
+    "cmd-h":        "markdown-writer:toggle-strikethrough-text"
+    'cmd->':        "markdown-writer:toggle-blockquote"
+    'cmd-"':        "markdown-writer:toggle-codeblock-text"
+    "ctrl-alt-1":   "markdown-writer:toggle-h1"
+    "ctrl-alt-2":   "markdown-writer:toggle-h2"
+    "ctrl-alt-3":   "markdown-writer:toggle-h3"
+    "ctrl-alt-4":   "markdown-writer:toggle-h4"
+    "ctrl-alt-5":   "markdown-writer:toggle-h5"
+    "cmd-alt-o":    "markdown-writer:toggle-ol"
+    "cmd-alt-u":    "markdown-writer:toggle-ul"
+    "cmd-alt-b":    "markdown-writer:toggle-task"
+    "cmd-j cmd-p":  "markdown-writer:jump-to-previous-heading"
+    "cmd-j cmd-n":  "markdown-writer:jump-to-next-heading"
+    "cmd-j cmd-d":  "markdown-writer:jump-to-reference-definition"
+    "cmd-j cmd-t":  "markdown-writer:jump-to-next-table-cell"
