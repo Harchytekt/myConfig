@@ -118,7 +118,7 @@ brew link --overwrite graphviz
     <!-- > Literally the future of vim. -->
 - [NGINX](https://nginx.org/) - ```brew install nginx```
     <!-- > NGINX is a web server which can also be used as a reverse proxy, load balancer and HTTP cache. -->
-- [Node.js](https://nodejs.org) - ```brew install node```
+- [Node.js](https://nodejs.org) & npm - ```brew install node npm```
     <!-- > Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. -->
 - [OpenSSL](https://openssl.org/) - ```brew install openssl```
     <!-- > OpenSSL is a software library for applications that secure communications over computer networks against eavesdropping or need to identify the party at the other end. -->
