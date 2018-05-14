@@ -4,47 +4,69 @@
     createFileInstantly: true
     defaultInputValue: "Project root"
   "atom-beautify":
+    apex:
+      disabled: true
     css:
       beautify_on_save: true
       end_with_newline: true
+    general:
+      beautifyEntireFileOnSave: false
     html:
       beautify_on_save: true
+      disabled: true
       end_with_newline: true
     java: {}
+    php:
+      beautify_on_save: true
   "atom-clock":
     dateFormat: "H:mm, dddd D MMM"
     locale: "fr"
   autoprefixer:
+    cascade: false
     runOnSave: true
   "battery-status":
     pollingInterval: 15
     showRemainingTime: false
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
   "color-picker":
     uppercaseColorValues: true
   core:
     disabledPackages: [
       "spell-check"
       "atom-terminal-tab"
+      "term3"
+      "linter-markdown"
+      "linter-csslint"
+      "reindent"
     ]
     packagesWithKeymapsDisabled: [
       "tool-bar"
     ]
     telemetryConsent: "no"
-    themes: [
-      "one-dark-ui"
-      "nord-atom-syntax"
-    ]
   editor:
+    atomicSoftTabs: false
     fontFamily: "Fira Code"
+    preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
     softWrap: true
     tabLength: 4
-    tabType: "soft"
+    tabType: "hard"
   "exception-reporting":
     userId: "b515fdac-fcab-4687-9bd9-7582f2abac6f"
   latex:
     engine: "xelatex"
+  "linter-jshint":
+    lintInlineJavaScript: true
+  "linter-sass-lint":
+    globalSassLint: true
+  "linter-ui-default":
+    alwaysTakeMinimumSpace: true
+    decorateOnTreeView: "Files and Directories"
+    panelHeight: 146
+    panelRepresents: "Entire Project"
+    showProviderName: true
   "markdown-preview":
     useGitHubStyle: true
   "markdown-toc-auto":
@@ -54,10 +76,17 @@
     plugins:
       "find-and-replace": true
       "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
       pigments: true
       pigmentsDecorationsZIndex: 0
+  "minimap-git-diff":
+    useGutterDecoration: true
+  "minimap-linter": {}
   "nord-atom-syntax":
     accessibility: {}
   "nord-atom-ui": {}
@@ -67,9 +96,23 @@
     enableToolbarSupport: false
   "pdf-view":
     fitToWidthOnOpen: true
+  "sass-autocompile":
+    indentWidth: 4
+  term3:
+    fontSize: "12"
+  "terminal-plus":
+    core:
+      mapTerminalsTo: "Folder"
+    style:
+      theme: "pro"
+    toggles: {}
   "tool-bar":
     fullWidth: false
     visible: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "vim-mode-plus":
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
   welcome:
     showOnStartup: false
 ".blade.html.php.text":

@@ -106,5 +106,13 @@ To the file [⇒ Here](keymap.cson)
 
 - UI Theme: One Dark
 - Syntax Theme: One Dark
-- Font Family: [Fira Code](https://github.com/tonsky/FiraCode)
+- Font Family: [Fira Code](https://github.com/tonsky/FiraCode)  
+	> Turn off ligatures inside of strings and regular expressions in the stylesheet:  
+
+```css
+atom-text-editor.editor .syntax--string.syntax--quoted,
+atom-text-editor.editor .syntax--string.syntax--regexp {
+	-webkit-font-feature-settings: 'liga' off, 'calt' off;
+}
+```
 - Bracket Matcher --> Highlight Matching Line Number
