@@ -23,7 +23,7 @@
 <!--
 >- [CloudMounter: encrypt cloud files, save disk space](https://mac.eltima.com/mount-cloud-drive.html)
 >-->
-- [Drop - Color Picker](http://dropcolorpicker.com)
+- [ColorSlurp](http://colorslurp.com)
 - eBookBinder
 - [Expressions](http://www.apptorium.com/products/expressions)
 - [GoodNotes](http://www.goodnotesapp.com)

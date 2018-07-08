@@ -79,7 +79,7 @@ echo 'Installing photos, videos'
 brew cask install iina imageoptim
 brew install exiftool ffmpeg libbpg webp
 install "Affinity Designer"
-install "Drop - Color Picker"
+install "ColorSlurp"
 install "Image2icon - Make your own icons"
 install "Pixelmator"
 install "RulerSwift"
