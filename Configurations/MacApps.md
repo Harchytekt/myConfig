@@ -19,10 +19,7 @@
 - [1Blocker - Block ads, tracking scripts, anything](https://1blocker.com)
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 - Better Rename 10
-- [Calendarique](https://www.imagetasks.com/calendar-widget-for-osx/)
-<!--
->- [CloudMounter: encrypt cloud files, save disk space](https://mac.eltima.com/mount-cloud-drive.html)
->-->
+- [CloudMounter: encrypt cloud files, save disk space](https://mac.eltima.com/mount-cloud-drive.html)
 - [ColorSlurp](http://colorslurp.com)
 - eBookBinder
 - [Expressions](http://www.apptorium.com/products/expressions)
@@ -39,7 +36,6 @@
 - RulerSwift
 - [Snipposé](http://www.samuelwford.com/snippose)
 - StuffIt 16
-- [Svgsus](http://www.svgs.us)
 - [Textastic](https://www.textasticapp.com/mac.html)
 - [Wire — Private Messenger](https://wire.com/en/)
 - [Wunderlist](https://www.wunderlist.com)
@@ -57,16 +53,13 @@
     <!-- > aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces. -->
 - [Bash-Completion](https://github.com/scop/bash-completion) - ```brew install bash-completion```
     <!-- > Programmable completion functions for bash -->
-    - [mycli](https://www.mycli.net) - ```brew install mycli```
-        <!-- > MyCLI is a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. -->
 - [Cask](https://caskroom.github.io) - ```brew tap caskroom/cask```
     <!-- > Homebrew-Cask extends Homebrew and brings its elegance, simplicity, and speed to macOS applications and large binaries alike. -->
 - [CLISP](http://clisp.org) - ```brew install clisp```
     <!-- > This is GNU CLISP - an ANSI Common Lisp Implementation -->
-- [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) - ```brew install dnsmasq```
-    <!-- > Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router advertisement and network boot. It is designed to be lightweight and have a small footprint, suitable for resource constrained routers and firewalls. -->
 - [Exercism](http://exercism.io) - ```brew install exercism```
     <!-- > Level up your programming skills -->
+    > ⚠️ May have changed...
     - **Configuration:** _exercism configure --key=YOUR_API_KEY_
     - **Setting up Exercism CLI completion:**
         - **Install:**
@@ -84,8 +77,6 @@
     <!-- > Read, Write and Edit Meta Information! -->
 - [FFmpeg](https://www.ffmpeg.org) - ```brew install ffmpeg```
     <!-- > FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. -->
-- [Caskroom-fonts](https://github.com/caskroom/homebrew-fonts) -  ```brew tap caskroom/fonts```
-    <!-- > Caskroom-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Mac. -->
 - [git](https://git-scm.com) - ```brew install git```
 - [git-flow](https://github.com/nvie/gitflow) - ```brew install git-flow```
     <!-- > A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model. -->
@@ -102,8 +93,6 @@ brew link libtool
 brew install graphviz
 brew link --overwrite graphviz
 ```
-- [LibBPG](https://bellard.org/bpg/) - ```brew install libbpg```
-    <!-- > BPG (Better Portable Graphics) is a new image format. -->
 - [Lua](http://www.lua.org) - ```brew install lua```
     <!-- > Lua is a powerful, efficient, lightweight, embeddable scripting language. -->
 - [MailHog](https://github.com/mailhog/MailHog) - ```brew install mailhog```
@@ -116,8 +105,6 @@ brew link --overwrite graphviz
     <!-- > MySQL is an open-source relational database management system (RDBMS). -->
 - [Neovim](https://neovim.io) - ```brew install neovim```
     <!-- > Literally the future of vim. -->
-- [NGINX](https://nginx.org/) - ```brew install nginx```
-    <!-- > NGINX is a web server which can also be used as a reverse proxy, load balancer and HTTP cache. -->
 - [Node.js](https://nodejs.org) & npm - ```brew install node npm```
     <!-- > Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. -->
 - [OpenSSL](https://openssl.org/) - ```brew install openssl```
@@ -144,8 +131,6 @@ brew link --overwrite graphviz
 - [tnftpd- FTP for macOS 10.13+](https://github.com/Homebrew/homebrew-core/blob/305fd893941f86bb9ec0b3d35c24eca1aa661707/Formula/tnftpd.rb) - ```brew install tnftpd```  
 	> NetBSD's FTP server (built from macOS Sierra sources).  
 	> ⚠️ To install because Apple removed it in High Sierra _(macOS 10.13)_ for security. ⚠️
-- [webkit2png](http://www.paulhammond.org/webkit2png/) - ```brew install webkit2png```
-    <!-- > webkit2png is a command line tool that creates screenshots of webpages -->
 - [WebP](https://developers.google.com/speed/webp/) - ```brew install webp```
     <!-- > WebP is an image format employing both lossy and lossless compression. It is currently developed by Google, based on technology acquired with the purchase of On2 Technologies. -->
 
@@ -178,7 +163,6 @@ brew link --overwrite graphviz
 - [iina](https://lhc70000.github.io/iina/)
 - intellij-idea
 - [imageoptim](https://imageoptim.com/fr)
-<!-- >- [Itsycal](https://www.mowglii.com/itsycal/) -->
 - java
 - julia - ```brew cask install julia```
 - [mactex](https://www.tug.org/mactex/)
@@ -201,13 +185,6 @@ brew link --overwrite graphviz
 - spotify
 - [the-unarchiver](https://theunarchiver.com) - _(MacPaw bought the Unarchiver Jul 27th, 2017)_
 - touchbarserver
-
-#### Fonts
-[Back to the beginning](#my-applications-for-macos)
-
-~~- [Fira Code](https://github.com/tonsky/FiraCode) - ```brew cask install font-fira-code```~~
-    <!-- > A monospaced font with programming ligatures -->
-> Since v1.205, zeros are slashed by default. 😕
 
 #### QuickLook Plugins
 [Back to the beginning](#my-applications-for-macos)
@@ -237,8 +214,5 @@ brew link --overwrite graphviz
 - 1Password
 - [Fontface Ninja](https://safari-extensions.apple.com/details/?id=com.creaktif.fontfaceninja-6AFG6428MF)
 - [Instapaper](https://safari-extensions.apple.com/details/?id=com.instapaper.extension-CAM49M58WK)
-- [JS Blocker](https://safari-extensions.apple.com/details/?id=com.toggleable.JavaScriptBlocker5-6S8J5HV3H4)
 - [JSONAce](https://safari-extensions.apple.com/details/?id=com.jjlharrison.jsonace-635LU5M475)
-- [Lookmark](https://safari-extensions.apple.com/details/?id=io.lookmark.safari.extension-A2MQ7WE8F2)
-- [octotree](https://github.com/buunguyen/octotree)
 - [Stylish](https://safari-extensions.apple.com/details/?id=com.sobolev.stylish-5555L95H45)

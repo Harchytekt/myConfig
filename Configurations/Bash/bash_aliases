@@ -47,8 +47,7 @@ alias jvc=javacParam
 alias mysql='mycli -h localhost -u root -pyourPassword'
 alias pip3='python3 -m pip'
 alias python='python2.7'
-alias sassc='sass -t compressed'
-alias sasse='sass -t expanded'
+alias sassc='sass -s compressed'
 
 # Tools
 alias about='/Users/alexandre/.MyScripts/about'
