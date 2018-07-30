@@ -1,5 +1,16 @@
 # My Bash configuration
 
+## My git file
+
+This file _([gitconfig](gitconfig))_ contains my config.  
+
+I use _remote shortcuts_.  
+I can clone with ```git clone github:myrepo``` thanks to:
+```
+[url "git@github.com:Harchytekt/"]
+    insteadOf = github:
+```
+
 ## Personnalized bash files
 
 These four bash files personnalizes my Terminal use on macOS.  

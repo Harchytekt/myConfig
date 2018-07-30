@@ -1,0 +1,26 @@
+[filter "media"]
+    required = true
+    clean = git media clean %f
+    smudge = git media smudge %f
+[user]
+    name = Alexandre Ducobu
+    email = alexandre.ducobu@yahoo.be
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[filter "lfs"]
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+[core]
+    excludesfile = /Users/alexandre/.gitignore_global
+    compression = -1
+    editor = nvim
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[url "git@github.com:Harchytekt/"]
+    insteadOf = github:
+[url "git@gitlab.com:Harchytekt/"]
+    insteadOf = gitlab:
