@@ -1,6 +1,6 @@
 " == == == == == == == == == == == == == ==
 "        Coded by Alexandre DUCOBU
-"      Date SATURDAY, DECEMBER 2, 2017
+"      Date TUESDAY, JULY 31, 2018
 " == == == == == == == == == == == == == ==
 
 " Call Plug
@@ -133,7 +133,7 @@ syntax enable                         " Required
 
 set autowrite                         " Save automatically all the buffers in vim
 set backup
-set colorcolumn=81                    " Set the 80 character column
+" set colorcolumn=81                    " Set the 80 character column
 set cursorline                        " Highlight the current line
 set encoding=utf-8
 set hidden                            " Any buffer can be hidden
@@ -156,15 +156,17 @@ set foldenable                        " Auto fold code
 set foldmethod=syntax                 " Fold are defined by syntax highlighting
 
 " Indentation
-" Don't enable smarindent or cindent withfiletype plugin indent on
-filetype plugin indent on             " Indentation based on filetype
+" Don't enable smarindent or cindent with filetype plugin indent on
+filetype plugin indent off             " Indentation based on filetype
 set autoindent                        " Do not interfere with other indentation settings
 
 " Invisible characters
 set list
-set listchars=tab:»»,trail:•,nbsp:~   " Display invisible characters
+" set listchars=tab:——,trail:^,nbsp:≡,space:_,eol:⌝   " Display invisible characters
+"set listchars=tab:→\ ,trail:^,nbsp:≡,space:_,eol:⌝
+set listchars=tab:\|\ ,trail:^,nbsp:≡,space:•,eol:⌝
 
-" Enable Omni Completiton
+" Enable Omni Completiton {{{
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
 autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
 autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
@@ -174,17 +176,23 @@ autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
 autocmd FileType typescript setlocal omnifunc=TSComplete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+" }}} Enable Omni Completiton
 
-" Search
+" Search {{{
 set hlsearch                          " Highlight the search result
 set ignorecase                        " Case insensitive search
 set incsearch                         " Find as I type during the search
 set smartcase                         " Case sensitive only if search contains uppercase letter
-" Tabulation and spaces
-set expandtab                         " Show spaces instead of tabs
+" }}} Search
+
+" Tabulation and spaces {{{
+set noexpandtab                       " Don't show spaces instead of tabs
 set shiftwidth=4                      " Columns per <<
 set softtabstop=4                     " Spaces per tab
 set tabstop=4                         " Columns per tabs
+set copyindent                        " Copy indent from the previous line
+set shiftround                        " Round indent to multiple of 'shiftwidth'
+" }}} Tabulation and spaces
 
 " Vim directories
 set backupdir=~/.local/share/nvim/backup//
@@ -216,18 +224,10 @@ nmap <leader>bf :bfirst<CR>
 nmap <leader>bd :bdelete<CR>
 
 " Disable the arrow keys
-nmap <UP> <NOP>
-nmap <DOWN> <NOP>
-nmap <LEFT> <NOP>
-nmap <RIGHT> <NOP>
-" imap <UP> <NOP>
-" imap <DOWN> <NOP>
-" imap <LEFT> <NOP>
-" imap <RIGHT> <NOP>
-" vmap <UP> <NOP>
-" vmap <DOWN> <NOP>
-" vmap <LEFT> <NOP>
-" vmap <RIGHT> <NOP>
+" nmap <UP> <NOP>
+" nmap <DOWN> <NOP>
+" nmap <LEFT> <NOP>
+" nmap <RIGHT> <NOP>
 
 " Git
 nmap <leader>gs :Gstatus<CR>
