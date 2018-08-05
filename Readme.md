@@ -1,4 +1,5 @@
 # My macOS configuration
+![platform](https://badgen.net/badge//macOS?icon=apple)
 
 You can find here all my configurations files.  
 
