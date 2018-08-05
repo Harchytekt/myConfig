@@ -10,6 +10,7 @@
       - [Fonts](#fonts)
       - [QuickLook Plugins](#quicklook-plugins)
   - [Internet](#internet)
+  - [Node with npm](#node-with-npm)
   - [Extensions Safari](#extensions-safari)
 
 <!-- TOC END -->
@@ -206,6 +207,12 @@ brew link --overwrite graphviz
 - [Docker for Mac](https://www.docker.com/docker-mac)
 - [QuickLook plugin for BPG](https://github.com/Nyx0uf/qlImageSize)
 - [Rocket—the fastest emoji app for your Mac](http://matthewpalmer.net/rocket/)
+
+## Node with npm
+[Back to the beginning](#my-applications-for-macos)
+
+- [gfm-preview](https://www.npmjs.com/package/gfm-preview) - ```npm install --global gfm-preview```
+- [Sass](http://sass-lang.com) - ```npm install -g sass```
 
 ## Extensions Safari
 [Back to the beginning](#my-applications-for-macos)
