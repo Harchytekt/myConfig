@@ -20,7 +20,6 @@
 - [1Blocker - Block ads, tracking scripts, anything](https://1blocker.com)
 - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 - Better Rename 10
-- [CloudMounter: encrypt cloud files, save disk space](https://mac.eltima.com/mount-cloud-drive.html)
 - [ColorSlurp](http://colorslurp.com)
 - eBookBinder
 - [Expressions](http://www.apptorium.com/products/expressions)
@@ -39,7 +38,6 @@
 - StuffIt 16
 - [Textastic](https://www.textasticapp.com/mac.html)
 - [Wire — Private Messenger](https://wire.com/en/)
-- [Wunderlist](https://www.wunderlist.com)
 - [Xcode](https://developer.apple.com/xcode/)
 
 ## Homebrew
@@ -49,15 +47,11 @@
 > ```brew info packageName```
 
 - [Ant](https://ant.apache.org) - ```brew install ant```
-    <!-- > Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. -->
 - [aria2](https://aria2.github.io) - ```brew install aria2```
-    <!-- > aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces. -->
-- [Bash-Completion](https://github.com/scop/bash-completion) - ```brew install bash-completion```
-    <!-- > Programmable completion functions for bash -->
+- [bash-completion](https://github.com/scop/bash-completion) - ```brew install bash-completion```
 - [Cask](https://caskroom.github.io) - ```brew tap caskroom/cask```
-    <!-- > Homebrew-Cask extends Homebrew and brings its elegance, simplicity, and speed to macOS applications and large binaries alike. -->
-- [CLISP](http://clisp.org) - ```brew install clisp```
-    <!-- > This is GNU CLISP - an ANSI Common Lisp Implementation -->
+- [CLISP](http://clisp.org) - ```brew install clisp```  
+	> Dependencies: **libsigsegv, readline**
 - [Exercism](http://exercism.io) - ```brew install exercism```
     <!-- > Level up your programming skills -->
     > ⚠️ May have changed...
@@ -75,74 +69,47 @@
         fi
         ```
 - [ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/) - ```brew install exiftool```
-    <!-- > Read, Write and Edit Meta Information! -->
-- [FFmpeg](https://www.ffmpeg.org) - ```brew install ffmpeg```
-    <!-- > FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. -->
+- [FFmpeg](https://www.ffmpeg.org) - ```brew install ffmpeg```  
+	> Dependencies: **lame, x264, xvid**
 - [git](https://git-scm.com) - ```brew install git```
 - [git-flow](https://github.com/nvie/gitflow) - ```brew install git-flow```
-    <!-- > A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model. -->
 - [Git LFS](https://git-lfs.github.com) - ```brew install git-lfs```
-    <!-- > An open source Git extension for versioning large files -->
 - [Go](https://golang.org/) - ```brew install go```
-    <!-- > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. -->
 - [Gradle](https://www.gradle.org/) - ```brew install gradle```
-    <!-- > Gradle is an open source build automation system that builds upon the concepts of Apache Ant and Apache Maven and introduces a Groovy-based domain-specific language (DSL) instead of the XML form used by Apache Maven for declaring the project configuration. -->
-- GraphViz, needed for [PlantUML](http://plantuml.com)
-```
-brew install libtool
-brew link libtool
-brew install graphviz
-brew link --overwrite graphviz
-```
 - [Lua](http://www.lua.org) - ```brew install lua```
-    <!-- > Lua is a powerful, efficient, lightweight, embeddable scripting language. -->
 - [MailHog](https://github.com/mailhog/MailHog) - ```brew install mailhog```
-    <!-- > Web and API based SMTP testing -->
 - [mas](https://github.com/mas-cli/mas) - ```brew install mas```
-    <!-- > Mac App Store command line interface -->
-- [mycli](https://www.mycli.net) - ```brew install mycli```
-	<!-- > MyCLI is a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting. -->
+- [mycli](https://www.mycli.net) - ```brew install mycli```  
+	> Dependencies: **gdbm, readline, sqlite**
 - [MySQL](https://www.mysql.com) - ```brew install mysql```
-    <!-- > MySQL is an open-source relational database management system (RDBMS). -->
-- [Neovim](https://neovim.io) - ```brew install neovim```
-    <!-- > Literally the future of vim. -->
+- [Neovim](https://neovim.io) - ```brew install neovim```  
+	> Dependencies: **gettext, jemalloc, libtermkey, libuv, libvterm, luajit, msgpack, unibilium**
 - [Node.js](https://nodejs.org) & npm - ```brew install node npm```
-    <!-- > Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. -->
 - [OpenSSL](https://openssl.org/) - ```brew install openssl```
-    <!-- > OpenSSL is a software library for applications that secure communications over computer networks against eavesdropping or need to identify the party at the other end. -->
 - [OpenSSL 1.1](https://openssl.org/) - ```brew install openssl@1.1```
-    <!-- > Last version of OpenSSL. -->
 - [Pandoc](http://pandoc.org) - ```brew install pandoc```
-    <!-- > If you need to convert files from one markup format into another, pandoc is your swiss-army knife. -->
-- [PHP 7.2](https://secure.php.net) - ```brew install php72```
-    <!-- > Last version of PHP, a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. -->
+- [PHP 7.2](https://secure.php.net) - ```brew install php@7.2```  
+	> Dependencies: **apr, apr-util, argon2, aspell, autoconf, freetds, libpng, freetype, libffi, pcre, glib, gmp, jpeg, libpq, libsodium, libzip, libtool, unixodbc, webp**
+- Python  
+	> Dependencies: **gdbm, readline, sqlite, xz**
 - [Python3](https://www.python.org) - ```brew install python3```
-    <!-- > Python is a programming language that lets you work quickly and integrate systems more effectively. -->
     - **pip3:**
         - PEP8 - ```pip install pytest-pep8```
-            <!-- > PEP8 is the Style Guide for Python Code. -->
         - Pygments - ```pip3 install Pygments```
-            <!-- > Pygments is a syntax highlighting package written in Python. -->
         - pytest - ```pip install pytest pytest-cache```
-            <!-- > A testing tool that will give you more flexibility over running your unit tests. -->
-- [rust](https://www.rust-lang.org/) - ```brew install rust```
-    <!-- > Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. -->
-- [sass](http://sass-lang.com) - ~~```brew install --devel sass/sass/sass```~~ ```sudo gem install sass```  
-	> Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+- Python@2  
+	> Dependencies: **gdbm, readline, sqlite**
+- [rust](https://www.rust-lang.org/) - ```brew install rust```  
+	> Dependencies: **libssh2, pkg-config**
 - [tnftpd- FTP for macOS 10.13+](https://github.com/Homebrew/homebrew-core/blob/305fd893941f86bb9ec0b3d35c24eca1aa661707/Formula/tnftpd.rb) - ```brew install tnftpd```  
 	> NetBSD's FTP server (built from macOS Sierra sources).  
 	> ⚠️ To install because Apple removed it in High Sierra _(macOS 10.13)_ for security. ⚠️
-- [WebP](https://developers.google.com/speed/webp/) - ```brew install webp```
-    <!-- > WebP is an image format employing both lossy and lossless compression. It is currently developed by Google, based on technology acquired with the purchase of On2 Technologies. -->
 
 ### Cask (Internet)
 [Back to the beginning](#my-applications-for-macos)
 
 > To have some infos on the package (version,…), you can use this line before intalling:
 > ```brew cask info packageName```
-
-> Screenshot of ```brew list``` on 02/25/2018
-![brew list](../brewList.png "brew list")
 
 #### Apps
 
@@ -151,7 +118,7 @@ brew link --overwrite graphviz
 <!-- >- angry-ip-scanner -->
 - appcleaner
 - [atom](https://atom.io)
-- [bartender](https://www.macbartender.com)<!-- - [beardedspice](https://beardedspice.github.io) -->
+- [bartender](https://www.macbartender.com)
 - betterzipql
 - calibre
 - [cryptomator](https://cryptomator.org)
@@ -169,22 +136,14 @@ brew link --overwrite graphviz
 - [mactex](https://www.tug.org/mactex/)
 - malwarebytes-anti-malware
 - mamp
-- [macdown](http://macdown.uranusjr.com)<!-- - megasync-->
-- [Objective-See](http://objective-see.com)
-    <!-- - blockblock -->
-    - knockknock
-    <!-- - ransomwhere -->
-    - oversight
-<!-- >- onyx -->
+- [macdown](http://macdown.uranusjr.com)
 - provisionql
 - qlcolorcode
 - qlmarkdown
 - qlstephen
 - [sequel-pro](https://sequelpro.com)
-- skype
 - [spectacle](https://www.spectacleapp.com)
 - spotify
-- [the-unarchiver](https://theunarchiver.com) - _(MacPaw bought the Unarchiver Jul 27th, 2017)_
 - touchbarserver
 
 #### QuickLook Plugins
@@ -223,3 +182,7 @@ brew link --overwrite graphviz
 - [Instapaper](https://safari-extensions.apple.com/details/?id=com.instapaper.extension-CAM49M58WK)
 - [JSONAce](https://safari-extensions.apple.com/details/?id=com.jjlharrison.jsonace-635LU5M475)
 - [Stylish](https://safari-extensions.apple.com/details/?id=com.sobolev.stylish-5555L95H45)
+
+
+> Screenshot of the ```brew list``` on 08/06/2018
+![brew list](../brewList.png "brew list")
