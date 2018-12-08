@@ -13,14 +13,22 @@
       beautifyEntireFileOnSave: false
     html:
       beautify_on_save: true
-      disabled: true
       end_with_newline: true
+      indent_inner_html: true
     java: {}
+    js:
+      beautify_on_save: true
+    json:
+      beautify_on_save: true
     php:
+      beautify_on_save: true
+    sass:
       beautify_on_save: true
   "atom-clock":
     dateFormat: "H:mm, dddd D MMM"
     locale: "fr"
+  "autocomplete-python":
+    useKite: false
   autoprefixer:
     cascade: false
     runOnSave: true
@@ -35,10 +43,13 @@
     disabledPackages: [
       "spell-check"
       "atom-terminal-tab"
-      "term3"
       "linter-markdown"
       "linter-csslint"
       "reindent"
+      "linter"
+      "atom-ide-ui"
+      "ide-java"
+      "autocomplete-python"
     ]
     packagesWithKeymapsDisabled: [
       "tool-bar"
@@ -50,6 +61,8 @@
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
     softWrap: true
     tabLength: 4
     tabType: "hard"
@@ -57,18 +70,18 @@
     userId: "b515fdac-fcab-4687-9bd9-7582f2abac6f"
   latex:
     engine: "xelatex"
+  "linter-eslint":
+    lintHtmlFiles: true
+  "linter-htmlhint": {}
   "linter-jshint":
     lintInlineJavaScript: true
   "linter-sass-lint":
     globalSassLint: true
   "linter-ui-default":
     alwaysTakeMinimumSpace: true
-    decorateOnTreeView: "Files and Directories"
     panelHeight: 146
-    panelRepresents: "Entire Project"
     showProviderName: true
-  "markdown-preview":
-    useGitHubStyle: true
+  "markdown-preview": {}
   "markdown-toc-auto":
     max: 5
   "markdown-writer": {}
@@ -119,3 +132,4 @@
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
+	

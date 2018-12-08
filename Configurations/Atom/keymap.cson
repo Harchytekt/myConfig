@@ -76,3 +76,6 @@
     "cmd-j cmd-n":  "markdown-writer:jump-to-next-heading"
     "cmd-j cmd-d":  "markdown-writer:jump-to-reference-definition"
     "cmd-j cmd-t":  "markdown-writer:jump-to-next-table-cell"
+
+'atom-workspace atom-text-editor:not([mini])':
+	'cmd-d': 'duplicate-line-or-selection:duplicate'
