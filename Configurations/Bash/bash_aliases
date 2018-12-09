@@ -52,6 +52,11 @@ alias pip3='python3 -m pip'
 alias python='python2.7'
 alias sassc='sass -s compressed'
 
+# Launch an HTTP server with Python
+## IP address for some UNIX OS and Python v3 needed
+#alias serv='echo "IP address: $(hostname -i)" && python -m http.server'
+alias serv='echo "IP address: $(ipconfig getifaddr en1)" && python3 -m http.server'
+
 # Tools
 alias about='/Users/alexandre/.MyScripts/about'
 alias batt='pmset -g batt'
