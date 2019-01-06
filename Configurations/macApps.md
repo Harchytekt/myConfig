@@ -76,6 +76,10 @@
 - [Git LFS](https://git-lfs.github.com) - ```brew install git-lfs```
 - [Go](https://golang.org/) - ```brew install go```
 - [Gradle](https://www.gradle.org/) - ```brew install gradle```
+- **Java** ☕️
+	- [jEnv](http://www.jenv.be) ```brew install jenv```
+		> _jEnv is a command line tool to help you forget how to set the JAVA_HOME environment variable_
+	- [Java](https://jdk.java.net/) ```brew cask install java```
 - [Lua](http://www.lua.org) - ```brew install lua```
 - [MailHog](https://github.com/mailhog/MailHog) - ```brew install mailhog```
 - [mas](https://github.com/mas-cli/mas) - ```brew install mas```
