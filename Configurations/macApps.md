@@ -133,9 +133,9 @@
 - [github-desktop](http://desktop.github.com)
 - [gitkraken](https://www.gitkraken.com)
 - [iina](https://lhc70000.github.io/iina/)
-- intellij-idea
 - [imageoptim](https://imageoptim.com/fr)
 - java
+- [JetBrains Toolbox App](https://www.jetbrains.com/toolbox/app/?fromMenu) - ```brew cask install jetbrains-toolbox```
 - julia - ```brew cask install julia```
 - [mactex](https://www.tug.org/mactex/)
 - malwarebytes-anti-malware

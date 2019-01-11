@@ -42,7 +42,6 @@ brew tap caskroom/fonts
 
 echo 'Installing communication apps'
 install "Wire — Private Messenger"
-brew cask install skype
 
 
 echo 'Installing desktop tools'
@@ -61,10 +60,10 @@ install "Xcode"
 sudo xcodebuild -license accept
 install "Textastic"
 install "Expressions"
-brew cask install atom cyberduck github-desktop gitkraken intellij-idea
+brew cask install atom cyberduck github-desktop jetbrains-toolbox
 brew cask install java julia mamp macdown provisionql qlcolorcode qlimagesize
 brew cask install qlmarkdown qlstephen sequel-pro
-brew install ant bash-completion clisp dnsmasq git-lfs go gradle lua mailhog
+brew install ant bash-completion dnsmasq git-lfs go gradle lua mailhog
 brew install mysql nginx openssl pandoc php72 python3 rust
 #TODO: ERROR for license
 go get -u github.com/nishanths/license
@@ -103,7 +102,7 @@ install "Wunderlist"
 
 
 echo 'Installing other apps'
-brew cask install 4k-video-downloader emojipedia spotify #touchbarserver
+brew cask install 4k-video-downloader emojipedia
 
 
 ## ************************* CONFIGURATION ********************************
