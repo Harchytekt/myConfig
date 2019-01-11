@@ -38,18 +38,13 @@
   "bracket-matcher":
     highlightMatchingLineNumber: true
   "color-picker":
+    abbreviateValues: true
     uppercaseColorValues: true
   core:
     disabledPackages: [
       "spell-check"
       "atom-terminal-tab"
-      "linter-markdown"
-      "linter-csslint"
-      "reindent"
       "linter"
-      "atom-ide-ui"
-      "ide-java"
-      "autocomplete-python"
     ]
     packagesWithKeymapsDisabled: [
       "tool-bar"
@@ -132,4 +127,3 @@
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
-	
