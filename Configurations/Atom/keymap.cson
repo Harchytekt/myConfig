@@ -41,6 +41,9 @@
 'atom-text-editor[data-grammar="text html php blade"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
 
+'atom-text-editor[data-grammar="text xml"]:not([mini])':
+	'tab': 'emmet:expand-abbreviation-with-tab'
+
 'atom-text-editor':
     'cmd-shift-x': 'autoprefixer'
 
