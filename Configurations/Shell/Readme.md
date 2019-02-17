@@ -13,13 +13,13 @@ I can clone with ```git clone github:myrepo``` thanks to:
 
 ## Personnalized shell files
 
-These four shell files personnalizes my Terminal use on macOS.  
+These six shell files personnalizes my Terminal use on macOS.  
 These files are:  
 
 - **[sh_aliases](#aliases)**
 - **[sh_path](#path)**
-- **[bash_profile](#profile)**
-- **[bash_prompt](#prompt)**    
+- **[bash_profile and zshrc](#profile)**
+- **[bash_prompt and zsh_prompt](#prompt)**
 
 <a name="aliases"></a>
 ### sh_aliases- [(more explanations)](sh_aliases.md)
@@ -55,5 +55,5 @@ These files are:
 > - it's format;
 > - it's colors;
 > - it's behaviour:  
-> 	- when in a git repo, you'll now if you are on the master branch or on another;
+> 	- when in a git repo, you'll now if you are on the master branch or on another *(not in zsh)*;
 > 	- when accessed through SSH, the colors will be changed.

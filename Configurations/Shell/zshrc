@@ -1,0 +1,15 @@
+export PATH="/usr/local/sbin:$PATH"
+
+if [ -f ~/.sh_path ]; then
+	. ~/.sh_path
+fi
+
+#File containing all the aliases
+if [ -f ~/.sh_aliases ]; then
+	. ~/.sh_aliases
+fi
+
+#File customizing the prompt
+if [ -f ~/.zsh_prompt ]; then
+	. ~/.zsh_prompt
+fi
