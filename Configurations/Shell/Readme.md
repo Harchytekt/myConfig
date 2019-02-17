@@ -39,7 +39,7 @@ These files are:
 > - the path to use the [Go programming language](https://golang.org).
 
 <a name="profile"></a>
-### bash_profile _(or bashrc)_
+### bash_profile _(or bashrc)_ and zshrc
 > This one is the main file: it makes the link to the others.
 >
 > It's automatically read by macOS and tells it that the **sh_aliases**, **sh_path** and **bash_prompt** exist. It also tells to the system where to search the files for the bash completion.  
@@ -47,10 +47,10 @@ These files are:
 > Without these links, the file would contain all the lines from the three others (→ loss of readability 😠).
 
 <a name="prompt"></a>
-### bash_prompt
-> This file is heavily inspired by [@necolas’s prompt](https://github.com/necolas/dotfiles)
+### bash_prompt and zsh_prompt
+> Thess files are heavily inspired by [@necolas’s prompt](https://github.com/necolas/dotfiles)
 >
-> It personnalizes the prompt:  
+> They personnalize the prompt:  
 >
 > - it's format;
 > - it's colors;
