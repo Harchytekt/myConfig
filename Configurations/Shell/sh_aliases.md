@@ -1,4 +1,4 @@
-# Bash aliases 👥
+# Shell aliases 👥
 
 These are the different aliases that I use:
 

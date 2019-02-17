@@ -1,0 +1,25 @@
+export PATH="/usr/local/sbin:$PATH"
+
+if [ -f ~/.sh_path ]; then
+	. ~/.sh_path
+fi
+
+#Link to Bash completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+	. $(brew --prefix)/etc/bash_completion
+fi
+
+#File containing all the aliases
+if [ -f ~/.sh_aliases ]; then
+	. ~/.sh_aliases
+fi
+
+#File customizing the prompt
+if [ -f ~/.bash_prompt ]; then
+	. ~/.bash_prompt
+fi
+
+#Exercism CLI completion
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+	. ~/.config/exercism/exercism_completion.bash
+fi
