@@ -83,6 +83,7 @@
 - [Lua](http://www.lua.org) - ```brew install lua```
 - [MailHog](https://github.com/mailhog/MailHog) - ```brew install mailhog```
 - [mas](https://github.com/mas-cli/mas) - ```brew install mas```
+- [mongoDB](http://mongodb.com) - ```brew install mogodb```
 - [mycli](https://www.mycli.net) - ```brew install mycli```  
 	> Dependencies: **gdbm, readline, sqlite**
 - [MySQL](https://www.mysql.com) - ```brew install mysql```
