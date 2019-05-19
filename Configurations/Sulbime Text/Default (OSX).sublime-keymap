@@ -1,0 +1,4 @@
+[
+	{ "keys": ["super+:"], "command": "toggle_side_bar" },
+	{ "keys": ["super+d"], "command": "duplicate_line" },
+]
