@@ -13,9 +13,10 @@ alias ls='ls -G'
 alias lt='ls -lt'
 alias mkdir='mkdir -p'
 alias mv='mv -v'
-alias o="open"
-alias oo="open ."
+alias o='open'
+alias oo='open .'
 alias rm='rm -v'
+alias trash='cd ~/.Trash/'
 
 # Git
 alias ga='git add'
