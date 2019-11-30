@@ -21,7 +21,7 @@
 - [git](https://git-scm.com) - ```brew install git```
 - [Git LFS](https://git-lfs.github.com) - ```brew install git-lfs```
 - [Go](https://golang.org/) - ```brew install go```
-	- [license](https://github.com/nishanths/license) - ```go get -u github.com/nishanths/license```
+	- [license](https://github.com/nishanths/license) - ```go get -u github.com/nishanths/license && license -update```
 - **Java** ☕️
 	- [jEnv](http://www.jenv.be) ```brew install jenv```
 		> _jEnv is a command line tool to help you forget how to set the JAVA_HOME environment variable_
@@ -89,7 +89,7 @@
 - [HandBrake](https://handbrake.fr/) - ```brew cask install handbrake```
 - [IINA](https://lhc70000.github.io/iina/) - ```brew cask install iina```
 - [ImageOptim](https://imageoptim.com/mac) - ```brew cask install imageoptim```
-- [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/) - ```brew cask install ```
+- [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/) - ```brew cask install intellij-idea-ce```
 - [Julia](https://julialang.org/) - ```brew cask install julia```
 - [KnockKnock](https://objective-see.com/products/knockknock.html) - ```brew cask install knockknock```
 - [LuLu](https://objective-see.com/products/lulu.html) - ```brew cask install lulu```
