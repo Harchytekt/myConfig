@@ -18,91 +18,97 @@ echo "Type your iTunes password : $COMPTE"
 read -s PASSWORD
 mas signin $COMPTE "$PASSWORD"
 
-# Function to simplify installations with mas (source : https://github.com/argon/mas/issues/41#issuecomment-245846651)
-function install () {
-    # Check if the App is already installed
-    mas list | grep -i "$1" > /dev/null
-
-    if [ "$?" == 0 ]; then
-        echo "==> $1 is already installed"
-    else
-        echo "==> Installing $1..."
-        mas search "$1" | { read app_ident app_name ; mas install $app_ident ; }
-    fi
-}
-
-echo 'Installing Cask, to install other apps.'
-brew tap caskroom/cask
-
-echo 'Installing Caskroom-fonts, to install free fonts.'
-brew tap caskroom/fonts
+# Installing With Homebrew
+echo 'Installing with Homebrew'
+brew install aria2 exiftool git git-lfs go
+echo 'Install license with go'
+go get -u github.com/nishanths/license && license -update
+brew install jenv java lua mycli mysql node npm pandoc
 
 
-## Installation of the softwares
-
-echo 'Installing communication apps'
-install "Wire — Private Messenger"
-
-
-echo 'Installing desktop tools'
-install "eBookBinder"
-install "GoodNotes"
-install "Keynote"
-install "Notability"
-install "Numbers"
-install "Pages"
-install "Quiver: The Programmer's Notebook"
-brew cask install calibre mactex
-
-
-echo 'Installing Dev tools'
-install "Xcode"
+# Installing with mas
+echo 'Installing Mac App Store apps with mas'
+# 1Blocker
+mas install 1107421413
+# Affinity Designer
+mas install 824171161
+# Amphetamine
+mas install 937984704
+# Aquarelo
+mas install 1263012549
+# Bear
+mas install 1091189122
+# Better Rename 10
+mas install 1063663640
+# Cascadea
+mas install 1432182561
+# Compare Folders
+mas install 816042486
+# Drop - Color Picker
+mas install 1173932628
+# eBookBinder
+mas install 515964474
+# Encrypto: Secure Your Files
+mas install 935235287
+# Expressions
+mas install 913158085
+# Gladys
+mas install 1382386877
+# GoodNotes 5
+mas install 1480793815
+# iA Writer
+mas install 775737590
+# Image2Icon - Make your icons
+mas install 992115977
+# Keynote
+mas install 409183694
+# Numbers
+mas install 409203825
+# Pages
+mas install 409201541
+# JSON Viewer for Safari
+mas install 1438520258
+# Kaleidoscope (download it from website after)
+mas install 587512244
+# Keka
+mas install 470158793
+# MacFamilyTree 9
+mas install 1458866808
+# Notability
+mas install 736189492
+# NordVPN IKE - Unlimited VPN
+mas install 1116599239
+# Paste - Clipboard Manager
+mas install 967805235
+# Pixelmator
+mas install 407963104
+# Pixelmator Pro
+mas install 1289583905
+# StuffIt 16
+mas install 919265760
+# Textastic
+mas install 572491815
+# Twitter for Mac
+mas install 1482454543
+# Xcode
+mas install 497799835
 sudo xcodebuild -license accept
-install "Textastic"
-install "Expressions"
-brew cask install atom cyberduck github-desktop jetbrains-toolbox
-brew cask install java julia mamp macdown provisionql qlcolorcode qlimagesize
-brew cask install qlmarkdown qlstephen sequel-pro
-brew install ant bash-completion dnsmasq git-lfs go gradle lua mailhog
-brew install mysql nginx openssl pandoc php72 python3 rust
-#TODO: ERROR for license
-go get -u github.com/nishanths/license
-license -update
 
 
-#echo 'Installing fonts'
-#brew cask install font-fira-code
+# Installing with cask
+echo 'Installing apps with cask'
+brew cask install 1password appcleaner atom bartender brave-browser
+brew cask install calibre cleanmymac cryptomator cyberduck
+brew cask install emojipedia github handbrake iina imageoptim
+brew cask install intellij-idea-ce julia knockknock lulu
+brew cask install macdown malwarebytes protonmail-bridge ransomwhere
+brew cask install sequel-pro steam texpad
+brew cask install qlmarkdown qlstephen
 
 
-echo 'Installing photos, videos'
-brew cask install iina imageoptim
-brew install exiftool ffmpeg libbpg webp
-install "Affinity Designer"
-install "ColorSlurp"
-install "Image2icon - Make your own icons"
-install "Pixelmator"
-install "RulerSwift"
-install "Svgsus"
-
-
-echo "Installing security apps"
-brew cask install malwarebytes-anti-malware
-install "1Blocker - Block ads, tracking scripts, anything"
-
-
-echo 'Installing utility apps'
-brew cask install 1password appcleaner bartender cryptomator dropbox duet
-brew install webkit2png
-install "Better Rename 10"
-install "Calendarique"
-install "Paste – smart clipboard history & snippets manager"
-install "Snipposé"
-install "StuffIt 16"
-install "Wunderlist"
-
-
-echo 'Installing other apps'
-brew cask install 4k-video-downloader emojipedia
+# Installing with npm
+echo 'Installing with npm'
+npm install -g sass
 
 
 ## ************************* CONFIGURATION ********************************
@@ -116,7 +122,7 @@ sudo defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 ## APPS
 
-# Safari : devaloppement tab / show URL (status bar) / Do Not Track
+# Safari : developpement tab / show URL (status bar) / Do Not Track
 defaults write com.apple.safari IncludeDevelopMenu -int 1
 defaults write com.apple.safari ShowOverlayStatusBar -int 1
 defaults write com.apple.safari SendDoNotTrackHTTPHeader -int 1
