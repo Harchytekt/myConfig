@@ -1,44 +1,14 @@
 # My applications for macOS
 > 💡 All these apps won't be installed by [the script](../installation%20script/post_install.sh).
 
-<!-- TOC START min:1 max:4 link:true update:true -->
+<!-- TOC Start -->
 - [My applications for macOS](#my-applications-for-macos)
-  - [Mac App Store](#mac-app-store)
-  - [Homebrew](#homebrew)
-    - [Cask (Internet)](#cask-internet)
-      - [Apps](#apps)
-      - [Fonts](#fonts)
-      - [QuickLook Plugins](#quicklook-plugins)
-  - [Internet](#internet)
-  - [Node with npm](#node-with-npm)
-  - [Extensions Safari](#extensions-safari)
-
-<!-- TOC END -->
-
-## Mac App Store
-
-- [1Blocker - Block ads, tracking scripts, anything](https://1blocker.com)
-- [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
-- Better Rename 10
-- [ColorSlurp](http://colorslurp.com)
-- eBookBinder
-- [Expressions](http://www.apptorium.com/products/expressions)
-- [GoodNotes](http://www.goodnotesapp.com)
-- [Image2icon - Make your own icons](http://www.img2icnsapp.com)
-- [iWork](https://www.apple.com/iwork/)
-    - Keynote
-    - Numbers
-    - Pages
-- [Notability](http://gingerlabs.com)
-- [Paste – smart clipboard history & snippets manager](http://pasteapp.me)
-- [Pixelmator](http://www.pixelmator.com/mac/)
-- [Quiver: The Programmer's Notebook](http://happenapps.com)
-- RulerSwift
-- [Snipposé](http://www.samuelwford.com/snippose)
-- StuffIt 16
-- [Textastic](https://www.textasticapp.com/mac.html)
-- [Wire — Private Messenger](https://wire.com/en/)
-- [Xcode](https://developer.apple.com/xcode/)
+	- [Homebrew](#homebrew)
+	- [Mac App Store](#mac-app-store)
+	- [Cask (Internet)](#cask-internet)
+		- [QuickLook Plugins](#quicklook-plugins)
+	- [Node with npm](#node-with-npm)
+<!-- TOC End -->
 
 ## Homebrew
 [Back to the beginning](#my-applications-for-macos)
@@ -46,148 +16,98 @@
 > To have some infos on the package (version,…), you can use this line before intalling:
 > ```brew info packageName```
 
-- [Ant](https://ant.apache.org) - ```brew install ant```
 - [aria2](https://aria2.github.io) - ```brew install aria2```
-- [bash-completion](https://github.com/scop/bash-completion) - ```brew install bash-completion```
-- [Cask](https://caskroom.github.io) - ```brew tap caskroom/cask```
-- [CLISP](http://clisp.org) - ```brew install clisp```  
-	> Dependencies: **libsigsegv, readline**
-- [Exercism](http://exercism.io) - ```brew install exercism```
-    <!-- > Level up your programming skills -->
-    > ⚠️ May have changed...
-    - **Configuration:** _exercism configure --key=YOUR_API_KEY_
-    - **Setting up Exercism CLI completion:**
-        - **Install:**
-        ```bash
-        mkdir -p ~/.config/exercism/
-        curl http://cli.exercism.io/exercism_completion.bash > ~/.config/exercism/exercism_completion.bash
-        ```
-        - **Add to ```.bash_profile```:**
-        ```
-        if [ -f ~/.config/exercism/exercism_completion.bash ]; then
-            - ~/.config/exercism/exercism_completion.bash
-        fi
-        ```
 - [ExifTool](http://owl.phy.queensu.ca/~phil/exiftool/) - ```brew install exiftool```
-- [FFmpeg](https://www.ffmpeg.org) - ```brew install ffmpeg```  
-	> Dependencies: **lame, x264, xvid**
 - [git](https://git-scm.com) - ```brew install git```
-- [git-flow](https://github.com/nvie/gitflow) - ```brew install git-flow```
 - [Git LFS](https://git-lfs.github.com) - ```brew install git-lfs```
 - [Go](https://golang.org/) - ```brew install go```
-- [Gradle](https://www.gradle.org/) - ```brew install gradle```
+	- [license](https://github.com/nishanths/license) - ```go get -u github.com/nishanths/license```
 - **Java** ☕️
 	- [jEnv](http://www.jenv.be) ```brew install jenv```
 		> _jEnv is a command line tool to help you forget how to set the JAVA_HOME environment variable_
 	- [Java](https://jdk.java.net/) ```brew cask install java```
 - [Lua](http://www.lua.org) - ```brew install lua```
-- [MailHog](https://github.com/mailhog/MailHog) - ```brew install mailhog```
 - [mas](https://github.com/mas-cli/mas) - ```brew install mas```
-- [mongoDB](http://mongodb.com) - ```brew install mogodb```
 - [mycli](https://www.mycli.net) - ```brew install mycli```  
 	> Dependencies: **gdbm, readline, sqlite**
 - [MySQL](https://www.mysql.com) - ```brew install mysql```
-- [Neovim](https://neovim.io) - ```brew install neovim```  
-	> Dependencies: **gettext, jemalloc, libtermkey, libuv, libvterm, luajit, msgpack, unibilium**
 - [Node.js](https://nodejs.org) & npm - ```brew install node npm```
-- [OpenSSL](https://openssl.org/) - ```brew install openssl```
-- [OpenSSL 1.1](https://openssl.org/) - ```brew install openssl@1.1```
 - [Pandoc](http://pandoc.org) - ```brew install pandoc```
-- [PHP 7.2](https://secure.php.net) - ```brew install php@7.2```  
-	> Dependencies: **apr, apr-util, argon2, aspell, autoconf, freetds, libpng, freetype, libffi, pcre, glib, gmp, jpeg, libpq, libsodium, libzip, libtool, unixodbc, webp**
-- Python  
-	> Dependencies: **gdbm, readline, sqlite, xz**
-- [Python3](https://www.python.org) - ```brew install python3```
-    - **pip3:**
-        - PEP8 - ```pip install pytest-pep8```
-        - Pygments - ```pip3 install Pygments```
-        - pytest - ```pip install pytest pytest-cache```
-- Python@2  
-	> Dependencies: **gdbm, readline, sqlite**
-- [rust](https://www.rust-lang.org/) - ```brew install rust```  
-	> Dependencies: **libssh2, pkg-config**
-- [tnftpd- FTP for macOS 10.13+](https://github.com/Homebrew/homebrew-core/blob/305fd893941f86bb9ec0b3d35c24eca1aa661707/Formula/tnftpd.rb) - ```brew install tnftpd```  
-	> NetBSD's FTP server (built from macOS Sierra sources).  
-	> ⚠️ To install because Apple removed it in High Sierra _(macOS 10.13)_ for security. ⚠️
 
-### Cask (Internet)
+## Mac App Store
 [Back to the beginning](#my-applications-for-macos)
 
-> To have some infos on the package (version,…), you can use this line before intalling:
-> ```brew cask info packageName```
+- [1Blocker](https://1blocker.com) - ```mas install 1107421413```
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/) - ```mas install 824171161```
+- Amphetamine - ```mas install 937984704```
+- [Aquarelo](https://www.cusaro.it/aquarelo/) - ```mas install 1263012549```
+- [Bear](https://bear.app) - ```mas install 1091189122```
+- Better Rename 10 - ```mas install 1063663640```
+- [Cascadea](https://cascadea.app) - ```mas install 1432182561```
+- Compare Folders - ```mas install 816042486```
+- [Drop - Color Picker](http://dropyourcolor.com) - ```mas install 1173932628```
+- [eBookBinder](https://xelaton.com/index.php?lang=en&rubrik=Applications--eBookBinder) - ```mas install 515964474```
+- [Encrypto: Secure Your Files](https://macpaw.com/encrypto) - ```mas install 935235287```
+- [Expressions](http://www.apptorium.com/products/expressions) - ```mas install 913158085```
+- [Gladys](http://www.bru.build/gladys-for-macos) - ```mas install 1382386877```
+- [GoodNotes 5](https://www.goodnotes.com) - ```mas install 1480793815```
+- [iA Writer](https://ia.net/writer/) - ```mas install 775737590```
+- [Image2Icon - Make your icons](http://www.img2icnsapp.com) - ```mas install 992115977```
+- [iWork](https://www.apple.com/iwork/)
+	- Keynote - ```mas install 409183694```
+	- Numbers - ```mas install 409203825```
+	- Pages - ```mas install 409201541```
+- JSON Viewer for Safari - ```mas install 1438520258```
+- [Kaleidoscope](https://www.kaleidoscopeapp.com) - ```mas install 587512244``` (+ download from [website](https://www.kaleidoscopeapp.com/download))
+- [Keka](https://www.keka.io/en/) - ```mas install 470158793```
+- [MacFamilyTree 9](https://www.syniumsoftware.com/macfamilytree) - ```mas install 1458866808```
+- [Notability](https://www.gingerlabs.com) - ```mas install 736189492```
+- [NordVPN IKE - Unlimited VPN](https://nordvpn.com) - ```mas install 1116599239```
+- [Paste - Clipboard Manager](https://pasteapp.me) - ```mas install 967805235```
+- [Pixelmator](https://www.pixelmator.com/mac/) - ```mas install 407963104```
+- [Pixelmator Pro](https://www.pixelmator.com/pro/) - ```mas install 1289583905```
+- [RulerSwift](http://rulerswift.softwar.io) (Not Available Anymore…)
+- StuffIt 16 - ```mas install 919265760```
+- [Textastic](https://www.textasticapp.com/mac.html) - ```mas install 572491815```
+- [Twitter for Mac](https://www.twitter.com) - ```mas install 1482454543```
+- [Xcode](https://developer.apple.com/xcode/) - ```mas install 497799835```
 
-#### Apps
-
-- 1password
-- 4k-video-downloader
-<!-- >- angry-ip-scanner -->
-- appcleaner
-- [atom](https://atom.io)
-- [bartender](https://www.macbartender.com)
-- betterzipql
-- calibre
-- [cryptomator](https://cryptomator.org)
-- cyberduck
-- dropbox
-- duet
-- [emojipedia](https://github.com/gingerbeardman/Emojipedia)
-- [github-desktop](http://desktop.github.com)
-- [gitkraken](https://www.gitkraken.com)
-- [iina](https://lhc70000.github.io/iina/)
-- [imageoptim](https://imageoptim.com/fr)
-- java
-- [JetBrains Toolbox App](https://www.jetbrains.com/toolbox/app/?fromMenu) - ```brew cask install jetbrains-toolbox```
-- julia - ```brew cask install julia```
-- [mactex](https://www.tug.org/mactex/)
-- malwarebytes-anti-malware
-- mamp
-- [macdown](http://macdown.uranusjr.com)
-- provisionql
-- qlcolorcode
-- qlmarkdown
-- qlstephen
-- [sequel-pro](https://sequelpro.com)
-- [spectacle](https://www.spectacleapp.com)
-- spotify
-- touchbarserver
-
-#### QuickLook Plugins
+## [Cask](https://formulae.brew.sh) (Internet)
 [Back to the beginning](#my-applications-for-macos)
 
-- [ProvisionQL](https://github.com/ealeksandrov/ProvisionQL) - ```brew cask install provisionql```
-    <!-- > Preview iOS / macOS app and provision information -->
-- [QLColorCode](https://github.com/n8gray/QLColorCode) - ```brew cask install qlcolorcode```
-    <!-- > Preview source code files with syntax highlighting -->
-- [QLImageSize](https://github.com/Nyx0uf/qlImageSize) - ```brew cask install qlimagesize```
-    <!-- > Display the dimensions of an image and its file size in the title bar. It can also preview and generate Finder thumbnails for bpg and WebP. -->
+- [1Password](https://1password.com/) - ```brew cask install 1password```
+- [AppCleaner](https://freemacsoft.net/appcleaner/) - ```brew cask install appcleaner```
+- [Atom](https://atom.io) - ```brew cask install atom```
+- [Bartender](https://www.macbartender.com) - ```brew cask install bartender```
+- [Brave Browser](https://brave.com/) - ```brew cask install brave-browser```
+- [Calibre](https://calibre-ebook.com/) - ```brew cask install calibre```
+- [CleanMyMac X](https://macpaw.com/cleanmymac) - ```brew cask install cleanmymac```
+- [Cryptomator](https://cryptomator.org) - ```brew cask install cryptomator```
+- [Cyberduck](https://cyberduck.io/) - ```brew cask install cyberduck```
+- [Emojipedia](https://github.com/gingerbeardman/Emojipedia) - ```brew cask install emojipedia```
+- [GitHub Desktop](http://desktop.github.com) - ```brew cask install github```
+- [HandBrake](https://handbrake.fr/) - ```brew cask install handbrake```
+- [IINA](https://lhc70000.github.io/iina/) - ```brew cask install iina```
+- [ImageOptim](https://imageoptim.com/mac) - ```brew cask install imageoptim```
+- [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/) - ```brew cask install ```
+- [Julia](https://julialang.org/) - ```brew cask install julia```
+- [KnockKnock](https://objective-see.com/products/knockknock.html) - ```brew cask install knockknock```
+- [LuLu](https://objective-see.com/products/lulu.html) - ```brew cask install lulu```
+- [MacDown](http://macdown.uranusjr.com) - ```brew cask install macdown```
+- [MalwareBytes](https://www.malwarebytes.com/mac/) - ```brew cask install malwarebytes```
+- [ProtonMail Bridge](https://protonmail.com/bridge/) - ```brew cask install protonmail-bridge```
+- [RansomWhere](https://objective-see.com/products/ransomwhere.html) - ```brew cask install ransomwhere```
+- [Sequel Pro](https://sequelpro.com) - ```brew cask install sequel-pro```
+- [Steam](https://store.steampowered.com/about/) - ```brew cask install steam```
+- [TexPad](https://www.texpad.com/osx) - ```brew cask install texpad```
+
+### QuickLook Plugins
+[Back to the beginning](#my-applications-for-macos)
+
 - [QLMarkdown](https://github.com/toland/qlmarkdown) - ```brew cask install qlmarkdown```
-    <!-- > Preview Markdown files -->
 - [QLStephen](https://github.com/whomwah/qlstephen) - ```brew cask install qlstephen```
-    <!-- > Preview plain text files without or with unknown file extension. Example: README, CHANGELOG, index.styl, etc. -->
-
-## Internet
-[Back to the beginning](#my-applications-for-macos)
-
-- [Docker for Mac](https://www.docker.com/docker-mac)
-- [QuickLook plugin for BPG](https://github.com/Nyx0uf/qlImageSize)
-- [Rocket—the fastest emoji app for your Mac](http://matthewpalmer.net/rocket/)
 
 ## Node with npm
 [Back to the beginning](#my-applications-for-macos)
 
-- [gfm-preview](https://www.npmjs.com/package/gfm-preview) - ```npm install --global gfm-preview```
 - [Sass](http://sass-lang.com) - ```npm install -g sass```
-
-## Extensions Safari
-[Back to the beginning](#my-applications-for-macos)
-
-- 1Blocker - Block ads, tracking scripts, anything
-- 1Password
-- [Fontface Ninja](https://safari-extensions.apple.com/details/?id=com.creaktif.fontfaceninja-6AFG6428MF)
-- [Instapaper](https://safari-extensions.apple.com/details/?id=com.instapaper.extension-CAM49M58WK)
-- [JSONAce](https://safari-extensions.apple.com/details/?id=com.jjlharrison.jsonace-635LU5M475)
-- [Stylish](https://safari-extensions.apple.com/details/?id=com.sobolev.stylish-5555L95H45)
-
-
-> Screenshot of the ```brew list``` on 08/06/2018
-![brew list](../brewList.png "brew list")
