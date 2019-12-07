@@ -25,7 +25,8 @@
 - **Java** ☕️
 	- [jEnv](http://www.jenv.be) ```brew install jenv```
 		> _jEnv is a command line tool to help you forget how to set the JAVA_HOME environment variable_
-	- [Java](https://jdk.java.net/) ```brew cask install java```
+	- [Java](https://jdk.java.net/) ```brew tap adoptopenjdk/openjdk``` & ```brew cask install adoptopenjdk8```
+<!-- location: /Library/Java/JavaVirtualMachines -->
 - [Lua](http://www.lua.org) - ```brew install lua```
 - [mas](https://github.com/mas-cli/mas) - ```brew install mas```
 - [mycli](https://www.mycli.net) - ```brew install mycli```  
