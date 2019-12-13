@@ -34,6 +34,7 @@
 - [MySQL](https://www.mysql.com) - ```brew install mysql```
 - [Node.js](https://nodejs.org) & npm - ```brew install node npm```
 - [Pandoc](http://pandoc.org) - ```brew install pandoc```
+- [Starship](https://starship.rs/) - ```brew install starship```
 
 ## Mac App Store
 [Back to the beginning](#my-applications-for-macos)

@@ -22,7 +22,7 @@ These files are:
 - **[bash_prompt and zsh_prompt](#prompt)**
 
 <a name="aliases"></a>
-### sh_aliases- [(more explanations)](sh_aliases.md)
+### sh\_aliases- [(more explanations)](sh_aliases.md)
 > This file contains all the aliases I currently use.  
 >
 > You can find the [about script on my GitHub](https://github.com/Harchytekt/about).  
@@ -30,7 +30,7 @@ These files are:
 > I also made two function to quickly compile and run Java programmes through **jv $** (the only need is to have the _main_ method inside a _Main_ class).
 
 <a name="path"></a>
-### sh_path
+### sh\_path
 > This file is the simplest for now.  
 >
 > It only contains:  
@@ -39,15 +39,17 @@ These files are:
 > - the path to use the [Go programming language](https://golang.org).
 
 <a name="profile"></a>
-### bash_profile _(or bashrc)_ and zshrc
+### bash\_profile _(or bashrc)_ and zshrc
 > This one is the main file: it makes the link to the others.
 >
 > It's automatically read by macOS and tells it that the **sh_aliases**, **sh_path** and **bash_prompt** exist. It also tells to the system where to search the files for the bash completion.  
 >
 > Without these links, the file would contain all the lines from the three others (→ loss of readability 😠).
 
+> Remark: Now the prompt for ZSH uses [starship](https://starship.rs/).
+
 <a name="prompt"></a>
-### bash_prompt and zsh_prompt
+### bash\_prompt and zsh\_prompt
 > Thess files are heavily inspired by [@necolas’s prompt](https://github.com/necolas/dotfiles)
 >
 > They personnalize the prompt:  

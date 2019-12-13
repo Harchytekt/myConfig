@@ -1,15 +1,3 @@
-# Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/harchytekt/.zshrc'
-
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
-
 export PATH="/usr/local/sbin:$PATH"
 
 if [ -f ~/.sh_path ]; then
@@ -22,6 +10,8 @@ if [ -f ~/.sh_aliases ]; then
 fi
 
 #File customizing the prompt
-if [ -f ~/.zsh_prompt ]; then
-	. ~/.zsh_prompt
-fi
+#if [ -f ~/.zsh_prompt ]; then
+#	. ~/.zsh_prompt
+#fi
+
+eval "$(starship init zsh)"

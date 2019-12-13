@@ -1,0 +1,35 @@
+add_newline = false
+
+[username]
+show_always = true
+disabled = false
+style_user = "202"
+
+[hostname]
+ssh_only = false
+disabled = false
+style = "yellow"
+
+[directory]
+style = "green"
+
+[git_branch]
+style = "93"
+
+[git_status]
+style = "blue"
+
+[line_break]
+disabled = false
+
+[time]
+disabled = false
+format = "%a %b %d, %T"
+style = "cyan"
+
+[character]
+style_success = "white"
+style_failure = "white"
+
+[cmd_duration]
+disabled = true
