@@ -3,15 +3,18 @@ add_newline = false
 [username]
 show_always = true
 disabled = false
+format = "[$user on ]($style)"
 style_user = "202"
 
 [hostname]
 ssh_only = false
 disabled = false
+format = "[$hostname in ]($style)"
 style = "yellow"
 
 [directory]
 style = "green"
+truncation_length = 1
 
 [git_branch]
 style = "93"
@@ -24,7 +27,8 @@ disabled = false
 
 [time]
 disabled = false
-format = "%a %b %d, %T"
+format = "[$time]($style) "
+time_format = "%a %b %d, %T"
 style = "cyan"
 
 [character]
