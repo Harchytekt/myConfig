@@ -32,8 +32,8 @@ time_format = "%a %b %d, %T"
 style = "cyan"
 
 [character]
-style_success = "white"
-style_failure = "white"
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
 
 [cmd_duration]
 disabled = true
