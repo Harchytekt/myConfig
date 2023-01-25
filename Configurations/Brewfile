@@ -1,0 +1,72 @@
+tap "1password/tap"
+tap "adoptopenjdk/openjdk"
+tap "dart-lang/dart"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "sass/sass"
+brew "openjdk"
+brew "groovy"
+brew "httpie"
+brew "jenv"
+brew "mas"
+brew "mysql", restart_service: true
+brew "nano"
+brew "node@14"
+brew "starship"
+brew "sass/sass/sass"
+cask "1password-cli"
+cask "adoptopenjdk8"
+cask "appcleaner"
+cask "cryptomator"
+cask "fig"
+cask "github"
+cask "iina"
+cask "julia"
+cask "lulu"
+mas "1Blocker", id: 1365531024
+mas "Actions", id: 1586435171
+mas "Affinity Designer", id: 824171161
+mas "Amphetamine", id: 937984704
+mas "Anybuffer", id: 1330815414
+mas "Better Rename 10", id: 1063663640
+mas "Cascadea", id: 1432182561
+mas "Codye", id: 1516894961
+mas "Color Picker", id: 1545870783
+mas "Developer", id: 640199958
+mas "Displaperture", id: 1543920362
+mas "Enpass", id: 732710998
+mas "Expressions", id: 913158085
+mas "GarageBand", id: 682658836
+mas "GoodLinks", id: 1474335294
+mas "Hush", id: 1544743900
+mas "iA Writer", id: 775737590
+mas "iFinance 4", id: 992362138
+mas "iFlicks 3", id: 1274494218
+mas "Image2icon", id: 992115977
+mas "iMovie", id: 408981434
+mas "Jayson", id: 1468691718
+mas "JSONViewer", id: 1438520258
+mas "Kaleidoscope", id: 587512244
+mas "Keka", id: 470158793
+mas "Keynote", id: 409183694
+mas "MacFamilyTree 9", id: 1458866808
+mas "Noir", id: 1592917505
+mas "NordVPN", id: 905953485
+mas "Notability", id: 360593530
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Paste", id: 967805235
+mas "Pastel", id: 413897608
+mas "Pixelmator Pro", id: 1289583905
+mas "Playgrounds", id: 1496833156
+mas "Save to Raindrop.io", id: 1549370672
+mas "Sequel Ace", id: 1518036000
+mas "Snipposé", id: 1140313689
+mas "Speediness", id: 1596706466
+mas "Super Agent", id: 1568262835
+mas "TestFlight", id: 899247664
+mas "Textastic", id: 572491815
+mas "Vectorize!", id: 1520204499
+mas "Vinegar", id: 1591303229
