@@ -37,3 +37,6 @@ error_symbol = "[❯](bold red)"
 
 [cmd_duration]
 disabled = true
+
+[battery]
+disabled = true
