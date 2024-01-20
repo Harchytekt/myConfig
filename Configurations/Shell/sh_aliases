@@ -1,7 +1,7 @@
 # Finder and folders
 alias ..="cd .."
 alias ...="cd ../.."
-alias cdbrew='cd /usr/local/Cellar'
+alias cdbrew='cd /opt/homebrew/Cellar'
 alias cp='cp -v'
 alias desk='cd ~/Desktop'
 alias doc='cd ~/Documents'
