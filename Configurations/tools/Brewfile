@@ -1,5 +1,4 @@
 tap "1password/tap"
-tap "adoptopenjdk/openjdk"
 tap "dart-lang/dart"
 tap "homebrew/bundle"
 tap "homebrew/services"
