@@ -44,21 +44,10 @@ alias gs='git status'
 alias newgithub=githubNewFiles
 
 # Programming
-#alias idea="open -a 'IntelliJ IDEA'"
-alias at="open -a 'Atom'"
-alias jv=javaParam
-alias jvc=javacParam
-#alias mysql='mysql -u root -pyourPassword'
-alias mysql='mycli -h localhost -u root -pyourPassword'
-alias pip3='python3 -m pip'
-alias python='python2.7'
 alias sassc='sass -s compressed'
 
 ## Docker
-alias d='docker'
-alias di='docker images'
-alias da='docker ps -a'
-alias drma='docker rm -f $(docker ps -q)'
+alias docker='podman'
 
 # Launch an HTTP server with Python
 ## IP address for some UNIX OS and Python v3 needed
@@ -66,7 +55,7 @@ alias drma='docker rm -f $(docker ps -q)'
 alias serv='echo "IP address: $(ipconfig getifaddr en1)" && python3 -m http.server'
 
 # Tools
-alias about='/Users/alexandre/.MyScripts/about'
+alias about='/Users/alexandre/.customscripts/about'
 alias batt='pmset -g batt'
 alias capture='webkit2png --ignore-ssl-check -F -D ~/Desktop'
 alias newpwd=genPwd
@@ -85,24 +74,6 @@ githubNewFiles() {
     git add .
     git commit -m 'First commit'
     git push -u origin master
-}
-
-# Programming
-javaParam() {
-    # Use the given param to compile and run Java code
-    if [ "$@" = "$" ]; then
-        javac *.java
-        java Main
-    else
-        javac "$@".java
-        java "$@"
-    fi
-}
-javacParam() {
-    # Use the given param to compile Java code
-    if [ "$@" = "$" ]; then
-        javac *.java
-    fi
 }
 
 # Tools
