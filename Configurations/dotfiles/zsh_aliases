@@ -55,7 +55,7 @@ alias docker='podman'
 alias serv='echo "IP address: $(ipconfig getifaddr en1)" && python3 -m http.server'
 
 # Tools
-alias about='/Users/alexandre/.customscripts/about'
+alias about='/Users/alexandre/.custom_scripts/about'
 alias batt='pmset -g batt'
 alias capture='webkit2png --ignore-ssl-check -F -D ~/Desktop'
 alias newpwd=genPwd
