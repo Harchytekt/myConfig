@@ -68,7 +68,7 @@ defaults write com.apple.AppleMultitouchTrackpad "FirstClickThreshold" -int "1"
 defaults write NSGlobalDomain "ApplePressAndHoldEnabled" -bool "true"
 && defaults write com.apple.HIToolbox "AppleFnUsageType" -int "0"
 && defaults write NSGlobalDomain com.apple.keyboard.fnState -bool "false"
-&& defaults write NSGlobalDomain AppleKeyboardUIMode -int "2"
+&& defaults write NSGlobalDomain AppleKeyboardUIMode -int "0"
 
 ## Mission Control (Mission Control Plus is also installed)
 defaults write com.apple.dock "mru-spaces" -bool "true"
