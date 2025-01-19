@@ -47,6 +47,8 @@ brew "wimlib"
 brew "minacle/chntpw/chntpw"
 # Stylesheet Preprocessor
 brew "sass/sass/sass"
+# Browse, manage, inspect containers and images
+brew "podman-desktop"
 # Command-line interface for 1Password
 cask "1password-cli"
 # Application uninstaller
