@@ -1,6 +1,7 @@
 # Finder and folders
 alias ..="cd .."
 alias ...="cd ../.."
+alias docker="podman"
 alias cdbrew='cd /opt/homebrew/Cellar'
 alias cp='cp -v'
 alias desk='cd ~/Desktop'
