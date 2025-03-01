@@ -1,7 +1,6 @@
 # Finder and folders
 alias ..="cd .."
 alias ...="cd ../.."
-alias docker="podman"
 alias cdbrew='cd /opt/homebrew/Cellar'
 alias cp='cp -v'
 alias desk='cd ~/Desktop'
@@ -48,7 +47,7 @@ alias newgithub=githubNewFiles
 alias sassc='sass -s compressed'
 
 ## Docker
-alias docker='podman'
+#alias docker='podman'
 
 # Launch an HTTP server with Python
 ## IP address for some UNIX OS and Python v3 needed
