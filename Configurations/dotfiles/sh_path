@@ -1,0 +1,16 @@
+export PATH="/usr/local/sbin:$PATH"
+
+# Start of Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
+# End of Homebrew
+
+# Path to Python (installed by Homebrew)
+export PATH="$(brew --prefix python)/libexec/bin:$PATH"

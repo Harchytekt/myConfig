@@ -1,24 +1,17 @@
-#File customizing the profile
-if [ -f ~/.zsh_profile ]; then
-	. ~/.zsh_profile
+if [ -f ~/.sh_path ]; then
+	. ~/.sh_path
 fi
 
-if [ -f ~/.zsh_path ]; then
-	. ~/.zsh_path
+if [ -f ~/.sh_profile ]; then
+	. ~/.sh_profile
 fi
 
 #File containing all the aliases
-if [ -f ~/.zsh_aliases ]; then
-	. ~/.zsh_aliases
+if [ -f ~/.sh_aliases ]; then
+	. ~/.sh_aliases
 fi
 
 #File customizing the prompt
-if [ -f ~/.zsh_prompt ]; then
-	. ~/.zsh_prompt
-fi
-
-#eval "$(op completion zsh)"; compdef _op op
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+#if [ -f ~/.sh_prompt ]; then
+#	. ~/.sh_prompt
+#fi

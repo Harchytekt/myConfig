@@ -1,7 +1,10 @@
 # Finder and folders
 alias ..="cd .."
 alias ...="cd ../.."
+alias kubectl="minikube kubectl --"
 alias cdbrew='cd /opt/homebrew/Cellar'
+alias maj='brew update && brew upgrade'
+alias cln='brew cleanup -s'
 alias cp='cp -v'
 alias desk='cd ~/Desktop'
 alias doc='cd ~/Documents'
@@ -45,9 +48,6 @@ alias newgithub=githubNewFiles
 
 # Programming
 alias sassc='sass -s compressed'
-
-## Docker
-#alias docker='podman'
 
 # Launch an HTTP server with Python
 ## IP address for some UNIX OS and Python v3 needed
