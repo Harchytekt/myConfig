@@ -27,7 +27,8 @@ These files are:
 >
 > You can find the [about script on my GitHub](https://github.com/Harchytekt/about).  
 > For example, I use '_mkdir -p_' as **mkdir** to create intermediate directories when required.
-> I also made two function to quickly compile and run Java programmes through **jv $** (the only need is to have the _main_ method inside a _Main_ class).
+> I also made two function to quickly compile and run Java programmes through **jv $** (the only need is to have the _main_ method inside a _Main_ class).  
+> For `Filen`, see installation on [file.io](https://docs.filen.io/docs/cli), and the config file in [`config/filen`](config/filen/env) that uses the [1password CLI](https://developer.1password.com/docs/cli/get-started/).
 
 <a name="path"></a>
 ### sh\_path

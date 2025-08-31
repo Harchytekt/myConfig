@@ -1,0 +1,3 @@
+FILEN_EMAIL='op://<vault-name>/<item-name>/username'
+FILEN_PASSWORD='op://<vault-name>/<item-name>/password'
+FILEN_2FA_CODE='p://<vault-name>/<item-name>/one-time password?attribute=otp'
