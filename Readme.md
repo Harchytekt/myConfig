@@ -4,9 +4,9 @@
 You can find here all my configurations files.  
 
 This repository contains, for now, [Shell files](Configurations/dotfiles/Readme.md) and a [personnalized configuration and installation script](Installation%20script/).  
-Furthermore, I've added [the list of apps tp install](Configurations/tools/Brewfile) and [my Neovim configuration](Configurations/configs/neovim/README.md) into the [Configurations folder](Configurations/Readme.md).
+Furthermore, I've added [the list of apps to install](Configurations/tools/Brewfile) and [my Neovim configuration](Configurations/configs/neovim/README.md) into the [Configurations folder](Configurations/Readme.md).
 
-![My config](https://raw.githubusercontent.com/Harchytekt/about/master/about.png "My config")
+![My config](https://code.ducobu.me/Harchytekt/about/raw/branch/master/about.png "My config")
 
 ## Here are some interesting commands
 - `brew list --cask`
