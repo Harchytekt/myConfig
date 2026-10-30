@@ -1,7 +1,6 @@
 # Finder and folders
 alias ..="cd .."
 alias ...="cd ../.."
-alias kubectl="minikube kubectl --"
 alias cdbrew='cd /opt/homebrew/Cellar'
 alias maj='brew update && brew upgrade'
 alias cln='brew cleanup -s'
