@@ -1,0 +1,147 @@
+#!/usr/bin/env bash
+
+# Bruno launcher with 1Password CLI integration
+# This script decrypts .env.tpl files using 1Password, launches Bruno,
+# and cleans up the generated .env files when Bruno exits.
+# Supports macOS and Linux.
+
+set -e
+
+# Base path for Bruno collections
+BRUNO_BASE_PATH="$HOME/Developer/myRepos/work-bruno"
+
+# Default collection name
+DEFAULT_COLLECTION="dieteren"
+
+# Use provided collection name or default
+COLLECTION_NAME="${1:-$DEFAULT_COLLECTION}"
+
+# Build full collections path
+COLLECTIONS_PATH="$BRUNO_BASE_PATH/$COLLECTION_NAME"
+
+# Verify collections path exists
+if [ ! -d "$COLLECTIONS_PATH" ]; then
+    echo "Error: Collection '$COLLECTION_NAME' not found at: $COLLECTIONS_PATH" >&2
+    echo "" >&2
+    echo "Available collections in $BRUNO_BASE_PATH:" >&2
+    if [ -d "$BRUNO_BASE_PATH" ]; then
+        ls -1 "$BRUNO_BASE_PATH" 2>/dev/null | sed 's/^/  - /' >&2
+    fi
+    exit 1
+fi
+
+# Array to store processed env files
+declare -a PROCESSED_ENV_FILES=()
+declare -a BACKUP_FILES=()
+
+# Cleanup function to restore/delete env files
+cleanup() {
+    echo "Cleaning up environment files..."
+
+    # Clear the service account token from environment
+    unset OP_SERVICE_ACCOUNT_TOKEN
+
+    for i in "${!PROCESSED_ENV_FILES[@]}"; do
+        target="${PROCESSED_ENV_FILES[$i]}"
+        backup="${BACKUP_FILES[$i]}"
+
+        if [ -n "$backup" ] && [ -f "$backup" ]; then
+            # Restore backup
+            mv "$backup" "$target"
+            echo "Restored backup: $target"
+        elif [ -f "$target" ]; then
+            # Delete generated file
+            rm "$target"
+            echo "Deleted: $target"
+        fi
+    done
+}
+
+# Set up trap to ensure cleanup happens
+trap cleanup EXIT INT TERM
+
+# Retrieve service account token from 1Password
+echo "Retrieving service account token from 1Password..."
+if ! SERVICE_ACCOUNT_TOKEN=$(op read "op://m6us2dwreqqotrr4rnqqdy2yyy/fkidwhgitnqpjqahn5m2t2oaoa/credential" --no-newline 2>&1) || [ -z "$SERVICE_ACCOUNT_TOKEN" ]; then
+    echo "Error: Failed to retrieve service account token from 1Password" >&2
+    echo "$SERVICE_ACCOUNT_TOKEN" >&2
+    exit 1
+fi
+
+export OP_SERVICE_ACCOUNT_TOKEN="$SERVICE_ACCOUNT_TOKEN"
+echo "Service account token retrieved and set"
+
+# Find all .env.tpl files in the collections path
+echo "Searching for .env.tpl files in: $COLLECTIONS_PATH"
+ENV_TEMPLATES=()
+
+while IFS= read -r -d '' template; do
+    ENV_TEMPLATES+=("$template")
+done < <(find "$COLLECTIONS_PATH" -name "*.env.tpl" -type f -print0)
+
+if [ ${#ENV_TEMPLATES[@]} -eq 0 ]; then
+    echo "Error: No .env.tpl files found in: $COLLECTIONS_PATH" >&2
+    exit 1
+fi
+
+echo "Found ${#ENV_TEMPLATES[@]} template(s)"
+
+# Process each template
+for template in "${ENV_TEMPLATES[@]}"; do
+    env_dir=$(dirname "$template")
+    target_env="$env_dir/.env"
+
+    # Backup existing .env if present
+    backup_path=""
+    if [ -f "$target_env" ]; then
+        backup_path="$target_env.backup"
+        cp "$target_env" "$backup_path"
+    fi
+
+    # Decrypt template to target location
+    echo "Processing: $target_env"
+    if ! op inject -i "$template" -o "$target_env"; then
+        echo "Error: Failed to process $template" >&2
+        exit 1
+    fi
+
+    PROCESSED_ENV_FILES+=("$target_env")
+    BACKUP_FILES+=("$backup_path")
+done
+
+# Launch Bruno
+echo "Launching Bruno..."
+
+# Detect OS and launch Bruno accordingly
+OS_TYPE=$(uname -s)
+case "$OS_TYPE" in
+    Darwin)
+        # macOS
+        if [ -d "/Applications/Bruno.app" ]; then
+            open -W -a "Bruno"
+        else
+            echo "Error: Bruno not found at /Applications/Bruno.app" >&2
+            echo "Install with: brew install --cask bruno" >&2
+            exit 1
+        fi
+        ;;
+    Linux)
+        # Linux
+        if command -v bruno &> /dev/null; then
+            bruno &
+            BRUNO_PID=$!
+            wait $BRUNO_PID
+        else
+            echo "Error: Bruno not found in PATH" >&2
+            echo "Please install Bruno from https://www.usebruno.com/downloads" >&2
+            exit 1
+        fi
+        ;;
+    *)
+        echo "Error: Unsupported operating system: $OS_TYPE" >&2
+        echo "This script supports macOS and Linux only" >&2
+        exit 1
+        ;;
+esac
+
+echo "Bruno closed."
