@@ -2,7 +2,7 @@
 alias ..="cd .."
 alias ...="cd ../.."
 alias cdbrew='cd /opt/homebrew/Cellar'
-alias maj='brew update && brew upgrade'
+alias maj='brew update && brew upgrade --greedy'
 alias cln='brew cleanup -s'
 alias cp='cp -v'
 alias desk='cd ~/Desktop'
